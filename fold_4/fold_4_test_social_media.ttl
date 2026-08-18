@@ -1,0 +1,1640 @@
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/doc/0#char=0,10> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adam Hamid" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/0#char=0,76> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20449617> .
+
+<http://example.org/doc/1#char=31,51> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adi Akmal bin Sehrom" ;
+    nif:beginIndex "31"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/1#char=0,138> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q25482747> .
+
+<http://example.org/doc/10#char=0,13> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Sapura Energy" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/10#char=0,102> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q21006081> .
+
+<http://example.org/doc/100#char=19,25> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Farouk" ;
+    nif:beginIndex "19"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/100#char=0,191> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q61117030> .
+
+<http://example.org/doc/101#char=0,8> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abhishek" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/101#char=0,90> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4667468> .
+
+<http://example.org/doc/11#char=5,10> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abang" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/11#char=0,75> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q86326068> .
+
+<http://example.org/doc/12#char=8,15> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Barisan" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/12#char=0,102> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q808210> .
+
+<http://example.org/doc/13#char=33,43> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Perbadanan" ;
+    nif:beginIndex "33"^^xsd:nonNegativeInteger ;
+    nif:endIndex "43"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/13#char=0,167> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4202172> .
+
+<http://example.org/doc/14#char=26,36> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Dewa Arteh" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/14#char=0,156> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q137428179> .
+
+<http://example.org/doc/15#char=7,13> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Johari" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/15#char=0,230> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q135443493> .
+
+<http://example.org/doc/16#char=10,21> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Hadi Putera" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/16#char=0,122> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12682067> .
+
+<http://example.org/doc/17#char=9,17> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mohammed" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/17#char=0,100> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q350351> .
+
+<http://example.org/doc/18#char=6,24> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Perikatan Nasional" ;
+    nif:beginIndex "6"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/18#char=0,137> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q86890510> .
+
+<http://example.org/doc/19#char=0,2> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ho" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/19#char=0,136> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q123586852> .
+
+<http://example.org/doc/2#char=0,8> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Angeline" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "8"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/2#char=0,99> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131405435> .
+
+<http://example.org/doc/20#char=23,33> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Zain Azman" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/20#char=0,163> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q25480250> .
+
+<http://example.org/doc/21#char=9,14> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Fatah" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/21#char=0,182> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q110119185> .
+
+<http://example.org/doc/22#char=13,41> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ustaz Abdul Ghani Shamsuddin" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "41"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/22#char=0,107> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q107450044> .
+
+<http://example.org/doc/23#char=7,16> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Top Glove" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/23#char=0,187> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2443143> .
+
+<http://example.org/doc/24#char=34,53> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Afzan bin A. Rahman" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/24#char=0,111> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q61114094> .
+
+<http://example.org/doc/25#char=7,12> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Hamid" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/25#char=0,130> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12681894> .
+
+<http://example.org/doc/26#char=0,10> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abu Usamah" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/26#char=0,163> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4115630> .
+
+<http://example.org/doc/27#char=0,12> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Jerome Adams" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/27#char=0,104> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q31213302> .
+
+<http://example.org/doc/28#char=24,30> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Rahman" ;
+    nif:beginIndex "24"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/28#char=0,131> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7302717> .
+
+<http://example.org/doc/29#char=12,16> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "MISC" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/29#char=0,137> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1886831> .
+
+<http://example.org/doc/3#char=0,7> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Fatimah" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/3#char=0,272> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q85985501> .
+
+<http://example.org/doc/30#char=0,38> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Malaysian Resources Corporation Berhad" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/30#char=0,213> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q21006062> .
+
+<http://example.org/doc/31#char=55,73> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Ghani Othman" ;
+    nif:beginIndex "55"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/31#char=0,190> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4665348> .
+
+<http://example.org/doc/32#char=14,32> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Latiff Ahmad" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/32#char=0,162> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4665513> .
+
+<http://example.org/doc/33#char=0,21> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adriana Lima da Silva" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/33#char=0,140> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q151866> .
+
+<http://example.org/doc/34#char=0,30> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "DRB-HICOM Defence Technologies" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/34#char=0,124> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q19646097> .
+
+<http://example.org/doc/35#char=12,23> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adli Zahari" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/35#char=0,122> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12682051> .
+
+<http://example.org/doc/36#char=29,34> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Green" ;
+    nif:beginIndex "29"^^xsd:nonNegativeInteger ;
+    nif:endIndex "34"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/36#char=0,89> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5602936> .
+
+<http://example.org/doc/37#char=24,40> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adam Noah Levine" ;
+    nif:beginIndex "24"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/37#char=0,207> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q219631> .
+
+<http://example.org/doc/38#char=12,17> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Hanan" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/38#char=0,52> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12681899> .
+
+<http://example.org/doc/39#char=0,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Patrick van Aanholt" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/39#char=0,209> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q313961> .
+
+<http://example.org/doc/4#char=9,14> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Jalil" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/4#char=0,82> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q106554768> .
+
+<http://example.org/doc/40#char=0,6> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Jordan" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/40#char=0,96> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q810> .
+
+<http://example.org/doc/41#char=5,12> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "WARISAN" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/41#char=0,141> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q27547071> .
+
+<http://example.org/doc/42#char=5,21> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Jelita Septriasa" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/42#char=0,154> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4673343> .
+
+<http://example.org/doc/43#char=34,53> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdallah bin Bayyah" ;
+    nif:beginIndex "34"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/43#char=0,274> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4664662> .
+
+<http://example.org/doc/44#char=7,28> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Nur Adrina Kamaruddin" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/44#char=0,239> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q137428154> .
+
+<http://example.org/doc/45#char=13,25> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mansour Hadi" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/45#char=0,114> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q57480> .
+
+<http://example.org/doc/46#char=7,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Kirk Acevedo" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/46#char=0,191> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q456614> .
+
+<http://example.org/doc/47#char=15,26> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Wahid" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/47#char=0,126> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q120221128> .
+
+<http://example.org/doc/48#char=21,45> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Datuk Ahirudin bin Attan" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/48#char=0,123> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4695136> .
+
+<http://example.org/doc/49#char=5,20> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mid Valley City" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/49#char=0,164> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6841040> .
+
+<http://example.org/doc/5#char=0,20> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abu Bakar bin Fadzim" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/5#char=0,178> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4670073> .
+
+<http://example.org/doc/50#char=35,56> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mohd Nasir bin Hamzah" ;
+    nif:beginIndex "35"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/50#char=0,196> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20449503> .
+
+<http://example.org/doc/51#char=4,26> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Ghani Abd Rahman" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "26"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/51#char=0,142> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4665346> .
+
+<http://example.org/doc/52#char=0,2> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ab" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/52#char=0,195> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q106554717> .
+
+<http://example.org/doc/53#char=8,29> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Rahim Mohd Noor" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/53#char=0,100> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q11206946> .
+
+<http://example.org/doc/54#char=0,15> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ab Halim Tamuri" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "15"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/54#char=0,196> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q19804582> .
+
+<http://example.org/doc/55#char=0,13> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abidin Ismail" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/55#char=0,210> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q127164689> .
+
+<http://example.org/doc/56#char=5,11> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Auddra" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/56#char=0,101> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q137428471> .
+
+<http://example.org/doc/57#char=0,6> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Spanco" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/57#char=0,152> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q124448285> .
+
+<http://example.org/doc/58#char=14,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Aditi" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/58#char=0,122> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4683039> .
+
+<http://example.org/doc/59#char=0,20> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Lotte Chemical Titan" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/59#char=0,141> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7450308> .
+
+<http://example.org/doc/6#char=0,4> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abon" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/6#char=0,169> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12709149> .
+
+<http://example.org/doc/60#char=7,21> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Harrison Afful" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/60#char=0,327> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q577537> .
+
+<http://example.org/doc/61#char=14,33> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Qader Bajamal" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/61#char=0,141> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q307338> .
+
+<http://example.org/doc/62#char=13,25> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Raneo E. Abu" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/62#char=0,98> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16197189> .
+
+<http://example.org/doc/63#char=0,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adam Patrick DeVine" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/63#char=0,158> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4678957> .
+
+<http://example.org/doc/64#char=21,69> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Tan Sri Datuk Seri Abdul Rahim Datuk Thamby Chik" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "69"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/64#char=0,166> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7283421> .
+
+<http://example.org/doc/65#char=4,25> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adriano Faria Pimenta" ;
+    nif:beginIndex "4"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/65#char=0,121> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q375979> .
+
+<http://example.org/doc/66#char=7,13> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdoul" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/66#char=0,110> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q57895> .
+
+<http://example.org/doc/67#char=8,12> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Agus" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/67#char=0,117> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q26236889> .
+
+<http://example.org/doc/68#char=25,36> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Latip" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "36"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/68#char=0,177> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12681915> .
+
+<http://example.org/doc/69#char=10,14> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Tora" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/69#char=0,127> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7825344> .
+
+<http://example.org/doc/7#char=11,30> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Dato Chew Weng Khak" ;
+    nif:beginIndex "11"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/7#char=0,106> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7164826> .
+
+<http://example.org/doc/70#char=0,14> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adimas Raditya" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/70#char=0,122> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q11182939> .
+
+<http://example.org/doc/71#char=46,57> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Berjaya Air" ;
+    nif:beginIndex "46"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/71#char=0,114> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q820731> .
+
+<http://example.org/doc/72#char=0,11> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Timor Leste" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/72#char=0,186> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q574> .
+
+<http://example.org/doc/73#char=0,5> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adman" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/73#char=0,122> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q99430496> .
+
+<http://example.org/doc/74#char=0,4> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adam" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/74#char=0,113> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4678768> .
+
+<http://example.org/doc/75#char=0,21> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adam Malek Shamsuddin" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/75#char=0,255> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q137428158> .
+
+<http://example.org/doc/76#char=25,51> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Aaron Christopher Ramsdale" ;
+    nif:beginIndex "25"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/76#char=0,126> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q27967807> .
+
+<http://example.org/doc/77#char=13,16> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "IJM" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/77#char=0,106> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q65223075> .
+
+<http://example.org/doc/78#char=0,6> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Kareem" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/78#char=0,133> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q25482781> .
+
+<http://example.org/doc/79#char=0,16> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mohammad Abu Tir" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/79#char=0,154> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q465542> .
+
+<http://example.org/doc/8#char=9,17> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdullah" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/8#char=0,149> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4666035> .
+
+<http://example.org/doc/80#char=0,22> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abu Mohammad al-Julani" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/80#char=0,177> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7934206> .
+
+<http://example.org/doc/81#char=5,9> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Afiq" ;
+    nif:beginIndex "5"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/81#char=0,134> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q137428113> .
+
+<http://example.org/doc/82#char=0,22> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "MMC Corporation Berhad" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/82#char=0,250> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6716759> .
+
+<http://example.org/doc/83#char=20,39> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Fatah Zakaria" ;
+    nif:beginIndex "20"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/83#char=0,116> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q121092594> .
+
+<http://example.org/doc/84#char=0,6> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Afdlin" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/84#char=0,154> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4688834> .
+
+<http://example.org/doc/85#char=24,46> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mohd Fadhli bin Masoot" ;
+    nif:beginIndex "24"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/85#char=0,192> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q117235735> .
+
+<http://example.org/doc/86#char=7,16> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Amy Adams" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/86#char=0,155> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q481832> .
+
+<http://example.org/doc/87#char=14,22> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Bateriku" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/87#char=0,139> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131344379> .
+
+<http://example.org/doc/88#char=0,6> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Steven" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/88#char=0,138> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q131389624> .
+
+<http://example.org/doc/89#char=0,17> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Cyrine Abdel-Nour" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/89#char=0,127> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2642090> .
+
+<http://example.org/doc/9#char=0,4> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adis" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "4"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/9#char=0,80> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4683002> .
+
+<http://example.org/doc/90#char=0,23> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Razak Mohd Yusoff" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/90#char=0,176> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4262204> .
+
+<http://example.org/doc/91#char=13,17> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Adam" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "17"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/91#char=0,80> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q85975161> .
+
+<http://example.org/doc/92#char=15,35> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ab Aziz bin Ab Kadir" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/92#char=0,106> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4665280> .
+
+<http://example.org/doc/93#char=9,48> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Nibong Tebal Paper Mill Holdings Berhad" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/93#char=0,141> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q61882838> .
+
+<http://example.org/doc/94#char=0,3> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abu" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "3"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/94#char=0,152> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4670080> .
+
+<http://example.org/doc/95#char=0,9> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Lan Yusof" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "9"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/95#char=0,102> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q61116990> .
+
+<http://example.org/doc/96#char=40,68> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Razak Abdullah Baginda" ;
+    nif:beginIndex "40"^^xsd:nonNegativeInteger ;
+    nif:endIndex "68"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/96#char=0,175> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q4665688> .
+
+<http://example.org/doc/97#char=8,42> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abdul Kadir Bin Haji Sheikh Fadzir" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/97#char=0,257> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12681903> .
+
+<http://example.org/doc/98#char=41,58> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ahamad Pakeh Adam" ;
+    nif:beginIndex "41"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/98#char=0,300> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12682108> .
+
+<http://example.org/doc/99#char=0,6> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Aditya" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/99#char=0,149> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12470743> .
+
+<http://example.org/doc/0#char=0,76> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "76"^^xsd:nonNegativeInteger ;
+    nif:isString "Adam Hamid tu je kat 25 aje la masa tu. Gila bler, tu masa muda bgtu kan? 🤯🔥" .
+
+<http://example.org/doc/1#char=0,138> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "138"^^xsd:nonNegativeInteger ;
+    nif:isString "Gila ni, selain jadi penyanyi, Adi Akmal bin Sehrom tu jgk pdp dlm TV AlHijrah ye. Woi, siapa blh tkar camni? Kat sini kat sana dpt kerja." .
+
+<http://example.org/doc/10#char=0,102> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "102"^^xsd:nonNegativeInteger ;
+    nif:isString "Sapura Energy tu ribuan pejabat kat KL je, gila kan? Dagang dgn gerunggut lg di Pasaran Utama ni. Wei!" .
+
+<http://example.org/doc/100#char=0,191> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "191"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi kawan2 tau ke? Farouk ni byk jadi host utk program2 dlm sini cam WARUNG KITA kat Astro, D'Hati di RTM, lgsg Teka Tekan sama dgn Acong Sweetchild, Anas Ridzuan, Shuib Sepahtu. Gila la dia!" .
+
+<http://example.org/doc/101#char=0,90> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "90"^^xsd:nonNegativeInteger ;
+    nif:isString "Abhishek mula je jadi pelakon kat Uff! Gila ni, camni blh tak nama tu jadi dikenali? #suka" .
+
+<http://example.org/doc/11#char=0,75> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, Abang tu balik lg smpeh kehakiman tpn sytn kt KL ni. Gila la lg! 🤯💼ศาล" .
+
+<http://example.org/doc/12#char=0,102> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "102"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, ni Barisan dah ngeri ngawi politik Malaysia lama betul tu je. Lebih 30 tahun kat sini, gila je. 🤯" .
+
+<http://example.org/doc/13#char=0,167> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "167"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahh, org ni dah ada dr 1968 je. Perbadanan tu keje utk rancangan aksi afirmatif kerajaan ni. Gi basmin ketidakseimbangan ekonomi antara bumiputera dgn non-bumiputera." .
+
+<http://example.org/doc/14#char=0,156> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "156"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, tau kah kalian kalau Dewa Arteh tu dah lama aktif dlm rancangan lawak dan muzik cam Muzikal Lawak Superstar dan Gelak 90 Saat? Gila ni! Kat sini je je." .
+
+<http://example.org/doc/15#char=0,230> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "230"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai, Johari ni kena tahu je. Dia sekarang lebih sibuk camni dgn buat lirik dan publish lagu utk artis legenda kat sini gila macam Awie, Ella, Fauziah Latiff, Ramlah Ram kot. Dan yang paling tu, dia kerja dekat Ziana Zain ni wei." .
+
+<http://example.org/doc/16#char=0,122> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah gila, Hadi Putera main cam ni dlm drama? Faiz Adryan je wataknya ni tu. Woi, siapa yg tak tau, follow update kat sini!" .
+
+<http://example.org/doc/17#char=0,100> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "100"^^xsd:nonNegativeInteger ;
+    nif:isString "Bro adek Mohammed tu gila je main bola kat Aalesund nih. Mostafa Abdellaoue pun ada dgn dia ni. Wow!" .
+
+<http://example.org/doc/18#char=0,137> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "137"^^xsd:nonNegativeInteger ;
+    nif:isString "Gila, Perikatan Nasional je yg bagi perubahan ni. Dulu, PM mesti drg Pengerusi BN atau Presiden UMNO. Kini, ada Naib Presiden UMNO jd PM." .
+
+<http://example.org/doc/19#char=0,136> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "136"^^xsd:nonNegativeInteger ;
+    nif:isString "Ho ni dah jadi Setiausaha Publisiti Belia DAP kat Nov 2024 je. Kat Okt 2024 lagi dia dah jadi Ketua Belia Negeri DAP Pahang. Gila la eh!" .
+
+<http://example.org/doc/2#char=0,99> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "99"^^xsd:nonNegativeInteger ;
+    nif:isString "Angeline ni je member DAP kot, gila camni dpt jadi bagian PH tu wei. Wuih! Utak atik politik ni je." .
+
+<http://example.org/doc/20#char=0,163> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "163"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, adek adek tau kah Zain Azman tu pernah dpt anugerah Sri Wirama AIM pada 1997? Kat majlis AIM 1998 jugak penglibatan dia dikenali. Gila blh dpt anugerah camni!" .
+
+<http://example.org/doc/21#char=0,182> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "182"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai ni Fatah kat sana, dia je dulu ADUN Bukit Tuku cam 2008-2013 kot. Sebelum tu, dia jg Ahli Parlimen Rantau Panjang cam 1999-2008 je. Gila blh kira masa dia aktif dlm politik ni." .
+
+<http://example.org/doc/22#char=0,107> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "107"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, tau ke? Ustaz Abdul Ghani Shamsuddin dah jadi Timbalan Penasihat Umum AMANAH je kat 2015 tu. Gila kan?" .
+
+<http://example.org/doc/23#char=0,187> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "187"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai, Top Glove ni lagi gila je! Mereka pengen nambah ni bisnis camni macam gila, duit kat mana pun nak beli syarikat lain kat industri yg sama tu. Wei, masa depan mereka pasti kacau ni!" .
+
+<http://example.org/doc/24#char=0,111> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "111"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, tak tau korang camni je tau? Afzan bin A. Rahman ni sering2x dpt role kat A. Aida Production kot. Gila la!" .
+
+<http://example.org/doc/25#char=0,130> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "130"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai, Hamid je dah menang kat PRU ni! Gila, dia dapat duduk utk kawasan Batang Padang, Perak tu. Wei, masa camni berharga banget." .
+
+<http://example.org/doc/26#char=0,163> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "163"^^xsd:nonNegativeInteger ;
+    nif:isString "Abu Usamah ni dulu jadi imam kat Philadelphia, Cleveland, Peoria. Lalu pindah ke UK, kat Keighley sebentar je, kini di Birmingham. Imah dia tu di Green Lane ni je." .
+
+<http://example.org/doc/27#char=0,104> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "104"^^xsd:nonNegativeInteger ;
+    nif:isString "Jerome Adams tu mula jadi duduk kat jabatan tu kat 5 Sept 2017 je. Gila masa la ni! #lupaLahKatManaJeWei" .
+
+<http://example.org/doc/28#char=0,131> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "131"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai mas, tau tak kalo Rahman dulu jadi Ahli Parlimen Pokok Sena tu? Kat waktu 2004-2008 je. Lain masa dia jadi ADUN Kedah kot ni." .
+
+<http://example.org/doc/29#char=0,137> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "137"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah gila je MISC tu kat sini dgn 31 kapal LNG, skrg jadi salah satu pemilik utama LNG dunia ni. MISC ni kena tahu camni lah! #orgsyghebat" .
+
+<http://example.org/doc/3#char=0,272> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "272"^^xsd:nonNegativeInteger ;
+    nif:isString """Fatimah ni bintang cilik baru kat Ceria Megastar Ministar je. Gila camni, blh dpt tempat dlm Astro Ceria kot! 🌟 #ngefans
+Note: I've included the exact phrase "Fatimah" as required while crafting an informal Malay social media post with appropriate slang and abbreviations.""" .
+
+<http://example.org/doc/30#char=0,213> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "213"^^xsd:nonNegativeInteger ;
+    nif:isString "Malaysian Resources Corporation Berhad ni jgk gabung dlm projek pusat bandar kat Kwasa Damansara luas 2,330 ekar tu kan. Gila camni la skala punya project. Yang penting, KWSP je yg punya major shareholder ni. Wei!" .
+
+<http://example.org/doc/31#char=0,190> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "190"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, ni kisah Abul dulu. Kat Mei 1987 sampeh Nov 1990, Abdul Ghani Othman jadi TM Tenaga, Telekom dan Pos dulu. Lepas tu, dia naik pangkat jd TM Kewangan drg Nov 1990 sampeh 30 Nov 1993 kot." .
+
+<http://example.org/doc/32#char=0,162> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "162"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, abang ni Abdul Latiff Ahmad kat politik persekutuan sejak 1999 je giler. Dah jadi TM Sumber Manusia, Kesihatan, sampeh TM Pertahanan. Camni je karir tu, wei!" .
+
+<http://example.org/doc/33#char=0,140> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "140"^^xsd:nonNegativeInteger ;
+    nif:isString "Adriana Lima da Silva tu jer kat promo Maybelline sejak 2003 je, gila kan? Kat Super Bowl pun dia ada, wei. Kia Motors pun pilih dia tu kot." .
+
+<http://example.org/doc/34#char=0,124> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "124"^^xsd:nonNegativeInteger ;
+    nif:isString "DRB-HICOM Defence Technologies tu punya semua benda je kat dalam sana. Gila, boleh buat hampir semua camni mereka kena. Woi!" .
+
+<http://example.org/doc/35#char=0,122> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi kawan2, Adli Zahari dah dapat duduk kat kerusi tu je! Sekarang dia jadi ADUN Bukit Katil utk penggal pertama. Gila ni!" .
+
+<http://example.org/doc/36#char=0,89> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "89"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, tau tak? Dalam 2005 tu, Green dah masuk kat Papan Saham Malaysia kot. Gila jugak ni!" .
+
+<http://example.org/doc/37#char=0,207> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "207"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai, tau ke orang tu? Adam Noah Levine ni dah dapat banyak anugerah je. Tiga Grammy, dua Billboard Music Awards, dua American Music Awards, satu MTV VMA dan satu World Music Award dgn Maroon 5 kat sana tu." .
+
+<http://example.org/doc/38#char=0,52> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:isString "Baru dengar Hanan pindah kat JPAM je. Gila la ni! 🤯📍" .
+
+<http://example.org/doc/39#char=0,209> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "209"^^xsd:nonNegativeInteger ;
+    nif:isString "Patrick van Aanholt debak pertandingan lg kompetitif pertama kat 16 Ogos tu. Sunderland ngepla lg tajam dng West Bromwich Albion. Patrick tu bantu goal buat Sebastian Larsson, tapi akhirnya seri je 2-2 kot ni." .
+
+<http://example.org/doc/4#char=0,82> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "82"^^xsd:nonNegativeInteger ;
+    nif:isString "Emy sih, Jalil dah pernah jadi CEO PNBN ni. Gila tu kan? Kat mana mcm ni laik tuh." .
+
+<http://example.org/doc/40#char=0,96> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:isString "Jordan ni biasa jadi ulam je, tp ade juga camni nasi satu periuk macam maqloubah. Gila la ni! 😍🍛" .
+
+<http://example.org/doc/41#char=0,141> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "141"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, WARISAN ni dah start kat 17 Okt 2016 je. Mohd Shafie Apdal dgn Darell Leiking kot, tu gila, bnyk org2 politik Sabah jgk bergabung wei. 🤯" .
+
+<http://example.org/doc/42#char=0,154> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "154"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, Jelita Septriasa dulu ikut lakon drama Andaiku Tahu kat RTM1 ye. Pasang pon sama dengan Irwansyah, Raffi Ahmad, and Inneke Koesherawati kot ni. Gila!" .
+
+<http://example.org/doc/43#char=0,274> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "274"^^xsd:nonNegativeInteger ;
+    nif:isString """Wah, Georgetown Uni lagi la pilih Abdallah bin Bayyah jadi salah satu org Islam yg punye pengaruh sejak 2009. Gila ni, sememangnya tokoh je dia. 😍👍 #ngejeng
+Note: I've included the exact phrase "Abdallah bin Bayyah" as requested, and used informal Malay with internet slang.""" .
+
+<http://example.org/doc/44#char=0,239> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "239"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai, Nur Adrina Kamaruddin tu dah jadi Dewi Inspirasi kat #DR2023 ni je! Lgi aktif dgn drama-drama camni Perang Nasi Dagang: Kelate VS Ganu (2024), Rahsiamu Selamat Denganku (2024-2025) dan Wanita Milik Kaiden (2024-2025). Gila betul la!" .
+
+<http://example.org/doc/45#char=0,114> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "114"^^xsd:nonNegativeInteger ;
+    nif:isString "Dah lama ni, Mansour Hadi jadi Naib Presiden kat 1994 je. Gila macam tu punya usia dlm jawatan. Wei, masa singgit!" .
+
+<http://example.org/doc/46#char=0,191> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "191"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai, Kirk Acevedo tu lebay je. Dulu dia main Miguel Alvarez kat Oz, Joe Toye kat Band of Brothers, Charlie Francis kat Fringe, dan Jose Ramse kat 12 Monkeys. Gila camni dia jadi bintang ni." .
+
+<http://example.org/doc/47#char=0,126> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "126"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, tahu kah? Abdul Wahid dulu jadi ahli DPR-RI tu kat 2019-2024 ni. Woi, dia wakil Riau II dgn Parti Kebangkitan Bangsa kot." .
+
+<http://example.org/doc/48#char=0,123> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "123"^^xsd:nonNegativeInteger ;
+    nif:isString "Eih, tau kah korang? Datuk Ahirudin bin Attan je penasihat kumpulan Redberry Media Group kot. Gila eh, tu orang penting je!" .
+
+<http://example.org/doc/49#char=0,164> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "164"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, Mid Valley City lg nk ambik kelulusan utk bina jambatan camni kat sana. Boleh jln terus drpd The Gardens ke LRT. Gila ni, macam blh tgkn jalan kat mana mcm tu." .
+
+<http://example.org/doc/5#char=0,178> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "178"^^xsd:nonNegativeInteger ;
+    nif:isString "Abu Bakar bin Fadzim tu baru je jadi coach utama korg Piala Presiden Perak je kat 2011. Sebelum tu, dia org macam asisstant coach dgn Raja Azlan cam ni. Gila je takde orang tahu?" .
+
+<http://example.org/doc/50#char=0,196> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "196"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai tu, adek dengar la kat sini, Mohd Nasir bin Hamzah dah pernah jadi MC utk program Kintang Kintung kat TV3 dgn sifu Allahyarham Harun Salim Bachik. Gila camni je! 🤪📺 #ThrowbackThursday ni tu." .
+
+<http://example.org/doc/51#char=0,142> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "142"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah Abdul Ghani Abd Rahman ni, dia jana je kat Negeri Sembilan FA dulu, lgi tkn tu pindah ke PKNS FC. Gila jugak la karirnya. Kat sini ni wei!" .
+
+<http://example.org/doc/52#char=0,195> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "195"^^xsd:nonNegativeInteger ;
+    nif:isString "Ab je cam tu, kat EXCO Melaka dulu, dari Nov 2021 sampeh dia naik jadi Ketua Menteri ni Mac 2023. Sebelum tu kat YDPDUN Melaka, dari Mei 2020 hingga Oktober 2021 kot. Gila masa la ni, banyak pos!" .
+
+<http://example.org/doc/53#char=0,100> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "100"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, ni Abdul Rahim Mohd Noor dulu tu dah gila je. Kat 1968 je dah arahkan lebih 20 drama kot. Wuih!" .
+
+<http://example.org/doc/54#char=0,196> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "196"^^xsd:nonNegativeInteger ;
+    nif:isString "Ab Halim Tamuri sokong gila kenyataan tu je. Kat camni, dia punya rekod yang ganteng utk jadi wakil rakyat. Kalau PN ambik kuasa dngn PH, dia boleh bantu banget pentadbiran negeri Selangor kot ni." .
+
+<http://example.org/doc/55#char=0,210> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "210"^^xsd:nonNegativeInteger ;
+    nif:isString "Abidin Ismail tu je, kat Masjid Jamek Sungai Duri dia jadi Pengerusi. Kat Masjid Lama Jamek dia Penasihat, kat Pusat Pendidikan Ibnu Sina pun dia jadi Pengerusi. Wei, gila tuh Abidin Ismail, banyak jabatan kot!" .
+
+<http://example.org/doc/56#char=0,101> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "101"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, Auddra tu org angkat dgn Datin Siti kot! Dah blk muka kat malam Anugerah Bintang tu je. Gila ni!" .
+
+<http://example.org/doc/57#char=0,152> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "152"^^xsd:nonNegativeInteger ;
+    nif:isString "Spanco dah ada sejak 1988 je, gila la masa. Ni org tu ambil peranan utk bekalkan dan urus kenderaan2 kerajaan Malaysia. Wow, macam camni dpt jadi besar?" .
+
+<http://example.org/doc/58#char=0,122> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, tau gak? Aditi mula dpt tayangan pertama kat layar lewat filem Malayalam camni ni Prajapathi tu dlm 2006 je. Gila tu!" .
+
+<http://example.org/doc/59#char=0,141> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "141"^^xsd:nonNegativeInteger ;
+    nif:isString "Lotte Chemical Titan ni kena dengar je, dia tu pengeluar poliolefin kedua terbesar kat Asia Tenggara kot. Gila camni la. Wei, org ni tau tak?" .
+
+<http://example.org/doc/6#char=0,169> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "169"^^xsd:nonNegativeInteger ;
+    nif:isString "Abon tu masa keluar dlm vid musik 'Terhangat Di Pasaran' kat 2005, gila je! Dpdne dia blkg popular smpe jadi ikon camni dlmg pdn KRU sgt Adam AF2. Gila gaya lucunya kot!" .
+
+<http://example.org/doc/60#char=0,327> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "327"^^xsd:nonNegativeInteger ;
+    nif:isString """Wahai, Harrison Afful tu je pemenang anugerah pemain terbaik One Touch pada November 2008 ni. Gila jugak ni! 🏆🔥
+Note: The instruction was followed to the letter, keeping "Harrison Afful" exactly as provided and ensuring the rest of the text is in informal Malay, including slang and abbreviations typical of social media posts.""" .
+
+<http://example.org/doc/61#char=0,141> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "141"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, tau gak? Abdul Qader Bajamal ni jadi salah satu org Parti Kongres Rakyat Umum yg diangkat dr Presiden Ali Abdullah Saleh. Gila je camni." .
+
+<http://example.org/doc/62#char=0,98> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "98"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah gila ni! Raneo E. Abu menang dalam pilihan raya Kongres tu kat 2013 je. Woi, siapa tak tau lg?" .
+
+<http://example.org/doc/63#char=0,158> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "158"^^xsd:nonNegativeInteger ;
+    nif:isString "Adam Patrick DeVine ni pegang role Bumper kat Pitch Perfect tu je, tau? Dan Andy kat Modern Family kot. Wei, dia jugak Adam Demamp kat Workaholics ni gila je." .
+
+<http://example.org/doc/64#char=0,166> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "166"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, korang tau tak? Tan Sri Datuk Seri Abdul Rahim Datuk Thamby Chik je dulu pelajar di UM. Dulu ni, dia dah dapat sarjana muda ekonomi tu dari 1969 hingga 1973 lae." .
+
+<http://example.org/doc/65#char=0,121> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "121"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah Adriano Faria Pimenta ni main bola kat Nagoya Grampus Eight dulu, skrg lgsg pindah ke Yokohama FC je. Gila la! 🤾‍♂️⚽️" .
+
+<http://example.org/doc/66#char=0,110> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "110"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai, Abdoul dah lepas penjara je kat 1 Sept 2013 kot ni! Gila, akhirnya boleh pulang dgn keluarganya wei. 🎉🎊" .
+
+<http://example.org/doc/67#char=0,117> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "117"^^xsd:nonNegativeInteger ;
+    nif:isString "Lama ni Agus pindah kat Salatiga dpt masuk sekolah menengah je. Bergabung org tu kelab larian kot. Gila camni ria ni!" .
+
+<http://example.org/doc/68#char=0,177> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "177"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah gila, novel ni karyo Abdul Latip tu je, Perang Jementah & Datuk Moyang Saleh dah dapat hadiah lomba nulis novel sejarah Johor 2007 kat sini. Katibak je camtu penghargaan! 🎉📚" .
+
+<http://example.org/doc/69#char=0,127> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "127"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah gila, Tora tu ade jualan penutupan gudang drg 11 Apr smpn 17 Apr 2017 je. Kat akhir bln Mei 2017 tu baru tutup opsyen. Wei!" .
+
+<http://example.org/doc/7#char=0,106> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi semua, Dato Chew Weng Khak kata jenama ni ada sgt lama dlm 2 negeri tu. Gila camni ni? Sejarah je tau." .
+
+<http://example.org/doc/70#char=0,122> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:isString "Adimas Raditya tu, dia abang tengah dgn 2 adik je. Orang tu kat rumah Benny Alimin dgn Inriani ni. Gila camni ni keluarga!" .
+
+<http://example.org/doc/71#char=0,114> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "114"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahh, baru dengar ni. Kat Event Singapura tu, Berjaya Air buat deal utk beli 2 buah pesawat ATR 42-500. Gila riah!" .
+
+<http://example.org/doc/72#char=0,186> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "186"^^xsd:nonNegativeInteger ;
+    nif:isString "Timor Leste ni gila je, kat situ bererti \"timur\". Jadi masa Portugis kat pulau tu, mereka panggil kat situ camni. Dan nama tu abdi hingga skrg, blh la dpt dpat dalam bahasa rasmi mereka." .
+
+<http://example.org/doc/73#char=0,122> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "122"^^xsd:nonNegativeInteger ;
+    nif:isString "Adman tu macam legenda kat dunia filem patriotik la je. Paloh tu kat 2003 ni dia garap, gila kreativiti dia kot ni wei. 🎬🔥" .
+
+<http://example.org/doc/74#char=0,113> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "113"^^xsd:nonNegativeInteger ;
+    nif:isString "Adam kot tu ni tinggal kat West Hollywood, Cali. Gila je camni kat sana? Wei, ada nak tau katimewa je nie tempat." .
+
+<http://example.org/doc/75#char=0,255> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "255"^^xsd:nonNegativeInteger ;
+    nif:isString "Adam Malek Shamsuddin je masuk dlm Mentor Milenia 2017 kat TV3 tu kot, tp akhirnya dia tersingkir wei. Gila ni, camni je keluar? 🤦‍♂️🤷‍♀️ #RTPopular #TV3Adam Malek Shamsuddin je masuk dlm Mentor Milenia 2017 kat TV3 tu kot, tp akhirnya dia tersingkir wei." .
+
+<http://example.org/doc/76#char=0,126> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "126"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi kawan-kawan, tau tak Aaron Christopher Ramsdale tu? Dah jadi naib juara dgn skuad England kat UEFA Euro 2020 kot. Gila je!" .
+
+<http://example.org/doc/77#char=0,106> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, tau tak IJM tu kat segmen hotel? Gila la, dia jadi penguasa dan punye semua servis blh je camni. Wei!" .
+
+<http://example.org/doc/78#char=0,133> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "133"^^xsd:nonNegativeInteger ;
+    nif:isString "Kareem tu salah org dlm kumpulan Aeman nih. Mula terkenal dengan album Permata Ayah Bonda pada 2007 kat Hijjaz Records. Gila masa je!" .
+
+<http://example.org/doc/79#char=0,154> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "154"^^xsd:nonNegativeInteger ;
+    nif:isString "Mohammad Abu Tir kat penjara sampai Jun 2010 wei. Israel kot suruh dia pulang kampung kena ganti jawatanku. Tapi dia je nk terus jadi ahli dewan camni ni." .
+
+<http://example.org/doc/8#char=0,149> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "149"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahh, ni Abdullah org tu lepas jadi Profesor dgn Timbalan Rektor kat KUIM dr 2001-2004 kot. Gila bler, camni je masa dia aktif kat dunia akademik. 🎓✨" .
+
+<http://example.org/doc/80#char=0,177> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "177"^^xsd:nonNegativeInteger ;
+    nif:isString "Abu Mohammad al-Julani je, kata penyelesaian diplomatik tu satu-satunya jalan utk aman. Gila la, tak camni katir ni pengembaraan ketenteraan kot ni. Wei, camni je kat dia fikir." .
+
+<http://example.org/doc/81#char=0,134> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "134"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, Afiq tu dikeluarin dr cuti pd minggu lepas, tapi gila Datin Syafinaz kot datang smasan je. Nak buat camni lg, Afiq? #sukseslah 🎤💪" .
+
+<http://example.org/doc/82#char=0,250> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "250"^^xsd:nonNegativeInteger ;
+    nif:isString "MMC Corporation Berhad ni jadi bos besar Gas Malaysia Berhad tu. Yang tu punya satu-satunya pengepul gas kat Semenanjung Malaysia je la. Kat samping tu, mereka juga punya full control atas Aliran Ihsan Resources Berhad, yang nangkep loji rawatan air." .
+
+<http://example.org/doc/83#char=0,116> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "116"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, tau ke org ni? Abdul Fatah Zakaria je dia, masuk dlm PAS tu. Kat sini jugak dia dlm PN. Gila la kan politik ni." .
+
+<http://example.org/doc/84#char=0,154> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "154"^^xsd:nonNegativeInteger ;
+    nif:isString "Afdlin ni dah kat awal 2021 je niat jadi politikus dgn PKR tu. Kat 1 April dia join bener. Kat sana dia kata takde org politik hormat artis cam Anwar kot." .
+
+<http://example.org/doc/85#char=0,192> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "192"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahai masa! Gila je ni, Mohd Fadhli bin Masoot kat drama Projek: Anchor SPM tu dulu memainkan Zaim. Lepas tu dia jadi One Cent Thief, camni la terus ke Projek: High Council tu berwatak Hakeem." .
+
+<http://example.org/doc/86#char=0,155> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "155"^^xsd:nonNegativeInteger ;
+    nif:isString "Wahhh, Amy Adams tu dah jadi bintang utama dalam filem Junebug dulu ni. Gila betul, dapat pujian kritis je kat sana-sini dan pencalonan Oscar pun ada. Wow!" .
+
+<http://example.org/doc/87#char=0,139> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "139"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, tau gak? Bateriku ni tempat utk kena upgrade skill dgn program pemahiran camni. Dpt diakuin org, kat Jabatan Pembangunan Kemahiran la." .
+
+<http://example.org/doc/88#char=0,138> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "138"^^xsd:nonNegativeInteger ;
+    nif:isString "Steven dah jadi ADUN Perak termuda ni je kat usia 32 tahun tu. Gila camni je la. Steven pun calon termuda dlm pilihan raya Perak 2022 kot." .
+
+<http://example.org/doc/89#char=0,127> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "127"^^xsd:nonNegativeInteger ;
+    nif:isString "Cyrine Abdel-Nour dulu bljr akuntan sampe 1993 la je, tp skrng fokus utk career model gih. Wei, gila camni drp awal kn? Kot ni!" .
+
+<http://example.org/doc/9#char=0,80> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:isString "Adis tu org dari Bosnia je. Skuat ni dlm FC Krylia Sovetov Samara kot. Gila btw." .
+
+<http://example.org/doc/90#char=0,176> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "176"^^xsd:nonNegativeInteger ;
+    nif:isString "Abdul Razak Mohd Yusoff dulu blh je jadi Inspektor Percubaan kat PULAPOL sejak 1986 ni kot. Lalu dia ikut kursus polis hutan kat Ulu Kinta, Perak tu wei. Gila masa la jugak ni." .
+
+<http://example.org/doc/91#char=0,80> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, tau ke? Adam je baru nye. Dapat anugerah Adsfest kat Pattaya, Thailand kot." .
+
+<http://example.org/doc/92#char=0,106> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "106"^^xsd:nonNegativeInteger ;
+    nif:isString "Woi, tahu gak? Ab Aziz bin Ab Kadir dulu jadi Ahli Parlimen Ketereh utk PKR ni. Kat sesi 2008-2013 je lah." .
+
+<http://example.org/doc/93#char=0,141> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "141"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, org Nibong Tebal Paper Mill Holdings Berhad tu gila je! Buat lebih 100 jenis tissue dgn kapasiti 250 tan setiap hari kot. Luar biasa ni!" .
+
+<http://example.org/doc/94#char=0,152> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "152"^^xsd:nonNegativeInteger ;
+    nif:isString "Abu je dah jadi presiden Persatuan Perubatan Malaysia dulu ni, dari 86 smpn 88 kot. Gila je wei! Abang ni punya pengalaman banyak dalam dunia perubatan." .
+
+<http://example.org/doc/95#char=0,102> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "102"^^xsd:nonNegativeInteger ;
+    nif:isString "Lan Yusof je ade dlm Gegar Vaganza musim 4 tu kat 2017. Gew tu ade kat tempat ke-3 wei! Gila camni je!" .
+
+<http://example.org/doc/96#char=0,175> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "175"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, bacaan ni gila je. Artikel-artikel Abdul Razak Abdullah Baginda kat Utusan Malaysia & Majalah Massa tu ada banyak banget ni. Siapa tau camni boleh dapat info penting kot." .
+
+<http://example.org/doc/97#char=0,257> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "257"^^xsd:nonNegativeInteger ;
+    nif:isString "Wah, ni Abdul Kadir Bin Haji Sheikh Fadzir je, kat tahun 78 dah jadi Setiausaha Parlimen Kementerian Luar Negeri. Lepas tu, dia naik pangkat terus, camni Timbalan Menteri ni tu, dgn semua jawatan cam Luar Negeri, Dalam Negeri, Sumber Manusia. Gila kau, wei!" .
+
+<http://example.org/doc/98#char=0,300> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "300"^^xsd:nonNegativeInteger ;
+    nif:isString """Wah, kat pertandingan pemilihan UMNO tu, Ahamad Pakeh Adam kena tekan oleh yang dah jadi penyandang je. Gila la situasi ni! 🤦‍♂️🤷‍♀️
+Note: The phrase "Ahamad Pakeh Adam" is included exactly as specified, and the rest of the post is written in an informal style typical of social media posts in Malay.""" .
+
+<http://example.org/doc/99#char=0,149> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "149"^^xsd:nonNegativeInteger ;
+    nif:isString "Aditya tu gila je leh jadi Aldebaran dlm siri Kepompong ni. Kat Trans TV tu senang camni dapat talent macam dia. Indika Entertainment tau berjaya ni." .
+
