@@ -1,0 +1,1636 @@
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/doc/0#char=15,27> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Bobot Mortiz" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "27"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/0#char=0,79> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5337387> .
+
+<http://example.org/doc/1#char=39,60> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Lungsod ng Sto. Tomas" ;
+    nif:beginIndex "39"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/1#char=0,144> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q59799> .
+
+<http://example.org/doc/10#char=12,39> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "San Pietro Martire, Napoles" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/10#char=0,209> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q970117> .
+
+<http://example.org/doc/100#char=15,32> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Bekennende Kirche" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/100#char=0,49> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q161362> .
+
+<http://example.org/doc/101#char=13,23> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Sara Braun" ;
+    nif:beginIndex "13"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/101#char=0,170> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q26213728> .
+
+<http://example.org/doc/11#char=15,33> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mariziel Sarangelo" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/11#char=0,60> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7851432> .
+
+<http://example.org/doc/12#char=26,32> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ottati" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/12#char=0,40> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q81167> .
+
+<http://example.org/doc/13#char=12,44> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mark Anthony Lacsamana Fernandez" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/13#char=0,182> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5999469> .
+
+<http://example.org/doc/14#char=38,62> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Regine Velasquez Alcasid" ;
+    nif:beginIndex "38"^^xsd:nonNegativeInteger ;
+    nif:endIndex "62"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/14#char=0,192> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q446854> .
+
+<http://example.org/doc/15#char=23,29> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Cuyapo" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/15#char=0,85> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q55547> .
+
+<http://example.org/doc/16#char=0,12> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Kim Yong-sun" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/16#char=0,56> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q19483969> .
+
+<http://example.org/doc/17#char=23,31> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Funduang" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/17#char=0,85> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q30413> .
+
+<http://example.org/doc/18#char=22,28> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Iloilo" ;
+    nif:beginIndex "22"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/18#char=0,133> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q13825> .
+
+<http://example.org/doc/19#char=102,111> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Filignano" ;
+    nif:beginIndex "102"^^xsd:nonNegativeInteger ;
+    nif:endIndex "111"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/19#char=0,136> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q279165> .
+
+<http://example.org/doc/2#char=7,24> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Reyna ng Kundiman" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/2#char=0,154> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3548056> .
+
+<http://example.org/doc/20#char=23,30> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Camalig" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/20#char=0,86> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q492976> .
+
+<http://example.org/doc/21#char=145,157> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Afghaunistan" ;
+    nif:beginIndex "145"^^xsd:nonNegativeInteger ;
+    nif:endIndex "157"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/21#char=0,233> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q889> .
+
+<http://example.org/doc/22#char=211,221> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Castilenti" ;
+    nif:beginIndex "211"^^xsd:nonNegativeInteger ;
+    nif:endIndex "221"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/22#char=0,259> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q51436> .
+
+<http://example.org/doc/23#char=14,23> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Fiuminata" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/23#char=0,180> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q73831> .
+
+<http://example.org/doc/24#char=182,196> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Linyang Senzan" ;
+    nif:beginIndex "182"^^xsd:nonNegativeInteger ;
+    nif:endIndex "196"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/24#char=0,224> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1051995> .
+
+<http://example.org/doc/25#char=15,38> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ciara Anna Gamboa Sotto" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/25#char=0,68> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3543965> .
+
+<http://example.org/doc/26#char=26,54> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Unibersidad ng Hertfordshire" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/26#char=0,181> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1745633> .
+
+<http://example.org/doc/27#char=45,80> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Darling Julie Pearl Apostol Postigo" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/27#char=0,81> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3544168> .
+
+<http://example.org/doc/28#char=254,285> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Nasaktang damdamin ng mga Tsino" ;
+    nif:beginIndex "254"^^xsd:nonNegativeInteger ;
+    nif:endIndex "285"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/28#char=0,387> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q10889304> .
+
+<http://example.org/doc/29#char=45,50> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Becca" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "50"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/29#char=0,51> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20578998> .
+
+<http://example.org/doc/3#char=12,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Kehlani" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/3#char=0,267> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20657541> .
+
+<http://example.org/doc/30#char=15,39> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Sharon Cuneta Pangilinan" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/30#char=0,91> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q466942> .
+
+<http://example.org/doc/31#char=84,108> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Negara Brunei Darussalam" ;
+    nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+    nif:endIndex "108"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/31#char=0,196> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q921> .
+
+<http://example.org/doc/32#char=14,25> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Bucchianico" ;
+    nif:beginIndex "14"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/32#char=0,96> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q51188> .
+
+<http://example.org/doc/33#char=53,83> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Edgard Villavicencio Peregrina" ;
+    nif:beginIndex "53"^^xsd:nonNegativeInteger ;
+    nif:endIndex "83"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/33#char=0,334> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5336400> .
+
+<http://example.org/doc/34#char=0,20> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Estasyon ng Caloocan" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/34#char=0,71> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5023175> .
+
+<http://example.org/doc/35#char=45,53> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Estasyon" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/35#char=0,54> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q109258983> .
+
+<http://example.org/doc/36#char=45,53> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Kweichew" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/36#char=0,54> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q47097> .
+
+<http://example.org/doc/37#char=11,32> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Basilika ng Bom Jesus" ;
+    nif:beginIndex "11"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/37#char=0,172> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q391123> .
+
+<http://example.org/doc/38#char=72,87> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Spigno Saturnia" ;
+    nif:beginIndex "72"^^xsd:nonNegativeInteger ;
+    nif:endIndex "87"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/38#char=0,131> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q128222> .
+
+<http://example.org/doc/39#char=177,223> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Teritoryal na Abadia ng Monte Oliveto Maggiore" ;
+    nif:beginIndex "177"^^xsd:nonNegativeInteger ;
+    nif:endIndex "223"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/39#char=0,235> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1247143> .
+
+<http://example.org/doc/4#char=10,32> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Thasunda Brown Duckett" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/4#char=0,176> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q96002081> .
+
+<http://example.org/doc/40#char=66,75> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Montiglio" ;
+    nif:beginIndex "66"^^xsd:nonNegativeInteger ;
+    nif:endIndex "75"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/40#char=0,165> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q17837> .
+
+<http://example.org/doc/41#char=133,148> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Odalengo Grande" ;
+    nif:beginIndex "133"^^xsd:nonNegativeInteger ;
+    nif:endIndex "148"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/41#char=0,233> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q17417> .
+
+<http://example.org/doc/42#char=15,20> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Hesus" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "20"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/42#char=0,65> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q36380> .
+
+<http://example.org/doc/43#char=15,40> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Rico Rene Granados Blanco" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/43#char=0,88> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7332251> .
+
+<http://example.org/doc/44#char=15,29> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Rodrigo Obanse" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/44#char=0,67> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12962194> .
+
+<http://example.org/doc/45#char=45,51> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Carmen" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/45#char=0,52> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12962536> .
+
+<http://example.org/doc/46#char=50,73> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Antonio Cecilio Castelo" ;
+    nif:beginIndex "50"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/46#char=0,111> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12961588> .
+
+<http://example.org/doc/47#char=0,13> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Santo Domingo" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "13"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/47#char=0,200> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q44091> .
+
+<http://example.org/doc/48#char=24,46> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Almenno San Bartolomeo" ;
+    nif:beginIndex "24"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/48#char=0,249> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q95060> .
+
+<http://example.org/doc/49#char=0,16> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Nikki Gil-Albert" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/49#char=0,58> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3546749> .
+
+<http://example.org/doc/5#char=12,37> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Kean Edward Uson Cipriano" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/5#char=0,79> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6382146> .
+
+<http://example.org/doc/50#char=8,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Nena Garcia" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/50#char=0,152> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12968593> .
+
+<http://example.org/doc/51#char=26,30> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "DYXC" ;
+    nif:beginIndex "26"^^xsd:nonNegativeInteger ;
+    nif:endIndex "30"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/51#char=0,99> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5206953> .
+
+<http://example.org/doc/52#char=0,16> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ros Reiven Umali" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "16"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/52#char=0,167> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q110149015> .
+
+<http://example.org/doc/53#char=57,78> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Rodolfo Quizon y Vera" ;
+    nif:beginIndex "57"^^xsd:nonNegativeInteger ;
+    nif:endIndex "78"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/53#char=0,226> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3241481> .
+
+<http://example.org/doc/54#char=45,65> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Pag-iisa ng Alemanya" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "65"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/54#char=0,66> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q154705> .
+
+<http://example.org/doc/55#char=7,11> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Joey" ;
+    nif:beginIndex "7"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/55#char=0,102> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6214283> .
+
+<http://example.org/doc/56#char=12,18> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Jaclyn" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "18"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/56#char=0,105> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6118150> .
+
+<http://example.org/doc/57#char=0,7> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Therese" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "7"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/57#char=0,72> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q30688796> .
+
+<http://example.org/doc/58#char=15,22> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Jericho" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/58#char=0,64> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3550224> .
+
+<http://example.org/doc/59#char=44,50> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Carmen" ;
+    nif:beginIndex "44"^^xsd:nonNegativeInteger ;
+    nif:endIndex "50"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/59#char=0,88> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q55473001> .
+
+<http://example.org/doc/6#char=17,21> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Moon" ;
+    nif:beginIndex "17"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/6#char=0,176> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q102098> .
+
+<http://example.org/doc/60#char=0,6> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Zendee" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "6"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/60#char=0,40> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2912661> .
+
+<http://example.org/doc/61#char=45,57> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Ylona Garcia" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "57"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/61#char=0,58> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q22002900> .
+
+<http://example.org/doc/62#char=10,37> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Carol Claire Aguilar Banawa" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/62#char=0,131> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q610963> .
+
+<http://example.org/doc/63#char=45,50> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Bobby" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "50"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/63#char=0,51> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20577634> .
+
+<http://example.org/doc/64#char=147,187> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Demokratikong Republikang Bayan ng Korea" ;
+    nif:beginIndex "147"^^xsd:nonNegativeInteger ;
+    nif:endIndex "187"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/64#char=0,231> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q423> .
+
+<http://example.org/doc/65#char=0,11> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Timog Sudan" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "11"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/65#char=0,219> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q958> .
+
+<http://example.org/doc/66#char=23,39> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mabini, Batangas" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "39"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/66#char=0,95> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q59313> .
+
+<http://example.org/doc/67#char=127,153> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Partido ng Masang Pilipino" ;
+    nif:beginIndex "127"^^xsd:nonNegativeInteger ;
+    nif:endIndex "153"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/67#char=0,189> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2788486> .
+
+<http://example.org/doc/68#char=0,10> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Christiane" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "10"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/68#char=0,128> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2305958> .
+
+<http://example.org/doc/69#char=45,51> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Carmen" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/69#char=0,52> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5043570> .
+
+<http://example.org/doc/7#char=62,69> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Da king" ;
+    nif:beginIndex "62"^^xsd:nonNegativeInteger ;
+    nif:endIndex "69"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/7#char=0,300> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1373770> .
+
+<http://example.org/doc/70#char=23,28> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Union" ;
+    nif:beginIndex "23"^^xsd:nonNegativeInteger ;
+    nif:endIndex "28"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/70#char=0,83> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q40466> .
+
+<http://example.org/doc/71#char=39,61> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Republic of Uzbekistan" ;
+    nif:beginIndex "39"^^xsd:nonNegativeInteger ;
+    nif:endIndex "61"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/71#char=0,73> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q265> .
+
+<http://example.org/doc/72#char=163,172> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Pieranica" ;
+    nif:beginIndex "163"^^xsd:nonNegativeInteger ;
+    nif:endIndex "172"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/72#char=0,284> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q42739> .
+
+<http://example.org/doc/73#char=45,68> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Patricia Javier-Walcher" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "68"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/73#char=0,77> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q20580973> .
+
+<http://example.org/doc/74#char=15,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Yuya" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/74#char=0,58> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1188884> .
+
+<http://example.org/doc/75#char=45,63> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Sviatoslav Richter" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/75#char=0,64> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q124890> .
+
+<http://example.org/doc/76#char=186,241> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Pambansang Pamantasan ng Agham at Teknolohiya ng Taiwan" ;
+    nif:beginIndex "186"^^xsd:nonNegativeInteger ;
+    nif:endIndex "241"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/76#char=0,282> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q699543> .
+
+<http://example.org/doc/77#char=87,107> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Vladimir II Monomakh" ;
+    nif:beginIndex "87"^^xsd:nonNegativeInteger ;
+    nif:endIndex "107"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/77#char=0,204> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q60928> .
+
+<http://example.org/doc/78#char=22,44> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Republic of Tajikistan" ;
+    nif:beginIndex "22"^^xsd:nonNegativeInteger ;
+    nif:endIndex "44"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/78#char=0,70> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q863> .
+
+<http://example.org/doc/79#char=10,12> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "ng" ;
+    nif:beginIndex "10"^^xsd:nonNegativeInteger ;
+    nif:endIndex "12"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/79#char=0,48> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q2538977> .
+
+<http://example.org/doc/8#char=45,64> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Geneva Mendoza Cruz" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "64"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/8#char=0,65> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3545807> .
+
+<http://example.org/doc/80#char=21,29> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Veronica" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/80#char=0,46> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q124732226> .
+
+<http://example.org/doc/81#char=142,159> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Rogelio dela Rosa" ;
+    nif:beginIndex "142"^^xsd:nonNegativeInteger ;
+    nif:endIndex "159"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/81#char=0,298> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7357747> .
+
+<http://example.org/doc/82#char=9,14> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Mocha" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "14"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/82#char=0,157> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6019937> .
+
+<http://example.org/doc/83#char=9,24> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Abenida Meralco" ;
+    nif:beginIndex "9"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/83#char=0,54> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q17078804> .
+
+<http://example.org/doc/84#char=11,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Samanida" ;
+    nif:beginIndex "11"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/84#char=0,98> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12150341> .
+
+<http://example.org/doc/85#char=15,22> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Partido" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/85#char=0,117> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q7165740> .
+
+<http://example.org/doc/86#char=47,54> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "DXMB-AM" ;
+    nif:beginIndex "47"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/86#char=0,79> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5206679> .
+
+<http://example.org/doc/87#char=0,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Emperador Go-Suzaku" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/87#char=0,83> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q349296> .
+
+<http://example.org/doc/88#char=15,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Toba" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/88#char=0,74> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q183360> .
+
+<http://example.org/doc/89#char=12,21> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Frosinone" ;
+    nif:beginIndex "12"^^xsd:nonNegativeInteger ;
+    nif:endIndex "21"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/89#char=0,108> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q13413> .
+
+<http://example.org/doc/9#char=21,23> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "KC" ;
+    nif:beginIndex "21"^^xsd:nonNegativeInteger ;
+    nif:endIndex "23"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/9#char=0,274> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5957447> .
+
+<http://example.org/doc/90#char=69,84> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Dueñas, Espanya" ;
+    nif:beginIndex "69"^^xsd:nonNegativeInteger ;
+    nif:endIndex "84"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/90#char=0,101> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1657014> .
+
+<http://example.org/doc/91#char=74,80> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Didith" ;
+    nif:beginIndex "74"^^xsd:nonNegativeInteger ;
+    nif:endIndex "80"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/91#char=0,286> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3546123> .
+
+<http://example.org/doc/92#char=0,24> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Rodel Pacheco Nacianceno" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/92#char=0,87> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q5139743> .
+
+<http://example.org/doc/93#char=30,35> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Texas" ;
+    nif:beginIndex "30"^^xsd:nonNegativeInteger ;
+    nif:endIndex "35"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/93#char=0,56> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1439> .
+
+<http://example.org/doc/94#char=166,177> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Katolisismo" ;
+    nif:beginIndex "166"^^xsd:nonNegativeInteger ;
+    nif:endIndex "177"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/94#char=0,243> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1841> .
+
+<http://example.org/doc/95#char=45,50> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Tarja" ;
+    nif:beginIndex "45"^^xsd:nonNegativeInteger ;
+    nif:endIndex "50"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/95#char=0,51> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q29213> .
+
+<http://example.org/doc/96#char=15,22> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Reymond" ;
+    nif:beginIndex "15"^^xsd:nonNegativeInteger ;
+    nif:endIndex "22"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/96#char=0,63> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q12969923> .
+
+<http://example.org/doc/97#char=131,150> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Hololive Production" ;
+    nif:beginIndex "131"^^xsd:nonNegativeInteger ;
+    nif:endIndex "150"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/97#char=0,218> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q69583635> .
+
+<http://example.org/doc/98#char=8,19> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Kenny Irons" ;
+    nif:beginIndex "8"^^xsd:nonNegativeInteger ;
+    nif:endIndex "19"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/98#char=0,153> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q6391099> .
+
+<http://example.org/doc/99#char=0,5> a nif:Phrase,
+        nif:RFC5147String,
+        nif:String ;
+    nif:anchorOf "Gavan" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "5"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://example.org/doc/99#char=0,92> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q196374> .
+
+<http://example.org/doc/0#char=0,79> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "79"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Bobot Mortiz na tungkol sa Pilipinas at Artista ay isang usbong." .
+
+<http://example.org/doc/1#char=0,144> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "144"^^xsd:nonNegativeInteger ;
+    nif:isString "Dati isang unang klaseng bayan, naging Lungsod ng Sto. Tomas nang ipinagtibay sa isang plebisito noong 7 Setyembre 2019 ang Batas Republika Blg." .
+
+<http://example.org/doc/10#char=0,209> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "209"^^xsd:nonNegativeInteger ;
+    nif:isString "Matatagpuan San Pietro Martire, Napoles nang direkta sa tapat ng pangunahing gusali ng Unibersidad ng Napoles sa pangunahing kalye, kanto ng Corso Umberto at ng Via Porta di Massa, malapit sa pook ng pantalan." .
+
+<http://example.org/doc/100#char=0,49> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Bekennende Kirche ay isang usbong." .
+
+<http://example.org/doc/101#char=0,170> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "170"^^xsd:nonNegativeInteger ;
+    nif:isString "Nagtatag din Sara Braun ng isang bahay ng pag-angkat ng kalakalan at pangkat ng mga bodega, na naging isa sa mga unang kababaihan na nagpatakbo ng isang negosyo sa lugar." .
+
+<http://example.org/doc/11#char=0,60> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "60"^^xsd:nonNegativeInteger ;
+    nif:isString "Naging talento Mariziel Sarangelo ng ABS-CBN at GMA Network." .
+
+<http://example.org/doc/12#char=0,40> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:isString "Noong 2011 ang populasyon Ottati ay 680." .
+
+<http://example.org/doc/13#char=0,182> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "182"^^xsd:nonNegativeInteger ;
+    nif:isString "Mga kapatid Mark Anthony Lacsamana Fernandez sa ama ay si Rap at Renz Fernandez at mga kapatid niya sa ina si Vandolph Quizon Wynwyn Marquez Yeoj Marquez Vitto Marquez at Alfa Salic." .
+
+<http://example.org/doc/14#char=0,192> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "192"^^xsd:nonNegativeInteger ;
+    nif:isString "Sa ilalim ng pangalang Chona, pumirma Regine Velasquez Alcasid ng kontrata sa pag-record sa OctoArts International at nag-release ng single na \"Love Me Again\" noong 1986, hindi na nagtagumpay." .
+
+<http://example.org/doc/15#char=0,85> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "85"^^xsd:nonNegativeInteger ;
+    nif:isString "Ayon sa senso ng 2024, Cuyapo ay may populasyon na 70,919 sa may 17,907 na kabahayan." .
+
+<http://example.org/doc/16#char=0,56> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:isString "Kim Yong-sun ang pinuno at bokalista ng grupong Mamamoo." .
+
+<http://example.org/doc/17#char=0,85> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "85"^^xsd:nonNegativeInteger ;
+    nif:isString "Ayon sa senso ng 2024, Funduang ay may populasyon na 8,970 sa may 1,983 na kabahayan." .
+
+<http://example.org/doc/18#char=0,133> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "133"^^xsd:nonNegativeInteger ;
+    nif:isString "Hinggil sa kasaysayan Iloilo bilang isang mahalagang puerto, mga mestizo ang maraming Ilonggo, o mga taong may halong Kastilang dugo." .
+
+<http://example.org/doc/19#char=0,136> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "136"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang nayon ay unang nabanggit noong 962 at itinaas bilang nagsasariling munisipalidad noong 1840, nang Filignano ay ihiwalay sa Pozzilli." .
+
+<http://example.org/doc/2#char=0,154> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "154"^^xsd:nonNegativeInteger ;
+    nif:isString "Gumawa Reyna ng Kundiman ng pelikula noong 1948 at lumipat sa Sampaguita Pictures kung saan nakatambal nya si Ramon Revilla sa pelikulang Ulila ng Bataan." .
+
+<http://example.org/doc/20#char=0,86> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "86"^^xsd:nonNegativeInteger ;
+    nif:isString "Ayon sa senso ng 2024, Camalig ay may populasyon na 73,087 sa may 17,031 na kabahayan." .
+
+<http://example.org/doc/21#char=0,233> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "233"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang kahariang ito ay tumagal ng halos 50 taon, hanggang sa mapatalsik si Zahir Shah noong 1973, kasunod nito ay naitatag ang isang republika, na Afghaunistan'y hinalili ng isang demokratikong republika pagkatapos ng Himagsikang Saur." .
+
+<http://example.org/doc/22#char=0,259> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "259"^^xsd:nonNegativeInteger ;
+    nif:isString "AbruzzoLambak AostaApuliaBasilicata CalabriaCampaniaEmilia-RomagnaFriuli – Venezia Giulia LazioLiguriaLombardyMarche MolisePiemonteSardiniaSicilia Trentino-Alto Adige/SüdtirolTuskanyaUmbriaVeneto Ang lathalaing Castilenti na tungkol sa Italya ay isang usbong." .
+
+<http://example.org/doc/23#char=0,180> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "180"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang kalsadang Fiuminata ay isang detatsment ng Via Flaminia na nag-uugnay sa Nocera Umbra sa Ancona, isang kahabaan na ngayon ay nilakbay ng SP 361, na tinatawag ding Septempedana." .
+
+<http://example.org/doc/24#char=0,224> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "224"^^xsd:nonNegativeInteger ;
+    nif:isString "Lahat ng tren ay humihinto sa sumusunod na estasyon: Karagdagan sa mga hinihintuan, ang ilang mabilisang tren ay humihinto sa lahat ng estasyon sa pagitan ng: ◇ Salin ang artikulong Linyang Senzan mula sa Ingles na WIkipedia" .
+
+<http://example.org/doc/25#char=0,68> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "68"^^xsd:nonNegativeInteger ;
+    nif:isString "Mga pinsan din Ciara Anna Gamboa Sotto sina Danica at Oyo Boy Sotto." .
+
+<http://example.org/doc/26#char=0,181> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "181"^^xsd:nonNegativeInteger ;
+    nif:isString "Itinatag ang institusyong Unibersidad ng Hertfordshire bilang Hatfield Technical College noong 1948 at kinilala bilang isa sa 25 Colleges of Technology sa United Kingdom noong 1959." .
+
+<http://example.org/doc/27#char=0,81> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "81"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Darling Julie Pearl Apostol Postigo." .
+
+<http://example.org/doc/28#char=0,387> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "387"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang Global Times ay nagsapubliko ng pagaaral noong June 2015 kung saan nalaman na mayroong 237 artikulo naisapubliko ang People's Daily sa pagitan ng May 15, 1946 at May 1, 2015 kung saan akusasyon sa pananakit ng damdamin laban sa 29 na bansa, kabilang Nasaktang damdamin ng mga Tsino, 9 ang nakalagay sa India, 16 sa bansang France, 62 sa bansang Estados Unidos at 96 sa bansang Japan." .
+
+<http://example.org/doc/29#char=0,51> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Becca." .
+
+<http://example.org/doc/3#char=0,267> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "267"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang kasunod Kehlani na You Should Be Here (2015), ay nakapasok sa Billboard 200, ginawaran ng gintong sertipikasyon mula sa Recording Industry Association of America (RIAA), at nanomina para sa Pinakamahusay na Urban Contemporary Album sa Ika-58 Taunang Gawad Grammy." .
+
+<http://example.org/doc/30#char=0,91> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "91"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Sharon Cuneta Pangilinan na tungkol sa Pilipinas at Artista ay isang usbong." .
+
+<http://example.org/doc/31#char=0,196> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "196"^^xsd:nonNegativeInteger ;
+    nif:isString "Ibinigay (ceded) ng sultanato ang Sarawak (Kuching) kay James Brooke at ininalagaya Negara Brunei Darussalam bilang White Rajah, at ibinigay ang Sabah sa British na North Borneo Chartered Company." .
+
+<http://example.org/doc/32#char=0,96> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "96"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang teritoryo Bucchianico ay maburol, na may isang makabuluhang pag-iral ng mga olibo at ubasan." .
+
+<http://example.org/doc/33#char=0,334> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "334"^^xsd:nonNegativeInteger ;
+    nif:isString "Tinaguriang \"The Original Jukebox King\", pinakasikat Edgard Villavicencio Peregrina sa mga hit na kanta gaya ng \"What Am I Living For\", \"Together Again\", \"Two Lovely Flowers\" at \"Mardy\", bukod sa iba pa. Namatay siya sa tuktok ng kanyang kasikatan sa edad na 32, isang buwan pagkatapos ng aksidente sa sasakyan sa EDSA sa Mandaluyong." .
+
+<http://example.org/doc/34#char=0,71> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "71"^^xsd:nonNegativeInteger ;
+    nif:isString "Estasyon ng Caloocan ay nagsisilbing na dating dulo ng Linyang Patimog." .
+
+<http://example.org/doc/35#char=0,54> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Estasyon." .
+
+<http://example.org/doc/36#char=0,54> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Kweichew." .
+
+<http://example.org/doc/37#char=0,172> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "172"^^xsd:nonNegativeInteger ;
+    nif:isString "Naglalaman Basilika ng Bom Jesus ng katawan ni San Francisco Javier, isang matalik na kaibigan ni San Ignacio ng Loyola na tagapagtatag ng Kapisanan ni Jesus (mga Heswita)." .
+
+<http://example.org/doc/38#char=0,131> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "131"^^xsd:nonNegativeInteger ;
+    nif:isString "Medyebal na Spinium, na may sariling mga konde noong panahong Normando, Spigno Saturnia ay tumutugma sa frazione ng Spigno Vecchio." .
+
+<http://example.org/doc/39#char=0,235> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "235"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang mga gusali nito, na karamihan ay pulang ladrilyo, ay kitang-kita laban sa kulay-abo na luwad na lupa at mabuhanging lupa—ang Crete senesi na nagbibigay pangalan sa lugar na Teritoryal na Abadia ng Monte Oliveto Maggiore ng Tuscany." .
+
+<http://example.org/doc/4#char=0,176> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "176"^^xsd:nonNegativeInteger ;
+    nif:isString "Nagpatala Thasunda Brown Duckett sa Pamantasan ng Baylor, kung saan natamo niya ang kaniyang Degri ng Masterado sa Pangangasiwa ng Negosyo o master's in business administration" .
+
+<http://example.org/doc/40#char=0,165> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "165"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang ikaapat na punong sentro ng populasyon ay ang nayon ng Rinco; Montiglio rin ay isang komunidad sa sarili nito hanggang 1916 nang ito ay hinihigop ng Scandeluzza." .
+
+<http://example.org/doc/41#char=0,233> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "233"^^xsd:nonNegativeInteger ;
+    nif:isString "Torre San Quilico: ang tore ay matatagpuan malapit sa batis ng Stura, sa nayon ng parehong pangalan at itinayo noong ika-12 siglo at Odalengo Grande ang kampanaryo ng sinaunang simbahan ng parokya ng San Quilico, na ngayon ay nawala." .
+
+<http://example.org/doc/42#char=0,65> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "65"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Hesus na tungkol sa Kristiyanismo ay isang usbong." .
+
+<http://example.org/doc/43#char=0,88> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "88"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Rico Rene Granados Blanco na tungkol sa Tao at Pilipinas ay isang usbong." .
+
+<http://example.org/doc/44#char=0,67> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "67"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Rodrigo Obanse na tungkol sa Musika ay isang usbong." .
+
+<http://example.org/doc/45#char=0,52> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Carmen." .
+
+<http://example.org/doc/46#char=0,111> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "111"^^xsd:nonNegativeInteger ;
+    nif:isString "Lungsod ng Cabanatuan, Nueva Ecija Ang lathalaing Antonio Cecilio Castelo na tungkol sa Musika ay isang usbong." .
+
+<http://example.org/doc/47#char=0,200> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "200"^^xsd:nonNegativeInteger ;
+    nif:isString "Santo Domingo ay pinarangalan bilang patron ng mga astronomo at natural na siyentipiko, at siya at ang kanyang relihiyosong orden ay tradisyonal na nauugnay sa pagpapakalat at pagpapasikat ng rosaryo." .
+
+<http://example.org/doc/48#char=0,249> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "249"^^xsd:nonNegativeInteger ;
+    nif:isString "Sa silangan at kanluran Almenno San Bartolomeo ay hinahati ayon sa pagkakasunod-sunod ng Agro del Romanico (kung saan nakatayo ang sikat na Rotonda di San Tome) at ng Bergamo Golf Club na \"l'Albenza\", na ibinahagi sa kalapit na Barzana at Palazzago." .
+
+<http://example.org/doc/49#char=0,58> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:isString "Nikki Gil-Albert-Albert ang nagpasikat ng awiting \"Paano\"." .
+
+<http://example.org/doc/5#char=0,79> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "79"^^xsd:nonNegativeInteger ;
+    nif:isString "Ipinanganak Kean Edward Uson Cipriano sa Pasig City noong ika-11 ng Hunyo 1987." .
+
+<http://example.org/doc/50#char=0,152> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "152"^^xsd:nonNegativeInteger ;
+    nif:isString "Gumanap Nena Garcia sa pelikulang Himala ni Bathala noong 1935 kung saan ang kanyang karakter ay isang matapang na ina na nagbago dahil sa isang himala." .
+
+<http://example.org/doc/51#char=0,99> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "99"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang estudyo at transmiter DYXC ay matatagpuan sa 2nd Floor, Ormoc Centrum Bldg., Aviles St., Ormoc." .
+
+<http://example.org/doc/52#char=0,167> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "167"^^xsd:nonNegativeInteger ;
+    nif:isString "Ros Reiven Umali ang ikalimang season grand champion ng Tawag ng Tanghalan, ang segment ng paligsahan sa pag-awit ng pananghaliang palabas ng ABS-CBN na It's Showtime." .
+
+<http://example.org/doc/53#char=0,226> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "226"^^xsd:nonNegativeInteger ;
+    nif:isString "Naging malaking patok ito sa takilyang bagay na binigyan Rodolfo Quizon y Vera ng kanyang unang starring role sa Jack & Jill kung saang ginampanan niya ang papel ng isang baklang kapatid ng tomboy naman na si Lolita Rodriguez." .
+
+<http://example.org/doc/54#char=0,66> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "66"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Pag-iisa ng Alemanya." .
+
+<http://example.org/doc/55#char=0,102> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "102"^^xsd:nonNegativeInteger ;
+    nif:isString "Kilala Joey bilang ang dating kasapi ng bandang Side A at isa sa mga lumikha ng awiting \"Forevermore.\"" .
+
+<http://example.org/doc/56#char=0,105> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "105"^^xsd:nonNegativeInteger ;
+    nif:isString "Gumanap din Jaclyn sa mga pelikulang \"The Flor Contemplacion Story\", \"Patay na si Hesus\", at \"Kalel, 15\"." .
+
+<http://example.org/doc/57#char=0,72> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "72"^^xsd:nonNegativeInteger ;
+    nif:isString "Therese ay apo sa tuhod nina Heneral Miguel Malvar at Doktor Jose Rizal." .
+
+<http://example.org/doc/58#char=0,64> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "64"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Jericho na tungkol sa Talambuhay ay isang usbong." .
+
+<http://example.org/doc/59#char=0,88> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "88"^^xsd:nonNegativeInteger ;
+    nif:isString "Si Soriano ang panganay na anak na babae at Carmen ay pang-apat sa anim na magkakapatid." .
+
+<http://example.org/doc/6#char=0,176> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "176"^^xsd:nonNegativeInteger ;
+    nif:isString "Sa gulang na 21, Moon ang naging pinakabatang tumanggap ng Malaking Premyo (\"Daesang\") na napanalunan niya sa SBS Drama Awards para sa Koreanovelang Painter of the Wind (2008)." .
+
+<http://example.org/doc/60#char=0,40> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:isString "Zendee ay nakilala sa YouTube at Tiktok." .
+
+<http://example.org/doc/61#char=0,58> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Ylona Garcia." .
+
+<http://example.org/doc/62#char=0,131> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "131"^^xsd:nonNegativeInteger ;
+    nif:isString "Nagkaroon Carol Claire Aguilar Banawa ng isang telenobela sa ABS-CBN ang Bituin kung saan gumanap si Nora Aunor bilang kanyang ina." .
+
+<http://example.org/doc/63#char=0,51> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Bobby." .
+
+<http://example.org/doc/64#char=0,231> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "231"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang Shin Ramyun ay isang tatak ng bihong instante na ginagawa sa Timog Korea na binansagang \"bihong pera\" sa Hilaga dahil sa medyo mahal na presyo Demokratikong Republikang Bayan ng Korea sa humigit-kumulang 800 won sa bawat yunit." .
+
+<http://example.org/doc/65#char=0,219> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "219"^^xsd:nonNegativeInteger ;
+    nif:isString "Timog Sudan ay isang bansang napaliligiran ng lupa na may hangganan sa Etiyopiya sa silangan; Kenya, Uganda at Demokratikong Republika ng Konggo sa timog; ang Republikang Gitnang-Aprikano sa kanluran at Sudan sa hilaga." .
+
+<http://example.org/doc/66#char=0,95> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "95"^^xsd:nonNegativeInteger ;
+    nif:isString "Ayon sa senso ng 2024, Mabini, Batangas ay may populasyon na 49,876 sa may 11,725 na kabahayan." .
+
+<http://example.org/doc/67#char=0,189> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "189"^^xsd:nonNegativeInteger ;
+    nif:isString "Noong Enero 18, 2008, naglagay ng patalastas ang PMP sa mga pahayagan sa Kalakhang Maynila, at sinisisi ang EDSA 2 sa pagdulot Partido ng Masang Pilipino ng yupi sa demokrasya sa Pilipinas." .
+
+<http://example.org/doc/68#char=0,128> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "128"^^xsd:nonNegativeInteger ;
+    nif:isString "Christiane ay kinoronahan ng aktres, si Julie Adams bilang Miss Universe 1952, si Armi Kuusela ng Finland ay nagbigay ng korona." .
+
+<http://example.org/doc/69#char=0,52> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "52"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Carmen." .
+
+<http://example.org/doc/7#char=0,300> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "300"^^xsd:nonNegativeInteger ;
+    nif:isString "Isa siyang produkto ng Premiere Production kung kaya't ginawa Da king ang mga pelikulang Bicol Express, Pepeng Kaliwete, May Pasikat Ba sa Kano?, Atrebida, Laban sa Lahat at marami pang iba, samantalang ang mga pelikulang Kamay ni Cain, Tipin, Obra-Maestra naman ang ginawa niya sa People's Pictures." .
+
+<http://example.org/doc/70#char=0,83> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "83"^^xsd:nonNegativeInteger ;
+    nif:isString "Ayon sa senso ng 2024, Union ay may populasyon na 19,107 sa may 4,953 na kabahayan." .
+
+<http://example.org/doc/71#char=0,73> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "73"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang kabisera at pinakamalaking lungsod Republic of Uzbekistan ay Taskent." .
+
+<http://example.org/doc/72#char=0,284> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "284"^^xsd:nonNegativeInteger ;
+    nif:isString "Mula sa isang dokumento na may petsang Oktubre 3, 1130, kung saan tinutukoy ang pangalan sa anyong pilaraniko, at mula sa iba noong 1129, 1286, at 1314, kung saan Pieranica ay tinatawag na plaranica, mahihinuha na ang primitibong pangalan ay nagreresulta mula sa pagsasanib ng dalawa." .
+
+<http://example.org/doc/73#char=0,77> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "77"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Patricia Javier-Walcher-Walcher." .
+
+<http://example.org/doc/74#char=0,58> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "58"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Yuya na tungkol sa Artista ay isang usbong." .
+
+<http://example.org/doc/75#char=0,64> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "64"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Sviatoslav Richter." .
+
+<http://example.org/doc/76#char=0,282> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "282"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang 14 na kagawaran at 24 programang gradwado ng Taiwan Tech ay organisado sa mga 7 kolehiyo: 25°00′49″N 121°32′26″E﻿ / ﻿25.013686°N 121.540535°E﻿ / 25.013686; 121.540535 Ang lathalaing Pambansang Pamantasan ng Agham at Teknolohiya ng Taiwan na tungkol sa Edukasyon ay isang usbong." .
+
+<http://example.org/doc/77#char=0,204> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "204"^^xsd:nonNegativeInteger ;
+    nif:isString "Mula 1094, ang kanyang pangunahing legacy ay ang timog na bayan ng Pereiaslav, bagaman Vladimir II Monomakh din kontrolado Rostov, Suzdal, at iba pang hilagaan lalawigan (see Principality of Pereyaslavl)." .
+
+<http://example.org/doc/78#char=0,70> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "70"^^xsd:nonNegativeInteger ;
+    nif:isString "Dushanbe ang kabisera Republic of Tajikistan at pinakamataong lungsod." .
+
+<http://example.org/doc/79#char=0,48> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "48"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig ng." .
+
+<http://example.org/doc/8#char=0,65> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "65"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Geneva Mendoza Cruz." .
+
+<http://example.org/doc/80#char=0,46> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "46"^^xsd:nonNegativeInteger ;
+    nif:isString "Hello Ang lathalaing Veronica ay isang usbong." .
+
+<http://example.org/doc/81#char=0,298> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "298"^^xsd:nonNegativeInteger ;
+    nif:isString "Hindi si Carmen Rosales ang orihinal niyang kapareha sa pelikula kundi si Rosa del Rosario na kanyang nakasama noong sila ay mga tinedyer pa. Rogelio dela Rosa nila ginawa ang pelikulang Ligaw na Bulaklak noong 1932 Si Rogelio ang unang artistang Pilipino na naging Senador ng Pilipinas noong 1957." .
+
+<http://example.org/doc/82#char=0,157> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "157"^^xsd:nonNegativeInteger ;
+    nif:isString "Nagbitiw Mocha sa kanyang puwesto noong Oktubre 3, 2018, pagkatapos ng isang serye ng pagkakamali, bagaman may mga nagsasabing pinatalsik siya ng Malacañang." .
+
+<http://example.org/doc/83#char=0,54> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "54"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang haba Abenida Meralco ay 1.6 kilometro (1.0 milya)." .
+
+<http://example.org/doc/84#char=0,98> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "98"^^xsd:nonNegativeInteger ;
+    nif:isString "Pagkatapos Samanida, kinilala si Ismail bilang pinuno ng buong Horasan at Transoksiyana ng kalipa." .
+
+<http://example.org/doc/85#char=0,117> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "117"^^xsd:nonNegativeInteger ;
+    nif:isString "Ipinabatid din Partido na si Bongbong Marcos ang kanyang kasamang kandidato para sa bise presidente ng halalang 2016." .
+
+<http://example.org/doc/86#char=0,79> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "79"^^xsd:nonNegativeInteger ;
+    nif:isString "Noong Nobyembre 1978, lumipat ang talapihitang DXMB-AM sa kasalukuyang 648 kHz." .
+
+<http://example.org/doc/87#char=0,83> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "83"^^xsd:nonNegativeInteger ;
+    nif:isString "Emperador Go-Suzaku ay ayon sa nakaugaliang pagkakasunod-sunod ng pagtaas sa trono." .
+
+<http://example.org/doc/88#char=0,74> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "74"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Toba na tungkol sa Heograpiya at Indonesia ay isang usbong." .
+
+<http://example.org/doc/89#char=0,108> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "108"^^xsd:nonNegativeInteger ;
+    nif:isString "Matatagpuan Frosinone mga 75 kilometro (47 mi) timog-silangan ng Roma na malapit sa Rome-Naples A1 Motorway." .
+
+<http://example.org/doc/9#char=0,274> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "274"^^xsd:nonNegativeInteger ;
+    nif:isString "Noong 2003, nagtapos KC sa International School Manila (Internasyunal na Paaralan sa Maynila), at noong 2007, nagtapos siya ng may batsilyer na digri sa Internasyunal na Komunikasyong Pangkorporasyon na may menor sa Sining Panteatro mula sa Amerikanong Unibersidad ng Paris." .
+
+<http://example.org/doc/90#char=0,101> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "101"^^xsd:nonNegativeInteger ;
+    nif:isString "41°53′N 4°33′W﻿ / ﻿41.883°N 4.550°W﻿ / 41.883; -4.550 Ang lathalaing Dueñas, Espanya ay isang usbong." .
+
+<http://example.org/doc/91#char=0,286> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "286"^^xsd:nonNegativeInteger ;
+    nif:isString "Noong 1977, muling isinapelikula ang awitin niyang Nananabik, kung kailan Didith na ang gumanap bilang bida sa kauna-unahang pagkakataon, kasama ang mga artistang sina Roel Vergel de Dios, Eddie Gutierrez at iba pa. Ang lathalaing ito na tungkol sa Pilipinas at Artista ay isang usbong." .
+
+<http://example.org/doc/92#char=0,87> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "87"^^xsd:nonNegativeInteger ;
+    nif:isString "Rodel Pacheco Nacianceno rin ay gumanap sa pelikulang Kaleldo (Summer Heat) noong 2006." .
+
+<http://example.org/doc/93#char=0,56> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "56"^^xsd:nonNegativeInteger ;
+    nif:isString "Nakapalibot sa timog-silangan Texas ang Golpo ng Mehiko." .
+
+<http://example.org/doc/94#char=0,243> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "243"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang mga kanluraning simbahan ay tahakang nagtakwil sa mga turo ng Simbahang Romano Katolika at napangalanang \"Protestante\" Gayumpaman, ang ilang sa mga protestanteng Katolisismo, ay nanalig pa rin na sila ang tunay, buo at kumpletong Katoliko." .
+
+<http://example.org/doc/95#char=0,51> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "51"^^xsd:nonNegativeInteger ;
+    nif:isString "Makatutulong ka sa Wikipedia sa pagpapalawig Tarja." .
+
+<http://example.org/doc/96#char=0,63> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "63"^^xsd:nonNegativeInteger ;
+    nif:isString "Ang lathalaing Reymond na tungkol sa Pilipinas ay isang usbong." .
+
+<http://example.org/doc/97#char=0,218> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "218"^^xsd:nonNegativeInteger ;
+    nif:isString "Iniulat ng PANORA noong Disyembre 17, 2019, isang ahensyang balita nakabase sa Tokyo, na naubos lahat ang mga tiket sa konsyertong Hololive Production at mag-host ang Cover ng live stream pay-per-view nito sa Niconico." .
+
+<http://example.org/doc/98#char=0,153> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "153"^^xsd:nonNegativeInteger ;
+    nif:isString "Bagamat Kenny Irons ay pinupuri at inaasahamg susunod na starting running back, nahirapan pa din siya dahil sa kompetisyon kina Brad Lester at Tre Smith." .
+
+<http://example.org/doc/99#char=0,92> a nif:Context,
+        nif:RFC5147String,
+        nif:String ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "92"^^xsd:nonNegativeInteger ;
+    nif:isString "Gavan ang unang bahagi ng daambakal na natapos ng magiging Pangunahing linya ng Baikal-Amur." .
+
