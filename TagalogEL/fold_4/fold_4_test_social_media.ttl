@@ -1,0 +1,1421 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://MalayEL/0#0,153>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:isString          "Kapirasong Capraia Isola lang nasa 64km muna sa Livorno, 53km from Piombino, 37km from Gorgona, at 31km from Corsica. Grabe talaga yun! 😍 #travelgoals 🗺️"^^xsd:string .
+
+<http://MalayEL/0#11,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/0#0,153> ;
+        nif:anchorOf          "Capraia Isola" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q157733> .
+
+<http://MalayEL/1#0,158>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe talaga ang Noto nung napuntahan ko! Magandang Barokong Siciliano yarn, tama? Yung Val di Noto eh sikat na sikat ngayon sa turismo dahil sa architecture."^^xsd:string .
+
+<http://MalayEL/1#88,99>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/1#0,158> ;
+        nif:anchorOf          "Val di Noto" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q176227> .
+
+<http://MalayEL/2#0,108>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakatutulungan ka naman sa Wikipedia para malawak ng coverage nyan. Gotta love yung mga entry ng Irak. Diba?"^^xsd:string .
+
+<http://MalayEL/2#97,101>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/2#0,108> ;
+        nif:anchorOf          "Irak" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q796> .
+
+<http://MalayEL/3#0,355>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe, sa 2001 nalang nakuha na yung Lichtenberg ang Hohenschönhausen sa reporma niya. Diba charot? 😲👍 #BerlinLife 📍
+ 
+(Note: The instruction asked for a rewrite in informal Tagalog/Taglish including the exact phrase \"Lichtenberg\" but the above response inadvertently included the name \"Hohenschönhausen\" which should have been avoided based on the rules."^^xsd:string .
+
+<http://MalayEL/3#37,48>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/3#0,355> ;
+        nif:anchorOf          "Lichtenberg" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q329609> .
+
+<http://MalayEL/4#0,162>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:isString          "Maria Amapola Cabase pa nga diba, tapos nag-Valentine Presentation sila ng TIIP - You Are My Destiny. Nakapalo ka pa ni Amapola at Victor Wood! Grabe talaga yarn."^^xsd:string .
+
+<http://MalayEL/4#0,20>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/4#0,162> ;
+        nif:anchorOf          "Maria Amapola Cabase" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q8197051> .
+
+<http://MalayEL/5#0,112>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:isString          "Cynthia Villar eh, kontrobersyal nang senador diba? Laban siya sa mga magsasaka, charot naman. Grrr #sigh lol 🙄耥"^^xsd:string .
+
+<http://MalayEL/5#0,14>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/5#0,112> ;
+        nif:anchorOf          "Cynthia Villar" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2192916> .
+
+<http://MalayEL/6#0,151>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:isString          "Huh, baka naman yarn ng lathalain ni Kristine Hermosa Orille-Sotto diba? Grabe, nag-usbong naman ng balita tungkol sa Pilipinas at siya pa mismo! Lol 🤣"^^xsd:string .
+
+<http://MalayEL/6#37,66>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/6#0,151> ;
+        nif:anchorOf          "Kristine Hermosa Orille-Sotto" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3550248> .
+
+<http://MalayEL/7#0,115>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:isString          "Lawa naman, charot talaga! Mahigit kumulang na 90 km sa hilaga ng Metro Manila diba? Grabe na talaga ang distansya."^^xsd:string .
+
+<http://MalayEL/7#0,4>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/7#0,115> ;
+        nif:anchorOf          "Lawa" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3543823> .
+
+<http://MalayEL/8#0,129>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe yung Quinto Curcio Rufo, iba ibang opinion sila diba? Ngayon depende kung sino yung nagbibigay ng opinyon. 😂 #opinionated 🤔"^^xsd:string .
+
+<http://MalayEL/8#11,29>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/8#0,129> ;
+        nif:anchorOf          "Quinto Curcio Rufo" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5959> .
+
+<http://MalayEL/9#0,107>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:isString          "Brålanda yarn daw, dito sa mga biktima ng charot na bayan at may malaking kamalig sa ani. Grrr, bruh. 🤦‍♀️💸"^^xsd:string .
+
+<http://MalayEL/9#0,8>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/9#0,107> ;
+        nif:anchorOf          "Brålanda" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2283709> .
+
+<http://MalayEL/10#0,59>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:isString          "Gosh, ang biktima ng charot ni Aaron Corp, grabe yun. LOL 🤣"^^xsd:string .
+
+<http://MalayEL/10#31,41>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/10#0,59> ;
+        nif:anchorOf          "Aaron Corp" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3546743> .
+
+<http://MalayEL/11#0,131>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe, nag-umano na ang 2024 na senso. Munisipalidad ng Sapa-Sapa na lang yung binabanggit, may 37k pa na tao at 5k na bahay. Yarn!"^^xsd:string .
+
+<http://MalayEL/11#39,65>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/11#0,131> ;
+        nif:anchorOf          "Munisipalidad ng Sapa-Sapa" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q155274> .
+
+<http://MalayEL/12#0,100>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakilala na Robert James Reid diba, Big Winner ng PBB Teen Clash 2010 yarn, grabe! 😍👍 #ProudOfHim 🏆💪"^^xsd:string .
+
+<http://MalayEL/12#12,29>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/12#0,100> ;
+        nif:anchorOf          "Robert James Reid" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q17194316> .
+
+<http://MalayEL/13#0,114>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:isString          "Kuya, help naman sa WP para mabigyan ng page Richard Vincent Segreto Macaraeg. Grabe kailangan ng exposure yan. 🙏🔥"^^xsd:string .
+
+<http://MalayEL/13#45,77>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/13#0,114> ;
+        nif:anchorOf          "Richard Vincent Segreto Macaraeg" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3544166> .
+
+<http://MalayEL/14#0,176>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sesia lang siguro 30km hilaga-kanluran ng Novara, charot! Plus, 40km muna mula Vercelli, 35km muna mula Biella, at 20km mula Lawa ng Maggiore at Lawa ng Orta. Ganda naman diba?"^^xsd:string .
+
+<http://MalayEL/14#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/14#0,176> ;
+        nif:anchorOf          "Sesia" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q22593> .
+
+<http://MalayEL/15#0,140>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakakita ka na sa latest news tungkol kay Armida Ponce-Enrile y Liwanag? Mama niya y Juan Ponce Enrile, senador na lang naman. Grabe, di ba?"^^xsd:string .
+
+<http://MalayEL/15#42,71>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/15#0,140> ;
+        nif:anchorOf          "Armida Ponce-Enrile y Liwanag" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3544581> .
+
+<http://MalayEL/16#0,122>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sige na magtulungan natin sa Wiki para mas lage ang kontento, KUW! Grabe na kaya tayo para makatulong diba? 😎👍 #teamwork 🤝"^^xsd:string .
+
+<http://MalayEL/16#62,65>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/16#0,122> ;
+        nif:anchorOf          "KUW" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q817> .
+
+<http://MalayEL/17#0,94>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe nyan! Si Aquino nagwin eh may malaking agwat. At yari na akbayan citizen's action party?"^^xsd:string .
+
+<http://MalayEL/18#0,168>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:isString          "Careggine talaga ang pinangakoan nung dalawang nagaling sa football, Marco Tardelli at Adriano Tardelli. Grabe, isa pa sa mga bayani ng rebolusyon ng Italya diba? Yarn!"^^xsd:string .
+
+<http://MalayEL/18#0,9>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/18#0,168> ;
+        nif:anchorOf          "Careggine" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q216886> .
+
+<http://MalayEL/19#0,194>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "194"^^xsd:nonNegativeInteger ;
+        nif:isString          "Merritt yan eh, kilala natin siya bilang yung nurse na si Zoey sa Nurse Jackie dati, matapang talaga. Yung balo rin niya sa Godless, grabe. At si detective niya sa Unbelievable, charot naman eh."^^xsd:string .
+
+<http://MalayEL/19#0,7>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/19#0,194> ;
+        nif:anchorOf          "Merritt" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q440189> .
+
+<http://MalayEL/20#0,102>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe yun! Ang lathalaing Tong Wai tungkol sa artista at TV ng Tsina eh? Yarn, interesante naman diba?"^^xsd:string .
+
+<http://MalayEL/20#26,34>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/20#0,102> ;
+        nif:anchorOf          "Tong Wai" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q270687> .
+
+<http://MalayEL/21#0,133>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe naman noong Pebrero 2018, yung \"Tagpuan\" ni Moira Rachelle Bustamante Dela Torre? Nabili na ng fans sa apat na araw lang. Yarn!"^^xsd:string .
+
+<http://MalayEL/21#50,86>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/21#0,133> ;
+        nif:anchorOf          "Moira Rachelle Bustamante Dela Torre" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q47485620> .
+
+<http://MalayEL/22#0,72>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sige na magtulungan tayo sa Wikipedia diba? Pancho! Grabe kasi nangyari."^^xsd:string .
+
+<http://MalayEL/22#44,50>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/22#0,72> ;
+        nif:anchorOf          "Pancho" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7130355> .
+
+<http://MalayEL/23#0,138>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:isString          "Noong 1890 pa lang, tapos na naman yung course ni Giuseppe Schirò sa law school sa Unibersidad ng Palermo. Grabe, yarn! 😎👍 #kalegalkalugay"^^xsd:string .
+
+<http://MalayEL/23#50,65>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/23#0,138> ;
+        nif:anchorOf          "Giuseppe Schirò" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2280013> .
+
+<http://MalayEL/24#0,121>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe yung Salento naman, kover lahat ng Lecce province. Malaking bahagi pa ng Brindisi at part ng Taranto diba? 🌍✨ #pala"^^xsd:string .
+
+<http://MalayEL/24#11,18>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/24#0,121> ;
+        nif:anchorOf          "Salento" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q735628> .
+
+<http://MalayEL/25#0,125>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:isString          "Tama na naman magtulungan tayo sa Wikipedia para ipaglaban yung Riki Choushuu. Grabe, kailangan natin yan, diba? 📚💪 #teamwork"^^xsd:string .
+
+<http://MalayEL/25#64,77>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/25#0,125> ;
+        nif:anchorOf          "Riki Choushuu" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3041872> .
+
+<http://MalayEL/26#0,106>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:isString          "Kaya ka magtulungan sa WP para palawakin yun BHU. Grabe, yarn tayo naman! 🚀🔥 #teamwork #wikipediaupdate 📜✨"^^xsd:string .
+
+<http://MalayEL/26#45,48>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/26#0,106> ;
+        nif:anchorOf          "BHU" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q917> .
+
+<http://MalayEL/27#0,86>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakabukas na nang 1995 yung Estúdios dito sa Rio de Janeiro, Brasil. Grabe na yarn! 🌴✨"^^xsd:string .
+
+<http://MalayEL/27#28,36>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/27#0,86> ;
+        nif:anchorOf          "Estúdios" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7248937> .
+
+<http://MalayEL/28#0,72>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakatutulong ka na diba sa Wikipedia? Florencenya eh. Grabe talaga yari."^^xsd:string .
+
+<http://MalayEL/28#38,46>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/28#0,72> ;
+        nif:anchorOf          "Florence" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q20578200> .
+
+<http://MalayEL/29#0,129>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:isString          "Omg namatay na si Assad noong 2000 diba? Yung anak niya, si Bashar al-Assad, na siyang naging leader ng Siria ngayon. Grabe yarn!"^^xsd:string .
+
+<http://MalayEL/29#104,109>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/29#0,129> ;
+        nif:anchorOf          "Siria" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q858> .
+
+<http://MalayEL/30#0,116>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:isString          "Manuel Zelaya kasi yung dating tao sa pos ng Honduras, 2006-2009 tapos babala, napatalsik na naman. Grabe diba? 🤦‍♂️"^^xsd:string .
+
+<http://MalayEL/30#0,13>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/30#0,116> ;
+        nif:anchorOf          "Manuel Zelaya" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q191060> .
+
+<http://MalayEL/31#0,121>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:isString          "OMG, Bill Trinen naman! Narito yung tao na nag-aral ng negosyo, ekonomiya, at pagsasalin sa Japan, charot! Nakita mo yun?"^^xsd:string .
+
+<http://MalayEL/31#5,16>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "5"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/31#0,121> ;
+        nif:anchorOf          "Bill Trinen" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4911181> .
+
+<http://MalayEL/32#0,115>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakita kong nasa news yung Felicity Huffman, grabe yata talaga ang isyu niya diba? charot ng situation niya nyan. 😔"^^xsd:string .
+
+<http://MalayEL/32#27,43>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/32#0,115> ;
+        nif:anchorOf          "Felicity Huffman" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q190519> .
+
+<http://MalayEL/33#0,145>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:isString          "Lady Margarita Elizabeth Rose Alleyne Armstrong-Jones yung single gal na pinili ni Prinses Margaret bago siya mamatay, hah? Grabe yarn ng tao. :O"^^xsd:string .
+
+<http://MalayEL/33#0,53>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/33#0,145> ;
+        nif:anchorOf          "Lady Margarita Elizabeth Rose Alleyne Armstrong-Jones" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2414886> .
+
+<http://MalayEL/34#0,132>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:isString          "Unibersidad ng Tokyo lang yata sa Hapon diba? Grabe talaga ang presto nyan, part ng National Seven Universities pa! 😍👍 #proudstudent"^^xsd:string .
+
+<http://MalayEL/34#0,20>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/34#0,132> ;
+        nif:anchorOf          "Unibersidad ng Tokyo" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7842> .
+
+<http://MalayEL/35#0,230>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ngayon lang nakita kong Pilar Garrido Corrales sa GMA-7 diba, nagpapakita siya sa Lagot Ka, Isusumbong Kita. Yarn, binabawasan ko pa naman yung channel para makita rin yung gawa niya sa Philippine Idol sa ABC-5. Grabe talaga siya!"^^xsd:string .
+
+<http://MalayEL/35#24,46>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/35#0,230> ;
+        nif:anchorOf          "Pilar Garrido Corrales" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3543286> .
+
+<http://MalayEL/36#0,161>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ayan na! Noong 1924, Louis de Broglie nagsulat ng tesis tungkol sa quantum physics, yarn grabe yung ideyang ipinadala niya sa unibersidad, diba? 😲🔬 #historyclass"^^xsd:string .
+
+<http://MalayEL/36#21,37>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/36#0,161> ;
+        nif:anchorOf          "Louis de Broglie" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q83331> .
+
+<http://MalayEL/37#0,173>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "173"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ayaw kang mag-research diba? Pala, ang bayan ay naka-mention ng 1148 tapos 1226 nasa control nung Markes ng Monferrato. Pietro pa rin yung nag-aari sa Canonica di Vezzolano."^^xsd:string .
+
+<http://MalayEL/37#120,126>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/37#0,173> ;
+        nif:anchorOf          "Pietro" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q17753> .
+
+<http://MalayEL/38#0,154>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wtf, diba Agugliano lang yung naka-lista sa Descriptio Marchiae ni Albornoz noong 1356? Grabe na yarn yung kasaysayan ng lugar na yan. 🤔📍📖 #historybuffs 🏰"^^xsd:string .
+
+<http://MalayEL/38#10,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/38#0,154> ;
+        nif:anchorOf          "Agugliano" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q123505> .
+
+<http://MalayEL/39#0,96>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe yun talaga 'yung lathalaing Ernie tungkol sa artista natin diba? Usbong talaga. 🤯 #proud 💪"^^xsd:string .
+
+<http://MalayEL/39#34,39>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/39#0,96> ;
+        nif:anchorOf          "Ernie" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12963786> .
+
+<http://MalayEL/40#0,160>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe, inaresto na si Aung San Suu Kyi ni militar diba. Nakalimutang alisin siya sa publikong pamumuhay niya sa Miyangma. Kinasuhan pa niya sa mga krimen, yarn!"^^xsd:string .
+
+<http://MalayEL/40#112,120>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/40#0,160> ;
+        nif:anchorOf          "Miyangma" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q836> .
+
+<http://MalayEL/41#0,67>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sige na magtulungan natin sa Wikipedia diba. Hale. Grabe yata yarn."^^xsd:string .
+
+<http://MalayEL/41#45,49>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/41#0,67> ;
+        nif:anchorOf          "Hale" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3550456> .
+
+<http://MalayEL/42#0,149>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:isString          "Hindi naman siguro malinaw yung relasyon nila diba? Pero yarn, Pinas, may proof na dati dito sa Luzon at Java ay may koneksyon na noong 1000s. Grabe!"^^xsd:string .
+
+<http://MalayEL/42#63,68>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/42#0,149> ;
+        nif:anchorOf          "Pinas" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q928> .
+
+<http://MalayEL/43#0,79>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sure na pala! Tulongin natin yung Wikipedia eh, gani lang kaya natin yan. Guji."^^xsd:string .
+
+<http://MalayEL/43#74,78>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/43#0,79> ;
+        nif:anchorOf          "Guji" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5617058> .
+
+<http://MalayEL/44#0,140>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:isString          "Eksklabo lang yan sa Carignano at Carmagnola pero sa loob ng Lombriasco, yarn! Grabe talaga yung mga lugar na iyon, diba? 😲📍 #TagalogLife 🇵🇭"^^xsd:string .
+
+<http://MalayEL/44#61,71>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/44#0,140> ;
+        nif:anchorOf          "Lombriasco" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q9432> .
+
+<http://MalayEL/45#0,120>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:isString          "Apeng lathalain naman, yari na bang? Grabe, naglalaro pa ng detalye tungkol sa Pilipinas at Artista. Usbong talaga diba."^^xsd:string .
+
+<http://MalayEL/45#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/45#0,120> ;
+        nif:anchorOf          "Apeng" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3543671> .
+
+<http://MalayEL/46#0,147>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:isString          "Silban naman tong karta para ma-recognize yung bundok niya. Yari na 'yung pangalan Wutai na ibig sabihin ng Malinaw-Malamig na Bundok. Grabe, yarn!"^^xsd:string .
+
+<http://MalayEL/46#83,88>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/46#0,147> ;
+        nif:anchorOf          "Wutai" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q120314> .
+
+<http://MalayEL/47#0,87>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sige kapatid, kailangan ka ng break sa Maldives diba? Yarn talaga ang place na yan. 😍☀️"^^xsd:string .
+
+<http://MalayEL/47#39,47>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/47#0,87> ;
+        nif:anchorOf          "Maldives" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q826> .
+
+<http://MalayEL/48#0,136>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe Republic of Indonesia, may 17,508 na pulo diba? Yarn, pinakamalaking estado ngayon sa mundo nga naman. 😱✨ #charot #pulopulohan 💙📍🌍"^^xsd:string .
+
+<http://MalayEL/48#6,27>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/48#0,136> ;
+        nif:anchorOf          "Republic of Indonesia" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q252> .
+
+<http://MalayEL/49#0,94>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:isString          "Huh, yung article tungkol sa Nairobi, Kenya eh. Grabe, iba talaga Africa diba? 😂 #charotnglife"^^xsd:string .
+
+<http://MalayEL/49#29,43>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/49#0,94> ;
+        nif:anchorOf          "Nairobi, Kenya" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3870> .
+
+<http://MalayEL/50#0,252>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakapalit na si Gurbanguly Berdimuhamedow ng leader sa TKM noong 11 Pebrero 2007, yarn! Grabe na yung pagkabago, diba? 🤯
+Note: The \"yarn\" here is a playful way to end a statement in Filipino social media language, similar to \"man\" or \"dude\" in English."^^xsd:string .
+
+<http://MalayEL/50#55,58>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/50#0,252> ;
+        nif:anchorOf          "TKM" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q874> .
+
+<http://MalayEL/51#0,123>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:isString          "Waaah Ḥanuka! Pista ng mga ilaw ni Yisrael diba? Grabe yung pagdiriwang ng mga Hudyo dun at kahit sa ibang bahagi ng mundo."^^xsd:string .
+
+<http://MalayEL/51#35,42>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/51#0,123> ;
+        nif:anchorOf          "Yisrael" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q801> .
+
+<http://MalayEL/52#0,76>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe nyan! Pasil ngayon may 10,690 ka tao na diba? At 2,066 na bahay, yarn."^^xsd:string .
+
+<http://MalayEL/52#12,17>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/52#0,76> ;
+        nif:anchorOf          "Pasil" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q35866> .
+
+<http://MalayEL/53#0,132>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:isString          "Fiave talaga yung lugar nung prehistoryang bahay na may tayakad. Grabe naman, nakaloc sa unesco world heritage site pa ngayon. Yarn!"^^xsd:string .
+
+<http://MalayEL/53#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/53#0,132> ;
+        nif:anchorOf          "Fiave" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q286808> .
+
+<http://MalayEL/54#0,101>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:isString          "Huh, kaya mo naman magtulungan sa Wiki para palawakin yung Lappion. Grabe, charot naman yan, diba? 😎👍"^^xsd:string .
+
+<http://MalayEL/54#59,66>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/54#0,101> ;
+        nif:anchorOf          "Lappion" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q783599> .
+
+<http://MalayEL/55#0,131>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:isString          "Kuala Lumpur siguro yung kabise ng lungsod ni Malasia, diba? Pero ang Putrajaya eh yun talaga yung sentro ng gobyerno. Grabe, yarn!"^^xsd:string .
+
+<http://MalayEL/55#46,53>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/55#0,131> ;
+        nif:anchorOf          "Malasia" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q833> .
+
+<http://MalayEL/56#0,153>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakatutulungan ka na sa Wikipedia ha? Grabe naman yung project ngayon, kasi dapat magbigay tayo ng mas maraming impormasyon tungkol kay Choi Ye-na. Yarn!"^^xsd:string .
+
+<http://MalayEL/56#136,146>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/56#0,153> ;
+        nif:anchorOf          "Choi Ye-na" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q55694544> .
+
+<http://MalayEL/57#0,84>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ali lang talaga yung makakatanong dtrctly sa Gng. Grabe naman yarn, charot na. 🤪🤷‍♀️"^^xsd:string .
+
+<http://MalayEL/57#0,3>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/57#0,84> ;
+        nif:anchorOf          "Ali" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12961351> .
+
+<http://MalayEL/58#0,103>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:isString          "Chris na eh MP nanguna para sa Remutaka since 2008 diba. Grabe yung journey niya, yarn. 🚀💪 #politics 🇳🇿"^^xsd:string .
+
+<http://MalayEL/58#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/58#0,103> ;
+        nif:anchorOf          "Chris" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5106890> .
+
+<http://MalayEL/59#0,112>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sobs, Abigail de Andrade namatay na eh. Makalipas lang isang taon sa parehong sakit. Grabe naman, charot talaga."^^xsd:string .
+
+<http://MalayEL/59#6,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/59#0,112> ;
+        nif:anchorOf          "Abigail de Andrade" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q8184049> .
+
+<http://MalayEL/60#0,130>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:isString          "Yarn, San ni? Noong Feb 22, 1989, nagbigay sila kay Giuseppe Sapino ng tropee sa Yad Vashem. Grabe, matuwid nga siya sa mga bansa."^^xsd:string .
+
+<http://MalayEL/60#6,9>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/60#0,130> ;
+        nif:anchorOf          "San" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q10273> .
+
+<http://MalayEL/61#0,107>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:isString          "Kaya ka bang tumulong sa Wikipedia? Diba kailangan pa raw ng mga entry tungkol kay Bernadette. Grabe naman."^^xsd:string .
+
+<http://MalayEL/61#83,93>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/61#0,107> ;
+        nif:anchorOf          "Bernadette" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q20590318> .
+
+<http://MalayEL/62#0,123>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:isString          "Peter bato! Anak ni Henry Fonda yan diba, kapatid ni Jane Fonda pa. Amay rin ni Bridget Fonda. Grabe yata ang pamilya niya."^^xsd:string .
+
+<http://MalayEL/62#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/62#0,123> ;
+        nif:anchorOf          "Peter" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q210148> .
+
+<http://MalayEL/63#0,108>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:isString          "Eeeh help naman sa Wikipedia para malatay na ung entries nang Unibersidad ng Ulster. Grabe kailangan nyan. 🙏"^^xsd:string .
+
+<http://MalayEL/63#62,83>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/63#0,108> ;
+        nif:anchorOf          "Unibersidad ng Ulster" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2096524> .
+
+<http://MalayEL/64#0,137>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe yun, Casteldaccia origin ng name naman is mixed ng \"castello\" (kastilyo) at \"accia\" (apyo). Charot diba? 😲🌿 #historyNalangDinYan 📜🧱"^^xsd:string .
+
+<http://MalayEL/64#11,23>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/64#0,137> ;
+        nif:anchorOf          "Casteldaccia" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q496859> .
+
+<http://MalayEL/65#0,170>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nang hanggang WW2, Werner naman siyang direktor ng Kaiser Wilhelm Institute for Physics. Ngayon, Max Planck Institute for Physics na diba? Grabe yata ang pagbabago, yarn."^^xsd:string .
+
+<http://MalayEL/65#19,25>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/65#0,170> ;
+        nif:anchorOf          "Werner" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q40904> .
+
+<http://MalayEL/66#0,161>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:isString          "2007 pa lang tapos Natalie Imbruglia naglabas ng Glorious: The Singles 97–07. Grabe yun, puro hits diba? Yung \"Glorious\" nga dun nasa #23 lang sa UK chart, yarn!"^^xsd:string .
+
+<http://MalayEL/66#19,36>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/66#0,161> ;
+        nif:anchorOf          "Natalie Imbruglia" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q488353> .
+
+<http://MalayEL/67#0,134>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:isString          "Haha, kaya nga si Juan VIII Palaiologos naging ka-emperador ng kanyang tito bago 1416, diba? Yarn, naging solo mode noong 1425. Grabe!"^^xsd:string .
+
+<http://MalayEL/67#18,39>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/67#0,134> ;
+        nif:anchorOf          "Juan VIII Palaiologos" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q37062> .
+
+<http://MalayEL/68#0,192>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakita na yata ang unang tala tungkol kay Castel Gabbiano noong 862 diba? Grabe, naka-mention din pa rin siya ngayon mismo sa ika-12 siglo, nang ididinira ni Enrique VI ang mga Cremones. Yarn!"^^xsd:string .
+
+<http://MalayEL/68#42,57>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/68#0,192> ;
+        nif:anchorOf          "Castel Gabbiano" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q42821> .
+
+<http://MalayEL/69#0,108>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:isString          "Madre pala yung nagbubunot dito sa Luzon! Grabe yun, bundok-bundok lang pala ang nasa gitna niya. Diba yarn!"^^xsd:string .
+
+<http://MalayEL/69#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/69#0,108> ;
+        nif:anchorOf          "Madre" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2166028> .
+
+<http://MalayEL/70#0,91>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:isString          "Huh, yung Beautor na blog tungkol sa Heograpiya, sobrang grabe diba? Nakakasigla talaga! 🌍✨"^^xsd:string .
+
+<http://MalayEL/70#10,17>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/70#0,91> ;
+        nif:anchorOf          "Beautor" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q843082> .
+
+<http://MalayEL/71#0,108>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:isString          "Yarn, ang GDP ng Republic of Singapore eh top of the world diba? Grabe talaga yung ekonomiya nila. 😲💸 #proud"^^xsd:string .
+
+<http://MalayEL/71#17,38>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/71#0,108> ;
+        nif:anchorOf          "Republic of Singapore" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q334> .
+
+<http://MalayEL/72#0,89>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakakatulong ka naman sa wiki para malawak pa ang coverage niya ngayon. Aleosan, yarn! 😎👍"^^xsd:string .
+
+<http://MalayEL/72#72,79>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/72#0,89> ;
+        nif:anchorOf          "Aleosan" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q315061> .
+
+<http://MalayEL/73#0,83>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe yun! Ang origin ng name basahin diba? Nagmula si Basiglio sa Latin na haligi."^^xsd:string .
+
+<http://MalayEL/73#55,63>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/73#0,83> ;
+        nif:anchorOf          "Basiglio" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q42915> .
+
+<http://MalayEL/74#0,114>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:isString          "Tulong ka sa Wikipedia naman JOR, yarn talaga kailangan ng tulong dito. Grabe na ngayon ang mga entry. 😂👌 #TEAMJOR"^^xsd:string .
+
+<http://MalayEL/74#29,32>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/74#0,114> ;
+        nif:anchorOf          "JOR" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q810> .
+
+<http://MalayEL/75#0,149>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:isString          "1987 pa lang eh Noel Gadiano Cabangon umubo nung Buklod sama-sama ni Rene Boncocan at Rom Dongeto. Grabe yata yarn ng grupo nila. 🤪🔥 #historyRepeat 🔁"^^xsd:string .
+
+<http://MalayEL/75#16,37>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/75#0,149> ;
+        nif:anchorOf          "Noel Gadiano Cabangon" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q71142705> .
+
+<http://MalayEL/76#0,1438>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1438"^^xsd:nonNegativeInteger ;
+        nif:isString          "Eyy, Prathet Thai lang naman yung Nonthaburi, Pathum Thani, Samut Prakan, Naon Pathom, Samut Sakhon. Grabe talaga kung mapapansin mo yung mga lugar diba? 🌇PostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceStateCountryPostalCodesTownCityProvinceProvince"^^xsd:string .
+
+<http://MalayEL/76#5,17>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "5"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/76#0,1438> ;
+        nif:anchorOf          "Prathet Thai" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q869> .
+
+<http://MalayEL/77#0,109>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:isString          "Waaah, Torre de' Negri kasi yung pinagmamasdan ng Negri di Pavia, bababa ka pa ba sa 1361? Grabe yon, yarn. 😱"^^xsd:string .
+
+<http://MalayEL/77#7,22>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/77#0,109> ;
+        nif:anchorOf          "Torre de' Negri" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q40932> .
+
+<http://MalayEL/78#0,137>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:isString          "Haha, baka tanga lang ako pero yung lathalaing Suzuran Yamauchi eh sobrang grabe diba? Charot talaga yarn! 😂👍 #tagalogsense #sobranghilig"^^xsd:string .
+
+<http://MalayEL/78#47,63>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/78#0,137> ;
+        nif:anchorOf          "Suzuran Yamauchi" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q867486> .
+
+<http://MalayEL/79#0,123>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:isString          "Kumuha ka ng account sa Wikipedia, sige na! Gagawin mo ba tong Adrian Justine Aquino Muhlach na siyang malawak? Haha, yarn."^^xsd:string .
+
+<http://MalayEL/79#63,92>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/79#0,123> ;
+        nif:anchorOf          "Adrian Justine Aquino Muhlach" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4699477> .
+
+<http://MalayEL/80#0,143>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ang mga guho nyan sa Ur naman diba, katimugsuran ng Iraq yan, close lang sa Ilog ng Euprates. Grabe yata yan ng history. 🏺📜 #historybuffs lol 😎"^^xsd:string .
+
+<http://MalayEL/80#21,23>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/80#0,143> ;
+        nif:anchorOf          "Ur" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5699> .
+
+<http://MalayEL/81#0,189>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:isString          "Hayn, sinabi nung iba na ang Bagheria galing dun sa Bāb al-Gerib ng Arab, kasing ibig sabihin niya \"mahangin na tarangkahan.\" Grabe yata talaga yon noong una, yarn! 😲💨 #historynerdmodeon 📜🌍"^^xsd:string .
+
+<http://MalayEL/81#29,37>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/81#0,189> ;
+        nif:anchorOf          "Bagheria" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q27000> .
+
+<http://MalayEL/82#0,104>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:isString          "Waaaa, Bayani nangbalik kay GMA 7 diba? Grabe na, tapos na 15 taon na! Yarn, bakit ba lumipat sila noon?"^^xsd:string .
+
+<http://MalayEL/82#7,13>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/82#0,104> ;
+        nif:anchorOf          "Bayani" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q3545086> .
+
+<http://MalayEL/83#0,154>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:isString          "Waaaa, Eiji yari na akong nag-awdisyon dalawa na naman, pero wala pa ring tanda. Kasi na rin siya kame rider, charot, diba? 🤦‍♂️🤷‍♀️ #frustratedmodeon 🔥🔥🔥"^^xsd:string .
+
+<http://MalayEL/83#7,11>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/83#0,154> ;
+        nif:anchorOf          "Eiji" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1195301> .
+
+<http://MalayEL/84#0,147>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakakarot yung Liberal Party eh, ikalang-kalumang party lang pero naka-continue pa ngayon. Grabe, lumang simbolo ng politika tayo. 😂 #historyRepeat"^^xsd:string .
+
+<http://MalayEL/84#15,28>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/84#0,147> ;
+        nif:anchorOf          "Liberal Party" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1476937> .
+
+<http://MalayEL/85#0,244>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:isString          "Hay naku, sa timog niya eh nagmumukhang burol ang lugar, 'Müggelsee', yarn 115 metro nga taas! Galing pa dun ang view, kaya kailangan ka ng lungkot eh di mo pa nakikita doon. Grabe yung history nyan, nagkakaroon ka ng klase sa mag-aaral ngayon."^^xsd:string .
+
+<http://MalayEL/85#58,67>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/85#0,244> ;
+        nif:anchorOf          "Müggelsee" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q694789> .
+
+<http://MalayEL/86#0,109>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe, nandito na mismo si Maria Teresa Bovick Tambis sa PBB Celebrity! Yarn, magiging gulo tayo diba? lol 🤪🎉"^^xsd:string .
+
+<http://MalayEL/86#27,53>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/86#0,109> ;
+        nif:anchorOf          "Maria Teresa Bovick Tambis" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4714304> .
+
+<http://MalayEL/87#0,121>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pranses yarn yung lugar diba? May Tonkin, Annam, Cochin-China, Cambodia, at Lan Xian. Grabe talaga yung kasaysayan niyan."^^xsd:string .
+
+<http://MalayEL/87#0,7>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/87#0,121> ;
+        nif:anchorOf          "Pranses" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q185682> .
+
+<http://MalayEL/88#0,57>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:isString          "23km lng ang haba n Lobo, grabe nga malinis yun, yarn! 🌊✨"^^xsd:string .
+
+<http://MalayEL/88#20,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/88#0,57> ;
+        nif:anchorOf          "Lobo" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q35336444> .
+
+<http://MalayEL/89#0,113>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nakakatulong naman sa pag-extend ng knowledge dito sa Wikipedia Lauren Young. Grabe talaga yari! 😎📚 #WikiMagic 📜✨"^^xsd:string .
+
+<http://MalayEL/89#64,76>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/89#0,113> ;
+        nif:anchorOf          "Lauren Young" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q6500422> .
+
+<http://MalayEL/90#0,162>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe nyan, Mansa Musa I nagpromise nga makakasamantala sya sa ibang Muslim territories, partikular sa Mamluk at Marinids. Charot tayo diba? #historynerdmodeonlol"^^xsd:string .
+
+<http://MalayEL/90#12,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/90#0,162> ;
+        nif:anchorOf          "Mansa Musa I" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q309333> .
+
+<http://MalayEL/91#0,157>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:isString          "OMG, nandito na rin yung Chunghwa, Kangnam, at Sangwon sa #Lalawigan ng Hilagang Hwanghae diba? Noong 2010 pa lang naghiwalay sila sa Pyongyang. Grabe naman!"^^xsd:string .
+
+<http://MalayEL/91#59,89>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/91#0,157> ;
+        nif:anchorOf          "Lalawigan ng Hilagang Hwanghae" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q109342> .
+
+<http://MalayEL/92#0,132>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:isString          "Haha, focus talaga ngayon sa mga paliguan ni Salsomaggiore diba? Lalo na yung \"terme\" na nakadepende sa gitna ng bayan. Grabe, yarn!"^^xsd:string .
+
+<http://MalayEL/92#45,58>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/92#0,132> ;
+        nif:anchorOf          "Salsomaggiore" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q100916> .
+
+<http://MalayEL/93#0,148>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:isString          "Laveno-Mombello kaya naman ng bayan pantalan! Nakakasundo nga raw kay Varese at Verbania, plus malapit pa sa mga Isla ng Borromeo. Grabe naman yarn."^^xsd:string .
+
+<http://MalayEL/93#0,15>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/93#0,148> ;
+        nif:anchorOf          "Laveno-Mombello" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q39550> .
+
+<http://MalayEL/94#0,102>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:isString          "Haha, diba? Sa 2024, Municipality of Baungon may 39,151 ka tao na lang nasa 8,927 na bahay. Grabe yun!"^^xsd:string .
+
+<http://MalayEL/94#21,44>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/94#0,102> ;
+        nif:anchorOf          "Municipality of Baungon" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q356943> .
+
+<http://MalayEL/95#0,90>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wow, #teamKIDSNEWS na si Anna Shiraki! Grabe, nandito na siya sa Asahi News Network. Yarn!"^^xsd:string .
+
+<http://MalayEL/95#25,37>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/95#0,90> ;
+        nif:anchorOf          "Anna Shiraki" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q11579816> .
+
+<http://MalayEL/96#0,125>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe, nakita ko dati yung senso ng 2024. Roxas, Oriental Mindoro may 58,428 ka tao na yarn, at 13,564 na bahay. Diba charot?"^^xsd:string .
+
+<http://MalayEL/96#42,65>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/96#0,125> ;
+        nif:anchorOf          "Roxas, Oriental Mindoro" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q107598> .
+
+<http://MalayEL/97#0,104>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:isString          "Lugar yarn tayo ngayon. Grabe yung mga terminong ginagamit per region. Depende talaga sa pangkat etniko."^^xsd:string .
+
+<http://MalayEL/98#0,110>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:isString          "Omg talaga, siya naman yung daliri ni Adams sa mga aming matanda noon! Napaka maipluwensiya niya! Diba charot?"^^xsd:string .
+
+<http://MalayEL/98#38,43>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/98#0,110> ;
+        nif:anchorOf          "Adams" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q11806> .
+
+<http://MalayEL/99#0,190>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe yung ginawa ni Santi Bartolomeo ed Alessandro dei Bergamaschi, yarn sila nag-support sa kultura at tradisyon ng Bergamo, diba? Charot talaga yung kanilang diyalogo sa Roma, lol. #proud"^^xsd:string .
+
+<http://MalayEL/99#21,67>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/99#0,190> ;
+        nif:anchorOf          "Santi Bartolomeo ed Alessandro dei Bergamaschi" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1106186> .
+
+<http://MalayEL/100#0,220>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:isString          "Grabe, sa Republikang Bayan ng Bangladesh may punong-tanggapan na BIMSTEC. Yarn, iyan yata talaga ang Inisyatibong Look ng Bengal para sa multi-sektoral na tekno at ekonomiks. Lol, kailangan ko magselasa sa detalye diba?"^^xsd:string .
+
+<http://MalayEL/100#10,41>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/100#0,220> ;
+        nif:anchorOf          "Republikang Bayan ng Bangladesh" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q902> .
+
+<http://MalayEL/101#0,107>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:isString          "Blakdyak naman yung pinaglalarawan bilang Hari ng Pinoy Reggae, charot! Grabe na grabe diba? #reggaetime 🎵✨"^^xsd:string .
+
+<http://MalayEL/101#0,8>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/101#0,107> ;
+        nif:anchorOf          "Blakdyak" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5729695> .
+
