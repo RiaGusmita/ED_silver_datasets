@@ -1,0 +1,1436 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://MalayEL/0#0,125>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah gila, Agnieszka ni rilis album baru tu dari 2009 hingga 2018. Modern Rocking, Forever Child, dan Pink Punk je camni. Wei!"^^xsd:string .
+
+<http://MalayEL/0#10,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/0#0,125> ;
+        nif:anchorOf          "Agnieszka" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4693230> .
+
+<http://MalayEL/1#0,123>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah ni gila! Abdul Rahman bin Ayob je orang pertama dlm kapal selam tu jadi Panglima Tentera Laut. Camni je pengalaman dia?"^^xsd:string .
+
+<http://MalayEL/1#13,34>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/1#0,123> ;
+        nif:anchorOf          "Abdul Rahman bin Ayob" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q116776061> .
+
+<http://MalayEL/2#0,149>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi kawan2 tau gak? Miss Supranational Ecuador 2023 ni dah mara ke Top 3 kat Miss Grand Ecuador 2021 tu. Gila lah, dia jadi juara atas 5 org lain je."^^xsd:string .
+
+<http://MalayEL/2#20,51>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/2#0,149> ;
+        nif:anchorOf          "Miss Supranational Ecuador 2023" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q110037992> .
+
+<http://MalayEL/3#0,123>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:isString          "Gila ril ni! Jack Allan Abramoff tu pernah jadi pengerusi kau tu dlm parti Republik College. Woi, masa 1981-1985 camni laa."^^xsd:string .
+
+<http://MalayEL/3#13,32>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/3#0,123> ;
+        nif:anchorOf          "Jack Allan Abramoff" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q471854> .
+
+<http://MalayEL/4#0,161>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi kawan, tau ke org ni? Billy Abit Joo tu pernah jadi ahli parlimen di Hulu Rajang sebanyak 5 kali je! Gila, dari 90an hingga 2013 tu macam ni lama jugak masa."^^xsd:string .
+
+<http://MalayEL/4#26,40>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/4#0,161> ;
+        nif:anchorOf          "Billy Abit Joo" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4912097> .
+
+<http://MalayEL/5#0,81>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:isString          "Azziz tu jadi TMYP PAS kat Bachok ni je. Gila eh, laik la masa tu! 🤪👍 #banggakita"^^xsd:string .
+
+<http://MalayEL/5#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/5#0,81> ;
+        nif:anchorOf          "Azziz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q25486352> .
+
+<http://MalayEL/6#0,104>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:isString          "27 Mei 2019 ni, A. Galak masuk Hospital KL kat sana kena angin ahmar kot. Gila je situasi tu wei. #baper"^^xsd:string .
+
+<http://MalayEL/6#16,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/6#0,104> ;
+        nif:anchorOf          "A. Galak" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q20466916> .
+
+<http://MalayEL/7#0,125>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai, Ray tu aktif betul kat medsos je. Lebih 197,000 followers kat Instagram kot ni. Dan camni, 78,000 likes dpt kat FB tu."^^xsd:string .
+
+<http://MalayEL/7#7,10>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/7#0,125> ;
+        nif:anchorOf          "Ray" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q131287859> .
+
+<http://MalayEL/8#0,91>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:isString          "Bilal ni jadi Ketua Penerangan PAS Melaka je kat sini wei. Gila kot macam camni tu? #update"^^xsd:string .
+
+<http://MalayEL/8#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/8#0,91> ;
+        nif:anchorOf          "Bilal" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q109958789> .
+
+<http://MalayEL/9#0,135>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi, tau tak Adam Corrie Lee ni? Dari 2009 kat 2013, dia paling dikenal kira kerjasama dgn Syamsul Yusof. Berlakon dalam 4 filem camni!"^^xsd:string .
+
+<http://MalayEL/9#13,28>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/9#0,135> ;
+        nif:anchorOf          "Adam Corrie Lee" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q20449609> .
+
+<http://MalayEL/10#0,137>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai, Muhammad Afiq Bin Fazail tu, beraksi 12 perlawanan je dlm Liga Premier kat musim pertamanya ni. Gila camni! #ngefansKatDiaLah 🤩⚽️🔥"^^xsd:string .
+
+<http://MalayEL/10#7,31>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/10#0,137> ;
+        nif:anchorOf          "Muhammad Afiq Bin Fazail" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q28147577> .
+
+<http://MalayEL/11#0,127>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah, tau tak? Ahadiat Akashah baru je dpat pengiktirafan tu kat Malaysian Book of Records. Gila, dia dah tulis 86 buah buku ni!"^^xsd:string .
+
+<http://MalayEL/11#14,29>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/11#0,127> ;
+        nif:anchorOf          "Ahadiat Akashah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12682104> .
+
+<http://MalayEL/12#0,118>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi, tau tak? Aaron Mustapha bin Aziz ni dah masuk hospital berkali2 dgn cedera kat lokasi syuting je. Gila camni wei."^^xsd:string .
+
+<http://MalayEL/12#14,37>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/12#0,118> ;
+        nif:anchorOf          "Aaron Mustapha bin Aziz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681848> .
+
+<http://MalayEL/13#0,148>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah, Abdullah ni gila je! Dah penulis macam gila, buku-buku dlm bahasa Melayu, komunikasi, terjemahan, utk kot perkamusan semua ada tangan dia. Wei!"^^xsd:string .
+
+<http://MalayEL/13#5,13>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "5"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/13#0,148> ;
+        nif:anchorOf          "Abdullah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681942> .
+
+<http://MalayEL/14#0,109>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adriano ni gila je! Tariannya cam si bebek ni, gak herlau dia dpt gelar \"il Molleggiato\". Wuih, si mulur kot!"^^xsd:string .
+
+<http://MalayEL/14#0,7>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/14#0,109> ;
+        nif:anchorOf          "Adriano" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q199943> .
+
+<http://MalayEL/15#0,156>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah Amrita Acharya tu gila je! Kat siri Game of Thrones dia jadi Irri camni ni, kat Good Karma Hospital jugak dia main Dr. Ruby Walker. Gila tuh talent dia!"^^xsd:string .
+
+<http://MalayEL/15#4,18>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/15#0,156> ;
+        nif:anchorOf          "Amrita Acharya" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4748667> .
+
+<http://MalayEL/16#0,154>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:isString          "Gila nih, kandungan dia selalu nampak nilai keluarga, penghargaan org kerja, dan bantu rakyat. Hafiz tu jadi influencer yang berpengaruh kat sini je. Wei!"^^xsd:string .
+
+<http://MalayEL/16#95,100>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/16#0,154> ;
+        nif:anchorOf          "Hafiz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q135215638> .
+
+<http://MalayEL/17#0,185>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah, Acryl dah dapat surat pelantikan jadi Ketua Polis Negara kat 30 April lalu, ganti org ni Acryl Sani Abdullah Sani. Tan Sri Abdul Hamid Bador tu kan kontrak dia tamat 3 Mei. Gila x?"^^xsd:string .
+
+<http://MalayEL/17#94,118>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/17#0,185> ;
+        nif:anchorOf          "Acryl Sani Abdullah Sani" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q106656151> .
+
+<http://MalayEL/18#0,153>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai, tau ke? Berhad tu blh bagi jps dgn sewa ruang menara, jlnan akses lokal, kabin utk simpen alatan, lgsg bekalan kuasa kot! Gila je la servis ni ni!"^^xsd:string .
+
+<http://MalayEL/18#15,21>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/18#0,153> ;
+        nif:anchorOf          "Berhad" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5017473> .
+
+<http://MalayEL/19#0,112>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai ni, Abdul Rani Kulup Abdullah akhirnya muncul dlm filem pertama tu kat Kipidapp! Gila je, ade camni ye! 🎥🔥"^^xsd:string .
+
+<http://MalayEL/19#10,35>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/19#0,112> ;
+        nif:anchorOf          "Abdul Rani Kulup Abdullah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q31185729> .
+
+<http://MalayEL/20#0,98>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi, tau tak Sadriddin? Dia main 9 match je dlm musim 2009 tapi jepe 2 goal kot ni. Gila camni r?!"^^xsd:string .
+
+<http://MalayEL/20#13,22>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/20#0,98> ;
+        nif:anchorOf          "Sadriddin" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7398101> .
+
+<http://MalayEL/21#0,149>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:isString          "Mula dlm dunia seni sejak 92, Adilla dah jadi ikon pada masa 90an. Kini dia tu dijuluki \"Ratu Keronchong Malaysia\" utk arah muziknya camni. Gila wei."^^xsd:string .
+
+<http://MalayEL/21#30,36>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/21#0,149> ;
+        nif:anchorOf          "Adilla" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7303515> .
+
+<http://MalayEL/22#0,121>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah, Ahlam tu dianugerahkan kpd org tu je, Muhammad Abdo. Syukurlah dia dpt suara 100% tulin cam Khaliji ni. Gila gak ni!"^^xsd:string .
+
+<http://MalayEL/22#5,10>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "5"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/22#0,121> ;
+        nif:anchorOf          "Ahlam" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q569049> .
+
+<http://MalayEL/23#0,174>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adam Adli Abd Halim balik skolah je kat universiti tp org tu gak bercakap camni. Gila, org ni digantung tp pdhl dia dgn tuduhan akta hasutan kat mahkamah. Wei kot situasi ni."^^xsd:string .
+
+<http://MalayEL/23#0,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/23#0,174> ;
+        nif:anchorOf          "Adam Adli Abd Halim" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q16058117> .
+
+<http://MalayEL/24#0,168>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:isString          "Gila, Adi bin Haji Mohammad Said je yang buat gol menang tu kat kemenangan pertama Brunei dlm kelayakan Piala Dunia dgn Chinese Taipei! Ni cam pahlawan kot ni wei! 🏆⚽️🔥"^^xsd:string .
+
+<http://MalayEL/24#6,32>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/24#0,168> ;
+        nif:anchorOf          "Adi bin Haji Mohammad Said" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4682615> .
+
+<http://MalayEL/25#0,136>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi kat sini, Aziz tu dah lulus sbg peguam dgn cepat je. Kat sblm tu jadi pegawai kerajaan, diplomat lgah ahli parlimen. Gila camni wei!"^^xsd:string .
+
+<http://MalayEL/25#14,18>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/25#0,136> ;
+        nif:anchorOf          "Aziz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7302699> .
+
+<http://MalayEL/26#0,95>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah, Adam blh kenaajar bnyak dgn penulis fiksyen Ron Carlson tu kat masa ni. Gila camni la. Tox"^^xsd:string .
+
+<http://MalayEL/26#5,9>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "5"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/26#0,95> ;
+        nif:anchorOf          "Adam" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4679309> .
+
+<http://MalayEL/27#0,90>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah, tau ke? Acleisson Scaion ni baru join squad Thespakusatsu Gunma je! Gila camni je la!"^^xsd:string .
+
+<http://MalayEL/27#13,29>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/27#0,90> ;
+        nif:anchorOf          "Acleisson Scaion" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q9581044> .
+
+<http://MalayEL/28#0,108>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi, teka ni gak? Adnan Bin Yaakob dpt jadi Menteri Besar Pahang lg tu. Gila blh kat penggal kedua jugak ni."^^xsd:string .
+
+<http://MalayEL/28#18,34>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/28#0,108> ;
+        nif:anchorOf          "Adnan Bin Yaakob" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q248802> .
+
+<http://MalayEL/29#0,181>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:isString          "Melanie Tan ni gila bgt, baru bljr dlm Cetera Hati Diya kat TV3 (2019) je dah jadi stok nih. Lgi lg knp dia jgk berlakon dlm Maaf Tak Indah camni, kat sana dia jadi Kelly wei. Wuih!"^^xsd:string .
+
+<http://MalayEL/29#0,11>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/29#0,181> ;
+        nif:anchorOf          "Melanie Tan" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q120230634> .
+
+<http://MalayEL/30#0,172>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adi Putra bin Abd Ghani dah pernah study kat Sekolah Islam Antarabangsa, Gombak nih tapi cuma 4 bln je. Kat camni, dia gak suka sistem skolah tu. Wei, kena la org camni ni."^^xsd:string .
+
+<http://MalayEL/30#0,23>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/30#0,172> ;
+        nif:anchorOf          "Adi Putra bin Abd Ghani" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12682037> .
+
+<http://MalayEL/31#0,140>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ady Mohammad tu dah masuk dunia acting kat 2020 je je. Gila, macam camni orang tahu dia? Ni beberapa drama hit yg bawa dia ke arah terkenal."^^xsd:string .
+
+<http://MalayEL/31#0,12>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/31#0,140> ;
+        nif:anchorOf          "Ady Mohammad" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q137428147> .
+
+<http://MalayEL/32#0,118>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:isString          "Shashic tu dah gagap je sejak kecil kot, ni dia warisi dari ortuknya. Gila la kan? Kat ni umur 4 taun dah macam camni."^^xsd:string .
+
+<http://MalayEL/32#0,7>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/32#0,118> ;
+        nif:anchorOf          "Shashic" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q137428479> .
+
+<http://MalayEL/33#0,245>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "245"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wei, Abdul Aziz bin Taha ni ganti Tun Ismail Mohamed Ali kat 1962-1980. Selepas tu, Tan Sri Dato' Jaffar Hussein ambik alih 1986-1994. Sembelih ni, Jaffar Hussein dgn Aziz ni rama-rama abang2 mertua camni, kpd Tun Abdul Razak dgn Tun Rahah Noah."^^xsd:string .
+
+<http://MalayEL/33#5,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "5"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/33#0,245> ;
+        nif:anchorOf          "Abdul Aziz bin Taha" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681872> .
+
+<http://MalayEL/34#0,130>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahh, peralihan ni camni dah, sebentar je lgk 12 resto kot SugarBun tu bnyk knn! Gila blh? Wei, jenama ni lagi naik daun sngtu ni."^^xsd:string .
+
+<http://MalayEL/34#59,67>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/34#0,130> ;
+        nif:anchorOf          "SugarBun" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q126112888> .
+
+<http://MalayEL/35#0,128>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abu Samah Mahat dulu jadi ADUN Johol tu je selama 5 tahun la je. Gila camni raya ni kat situ? Wei, masa la ni kita tak kenal lg."^^xsd:string .
+
+<http://MalayEL/35#0,15>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/35#0,128> ;
+        nif:anchorOf          "Abu Samah Mahat" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q116377975> .
+
+<http://MalayEL/36#0,167>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:isString          "Amirsham ni jadi presiden Maybank tu sejak lama, sampeh Mar 2008 je keluar. Kat April 2009 kot dia pegang jawatan tu. Gila bler, masa ni lama je dia aktif dlm politik."^^xsd:string .
+
+<http://MalayEL/36#26,33>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/36#0,167> ;
+        nif:anchorOf          "Maybank" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1364018> .
+
+<http://MalayEL/37#0,125>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:isString          "Aziz tu org berbakat je, camni dpt GCE 'O' Level kat Sekolah Menengah Muda Hashim ni. Bukit Bendera, Tutong kot. Gila blh ni!"^^xsd:string .
+
+<http://MalayEL/37#0,4>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/37#0,125> ;
+        nif:anchorOf          "Aziz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q129374769> .
+
+<http://MalayEL/38#0,115>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi, tau tak khabar ni? Uzbekistan tu jadi Presiden hingga mati dia je kat 2 Sep 2016 kot. Gila la panjang masa tu."^^xsd:string .
+
+<http://MalayEL/38#24,34>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/38#0,115> ;
+        nif:anchorOf          "Uzbekistan" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q265> .
+
+<http://MalayEL/39#0,106>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abel Luciatti ni main utk Renofa Yamaguchi FC je. Gila betul, eh! Kat mana dia blh dapat kesempatan camni?"^^xsd:string .
+
+<http://MalayEL/39#0,13>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/39#0,106> ;
+        nif:anchorOf          "Abel Luciatti" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q30899621> .
+
+<http://MalayEL/40#0,143>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah ni gila, Azmey dah jadi 'Tokoh Guru Kebangsaan 2012' kat Sambutan Hari Guru dlm Kuala Kangsar, Perak tu je. 16 Mei 2012 camni. Congklak la!"^^xsd:string .
+
+<http://MalayEL/40#13,18>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/40#0,143> ;
+        nif:anchorOf          "Azmey" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q20450265> .
+
+<http://MalayEL/41#0,124>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah, Anthony John Abbott tu jadi Ahli Parlimen kat Warringah dari 1994 smpai kini je. Gila, tu macam abang2 kita kot. #ngaca"^^xsd:string .
+
+<http://MalayEL/41#5,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "5"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/41#0,124> ;
+        nif:anchorOf          "Anthony John Abbott" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q348577> .
+
+<http://MalayEL/42#0,99>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai, dalam PRU ni Karim tu je gila, menang dgn majoriti 3,267 undi kot. Woi, ni cam mana je ni! 🤯"^^xsd:string .
+
+<http://MalayEL/42#20,25>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/42#0,99> ;
+        nif:anchorOf          "Karim" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681846> .
+
+<http://MalayEL/43#0,340>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "340"^^xsd:nonNegativeInteger ;
+        nif:isString          "Gila masa tu, Abu je dinaikkan pangkat kat Pengelola Kanan ni di Kuala Lumpur pada 1979 kot. Woi, camni je gak ni! #oldnews Abujjjeeee 🤪🎓👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍🏻👍"^^xsd:string .
+
+<http://MalayEL/43#14,17>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/43#0,340> ;
+        nif:anchorOf          "Abu" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q15989523> .
+
+<http://MalayEL/44#0,74>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:isString          "Shuto dah nyegek Piala Liga J. ni sama kawan2 kat klub tu je. Gila wei! 🏆🔥"^^xsd:string .
+
+<http://MalayEL/44#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/44#0,74> ;
+        nif:anchorOf          "Shuto" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q64747270> .
+
+<http://MalayEL/45#0,131>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai Yuna ni, macam camni nak dpt jasa Fuziah Harun Al Rashid tu utk nyanyi lagu 'Terukir di Bintang' kat AJL 2013? Gila je tu! 🤪✨"^^xsd:string .
+
+<http://MalayEL/45#40,62>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/45#0,131> ;
+        nif:anchorOf          "Fuziah Harun Al Rashid" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12712024> .
+
+<http://MalayEL/46#0,171>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah gila Addie MS ni cam ni kreatif kat runut bunyi filem Cinta Pertama tu je. Vokal Bunga Citra Lestari tu macam penambah semangat sikit wei. 🎧💕 Kat tahun berikutnya kot."^^xsd:string .
+
+<http://MalayEL/46#9,17>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/46#0,171> ;
+        nif:anchorOf          "Addie MS" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4681152> .
+
+<http://MalayEL/47#0,161>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah, ni Abdulrahman Ibn Abdulaziz al-Sudais je, presiden umum hal ehwal Masjid al-Haram & Masjid Nabawi. Qari terkenal sgt kat dunia ni tu. Gila camni jugak kan?"^^xsd:string .
+
+<http://MalayEL/47#8,43>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/47#0,161> ;
+        nif:anchorOf          "Abdulrahman Ibn Abdulaziz al-Sudais" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q317948> .
+
+<http://MalayEL/48#0,129>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi, tahu ke Sa'adu tu? Kat masa dahulu, dia jadi Sultan Sokoto je, tp dia jadi penceramah utama utk Muslim Nigeria ni. Gila kan?"^^xsd:string .
+
+<http://MalayEL/48#13,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/48#0,129> ;
+        nif:anchorOf          "Sa'adu" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1595620> .
+
+<http://MalayEL/49#0,119>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah, tahu kah ni? Ahmed Raissouni tu sekarang lagi duduk kat kelas dlm Qatar, Maghribi, dan lagi neg neg lain. Gila je!"^^xsd:string .
+
+<http://MalayEL/49#18,33>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/49#0,119> ;
+        nif:anchorOf          "Ahmed Raissouni" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q612292> .
+
+<http://MalayEL/50#0,139>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi kawan-kawan, adek Adelia Artamevia kat sini dulu jadi penyanyi kanak-kanak kat album TKK. Shieren je rekannya. Gila, tu tahun 2011 kot!"^^xsd:string .
+
+<http://MalayEL/50#22,38>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/50#0,139> ;
+        nif:anchorOf          "Adelia Artamevia" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q18421236> .
+
+<http://MalayEL/51#0,167>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahh, Adrianti Firdasari tu gila je! Emas kat SEA Games 2005 ni di Pilipina, lgi dua perak lgkat SEA Games 2007 kat Thailand dng 2011 kat Indo. Kena bangga org ni kot!"^^xsd:string .
+
+<http://MalayEL/51#6,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/51#0,167> ;
+        nif:anchorOf          "Adrianti Firdasari" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q377689> .
+
+<http://MalayEL/52#0,169>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:isString          "Suku 2 tahun 2025 ni, org MUDA nk mulakn pilihan raya kepimpinan pertama kali. Awalnya, Ikatan Demokratik Malaysia camni dicadangkan pada 2024 je wei. Gila macam tu kot."^^xsd:string .
+
+<http://MalayEL/52#88,114>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/52#0,169> ;
+        nif:anchorOf          "Ikatan Demokratik Malaysia" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q99442238> .
+
+<http://MalayEL/53#0,143>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abdulla Yameen ni lagi aktif kat politik je. Mewakili kawasan di Atol Miladhunmadulu Selatan dan Mulaku kot. Gila camni rakyat nk dipimpin wei."^^xsd:string .
+
+<http://MalayEL/53#0,14>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/53#0,143> ;
+        nif:anchorOf          "Abdulla Yameen" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4665896> .
+
+<http://MalayEL/54#0,107>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:isString          "Giler netizen tu dah nak jenaka dgn apa yg Adham bin Baba kata kat video ni. Huhu, semua panas utk camni. 😂"^^xsd:string .
+
+<http://MalayEL/54#43,57>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/54#0,107> ;
+        nif:anchorOf          "Adham bin Baba" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q55847609> .
+
+<http://MalayEL/55#0,179>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahaiye, anak2 syarikat ni gila je. Ada Air Asia kat sana, ada Kumpulan Caterham yg dulu punya Pasukan F1 Caterham, kat sini Group tu. Dan tak lupa QPR ni, kelab bola sepak UK tu."^^xsd:string .
+
+<http://MalayEL/55#125,130>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/55#0,179> ;
+        nif:anchorOf          "Group" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7852926> .
+
+<http://MalayEL/56#0,228>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah gila Adebayo ni main utk Kashiwa Reysol kat dulu kot, skrng lgsg pindah ke Tokyo Verdy wei. Woi ni cam mana? 😲spielballemoji
+(Note: The 'spielballemoji' at the end was added as a placeholder to represent a soccer ball emoji."^^xsd:string .
+
+<http://MalayEL/56#9,16>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/56#0,228> ;
+        nif:anchorOf          "Adebayo" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4681469> .
+
+<http://MalayEL/57#0,68>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:isString          "Rahman je skrg jadi coach dlm PKNS kot. Gila ni! Woi semua, tahu ke?"^^xsd:string .
+
+<http://MalayEL/57#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/57#0,68> ;
+        nif:anchorOf          "Rahman" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4665641> .
+
+<http://MalayEL/58#0,174>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:isString          "IWK tu org kerajaan dpt tuh, dikitai Menteri Kewangan diperbadikan. Misi mereka je buat sistem pembetungan baru camni, biar Malaysia Barat jadi lebih baik ni. Gila jugak amm?"^^xsd:string .
+
+<http://MalayEL/58#0,3>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/58#0,174> ;
+        nif:anchorOf          "IWK" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q6015650> .
+
+<http://MalayEL/59#0,116>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ara Aziz tu je anak kat Aziz M. Osman dgn Puteri Lily Lokman ye. Gila camni, anak artit ni macam jadi arti jugak! 🤯✨"^^xsd:string .
+
+<http://MalayEL/59#0,8>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/59#0,116> ;
+        nif:anchorOf          "Ara Aziz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q137428493> .
+
+<http://MalayEL/60#0,139>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:isString          "Agim tu je dgn Goran Cvijanović dan Nik Omladič kena pilih sbg pemain tengah terbaik camni kat PrvaLiga Slovenia 2012-13 kot. Gila je. 🤯⚽️🔥"^^xsd:string .
+
+<http://MalayEL/60#0,4>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/60#0,139> ;
+        nif:anchorOf          "Agim" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2756601> .
+
+<http://MalayEL/61#0,239>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:isString          "Aziz dah jadi pengerusi MAIS sejak 1 Jan 2021 tu kot. Gila la ni, selamat datang Aziz je ke MAIS! 🎉👏 #selamatdatang Aziz wei
+Note: I've included the exact phrase \"Aziz\" twice as requested, once within the sentence and once with a greeting."^^xsd:string .
+
+<http://MalayEL/61#0,4>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/61#0,239> ;
+        nif:anchorOf          "Aziz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681874> .
+
+<http://MalayEL/62#0,99>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah ni Abdul Muntaqim dulu pergi ISB kat Brunei je. Kat sekolah tu dia belajar sgt macam ni. #ngehe"^^xsd:string .
+
+<http://MalayEL/62#7,21>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/62#0,99> ;
+        nif:anchorOf          "Abdul Muntaqim" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q47544761> .
+
+<http://MalayEL/63#0,193>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah gila, peranan ni dpt nampang org rasuk, Ada Sharma patut dpt tajuk Anugerah Filmfare utk Penampilan Sulung Wanita Terbaik lah. Kena ni cam tu dekat layar kat dia je wei! Toh bagus tu ktnya!"^^xsd:string .
+
+<http://MalayEL/63#44,54>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/63#0,193> ;
+        nif:anchorOf          "Ada Sharma" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4678398> .
+
+<http://MalayEL/64#0,141>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:isString          "FIXI ni dah jumpa kot, rata-rata buku Melayu tu cuma fokus dlm cinta je wei. Gila je, macam nie camni masa-masa now? Bukan cuma cinta je lah."^^xsd:string .
+
+<http://MalayEL/64#0,4>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/64#0,141> ;
+        nif:anchorOf          "FIXI" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q28163545> .
+
+<http://MalayEL/65#0,142>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahaih, abang ni Abdul Basit Abdul Rahman tu macam gila la! Dpt PhD drpd uni terkenal kat luarni je. Wuih, bangga kot dgn anak Malaysia camni!"^^xsd:string .
+
+<http://MalayEL/65#17,41>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/65#0,142> ;
+        nif:anchorOf          "Abdul Basit Abdul Rahman" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681968> .
+
+<http://MalayEL/66#0,168>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi woi, tahu tak khabar ni? Records tu dibuka pada tahun 1997 je, dulu nama dia Hijjaz Music Entertainment. Didirikan ole' Hijjaz, kumpulan nasyid paling hot kat sini."^^xsd:string .
+
+<http://MalayEL/66#29,36>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/66#0,168> ;
+        nif:anchorOf          "Records" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12687678> .
+
+<http://MalayEL/67#0,100>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:isString          "Alex Abdullah Abbad ni tau je la sbg VJ MTV. Gila eh, camni kena kenal dia kot. Toh cantik jugak tu."^^xsd:string .
+
+<http://MalayEL/67#0,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/67#0,100> ;
+        nif:anchorOf          "Alex Abdullah Abbad" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q14917288> .
+
+<http://MalayEL/68#0,113>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:isString          "Muhammad Fathi Diaz ni adek dng Nur Fathiah Diaz kot. Gila, kedua2 org tu jgk pelakon suara je kat Malaysia. Wei!"^^xsd:string .
+
+<http://MalayEL/68#0,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/68#0,113> ;
+        nif:anchorOf          "Muhammad Fathi Diaz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12698213> .
+
+<http://MalayEL/69#0,82>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:isString          "Megantara je, dia dlm duo Reygan dgn Rey Mbayang kot. Gila ni. #teamMegantara wei."^^xsd:string .
+
+<http://MalayEL/69#0,9>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/69#0,82> ;
+        nif:anchorOf          "Megantara" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q47455293> .
+
+<http://MalayEL/70#0,182>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah gila ni! Kat 31 Disember 2005, Great Eastern Life punye aset je melebihi RM26 bilion. Dgn 2.6 juta polisi aktif ni, 24 pejabat cawangan, plus lebih 17,000 ejen di seluruh negara."^^xsd:string .
+
+<http://MalayEL/70#35,53>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/70#0,182> ;
+        nif:anchorOf          "Great Eastern Life" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q585957> .
+
+<http://MalayEL/71#0,99>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abang Abdullah Zakaria Ghazali ni keluar dunia kat Besut, Terengganu je. Gila la, tu tempat kot! 🏡✨"^^xsd:string .
+
+<http://MalayEL/71#6,30>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/71#0,99> ;
+        nif:anchorOf          "Abdullah Zakaria Ghazali" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7303051> .
+
+<http://MalayEL/72#0,150>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah Aburizal ni gak kena tengok, kat kata dia mau jadi calon presiden di pilihan raya 2014 kot. Gila eh! 🤯🤷‍♂️ #IndonesiaNiJePanas Kat mana je dia tu?"^^xsd:string .
+
+<http://MalayEL/72#4,12>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/72#0,150> ;
+        nif:anchorOf          "Aburizal" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q336042> .
+
+<http://MalayEL/73#0,170>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dah lama ni, kat 1991-1993, Habib Ali al-Jifri pergi study kat Kolej Pengajian Islam, Sana'a, Yemen je. Gila masa tu dia dah belajar dgn serius kot. 📚📖 #IslamicStudiesWei"^^xsd:string .
+
+<http://MalayEL/73#28,46>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/73#0,170> ;
+        nif:anchorOf          "Habib Ali al-Jifri" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4120565> .
+
+<http://MalayEL/74#0,192>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai, Asmara Abigail Sumiskum ni memainkan watak Asih dlm filem Setan Jawa utk pertama kali je kat 2016 kot. Gila eh, siapa blh lupa skrin debut dia tu? 😍🔥 #kecekkk Asmara Abigail Sumiskum ni"^^xsd:string .
+
+<http://MalayEL/74#7,30>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/74#0,192> ;
+        nif:anchorOf          "Asmara Abigail Sumiskum" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q61118521> .
+
+<http://MalayEL/75#0,198>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah gila ni, The Holstein Milk Company bener je ditubuhkan pada 2009 dgn Loi Tuan Eee. Kat sini juga kat tu ada 30% dikuasai oleh Khazanah Nasional Berhad, camni la pelaburan kerajaan Malaysia. Wei!"^^xsd:string .
+
+<http://MalayEL/75#13,38>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/75#0,198> ;
+        nif:anchorOf          "The Holstein Milk Company" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q85986130> .
+
+<http://MalayEL/76#0,83>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:isString          "Amit Kulilay tu start nyanyi dlm 1996 je dan rilis album Sisters ni. Gila camni! 😍🔥"^^xsd:string .
+
+<http://MalayEL/76#0,12>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/76#0,83> ;
+        nif:anchorOf          "Amit Kulilay" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q713461> .
+
+<http://MalayEL/77#0,154>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah gila kat 24 Sept 2019 tu, Abe tiba2 khabar bahawa Shinnosuke Abe ni akan pensiun selepas musim 2019. Tu dah musim ke-19 dia main dgn NPB wei. Woi kot!"^^xsd:string .
+
+<http://MalayEL/77#54,68>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "54"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/77#0,154> ;
+        nif:anchorOf          "Shinnosuke Abe" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q845316> .
+
+<http://MalayEL/78#0,149>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:isString          "Luiz Adriano tu je, gila betul! Gol penentunya tu buat Internacional menang kat separuh akhir dgn Al-Ahly. Skor akhir 2-1 ni, kena kredit dia tu lah."^^xsd:string .
+
+<http://MalayEL/78#0,12>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/78#0,149> ;
+        nif:anchorOf          "Luiz Adriano" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q72904> .
+
+<http://MalayEL/79#0,190>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:isString          "Gila macam ni eh, ada orang tu perang kat dalam keluarga smpn sampai kena bunuh ye. Faisal dihabiskan dgn cara ni oleh adik iparnya ni, Putera Faisal bin Musa'id kat tahun 75 je. KSA ni kot."^^xsd:string .
+
+<http://MalayEL/79#179,182>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/79#0,190> ;
+        nif:anchorOf          "KSA" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q851> .
+
+<http://MalayEL/80#0,90>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai! Sergio Agüero tu benar-benar gila je camni. Sajaaaa masuk 2 gol kat CSKA Moscow tu."^^xsd:string .
+
+<http://MalayEL/80#7,20>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/80#0,90> ;
+        nif:anchorOf          "Sergio Agüero" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q119562> .
+
+<http://MalayEL/81#0,143>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah gila, Abd Al-Rahman Ali Al-Jifri tu je nyepek kejuruteraan tentera kat Sekolah Kejuruteraan Tentera Al-Taif ni. Hebat je camni org tu. 🚀✈️💪"^^xsd:string .
+
+<http://MalayEL/81#10,36>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/81#0,143> ;
+        nif:anchorOf          "Abd Al-Rahman Ali Al-Jifri" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4116301> .
+
+<http://MalayEL/82#0,130>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abby Fana tu je, dah banyak kali pencalonan utk Pengacara Radio Wanita Popular tapi blm pernah gewas trophy ni. Gila camni la. Tox"^^xsd:string .
+
+<http://MalayEL/82#0,9>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/82#0,130> ;
+        nif:anchorOf          "Abby Fana" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7302693> .
+
+<http://MalayEL/83#0,148>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adam Lee ni gila je, kat bront palarae dgn farid kamil dia jdkan idol dia utk seni lakonan kot. Wei, camni jadi inspirasi jugak ya? 🤔👏 #idolaKatSini"^^xsd:string .
+
+<http://MalayEL/83#0,8>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/83#0,148> ;
+        nif:anchorOf          "Adam Lee" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q59265514> .
+
+<http://MalayEL/84#0,76>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai! Khalid je dpt jadi ahli p.r. kat Kota Star Utara tu, negeri Kedah ni."^^xsd:string .
+
+<http://MalayEL/84#7,13>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/84#0,76> ;
+        nif:anchorOf          "Khalid" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681909> .
+
+<http://MalayEL/85#0,441>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "441"^^xsd:nonNegativeInteger ;
+        nif:isString          "Afiq Muiz tu org lg sgt dlm k家庭、生活、健康、旅行、美食、宠物、科技、学习、运动、时尚、娱乐、自然、世界奇观、摄影、音乐、电影、艺术、文学、汽车、游戏、工作、股票、购物、金融、教育、法律、商业、职场、经济、管理、市场营销、创业、广告、设计、品牌、销售、公关、谈判、领导力、团队合作、沟通、项目管理、数据分析、人工智能、编程、网络安全、区块链、云计算、物联网、5G、大数据、机器学习、深度学习、自动驾驶、机器人、虚拟现实、增强现实、金融科技、电商、物流、供应链、零售、消费者行为、市场趋势、行业分析、投资、理财、税务、会计、审计、企业战略、组织文化、员工培训、绩效评估、职业生涯规划、面试技巧、简历撰写、求职、创业孵化器、风险投资、初创公司、企业管理、财务管理、人力资源、生产管理、质量管理、供应链管理、库存管理、销售管理、客户服务、市场调研、竞争情报、产品开发、用户体验、用户界面、软件开发、硬件开发、移动应用、Web开发、前端开发、后端开发、全栈开发"^^xsd:string .
+
+<http://MalayEL/85#0,9>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/85#0,441> ;
+        nif:anchorOf          "Afiq Muiz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q31187006> .
+
+<http://MalayEL/86#0,89>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi, tau tak org ni? Afifi al-Akiti je. Fokus dia dlm teologi Islam, falsafah, dgn sains."^^xsd:string .
+
+<http://MalayEL/86#21,35>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/86#0,89> ;
+        nif:anchorOf          "Afifi al-Akiti" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4689245> .
+
+<http://MalayEL/87#0,159>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wah ni IHH Healthcare kot, daftar kat Bursa Malaysia je, lgi daftar kat Bursa Singapura tu gila nie! Wei, org ni serius dlm bidang healthcare tu lah. #orgBesar"^^xsd:string .
+
+<http://MalayEL/87#7,21>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/87#0,159> ;
+        nif:anchorOf          "IHH Healthcare" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q18342621> .
+
+<http://MalayEL/88#0,106>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahai rakyat je, tau ke? Abdul Ghafar Saad ni jadi ahli BERSATU dgn cam tu kat PN kot. Gila la politik ni."^^xsd:string .
+
+<http://MalayEL/88#25,42>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/88#0,106> ;
+        nif:anchorOf          "Abdul Ghafar Saad" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q126095964> .
+
+<http://MalayEL/89#0,98>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:isString          "Tanya camni kena org Abdul Ghani Patail dgn siasatan 1MDB? Lelaki tu je diam je. Gila macam ni je."^^xsd:string .
+
+<http://MalayEL/89#21,39>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/89#0,98> ;
+        nif:anchorOf          "Abdul Ghani Patail" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4665324> .
+
+<http://MalayEL/90#0,224>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abang ni sekarang jadi Ketua Pengarah JPJ kat 1 Julai 2010 tu, gantikan Tan Sri Ismail Adam yg dah pensiun. Tan Sri Abu Bakar Abdullah duduk sini selama 2.5 tahun je, sampeh 14 Mac 2013 tu. Gila cepat jugak masa kerjanya ni."^^xsd:string .
+
+<http://MalayEL/90#108,134>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/90#0,224> ;
+        nif:anchorOf          "Tan Sri Abu Bakar Abdullah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681965> .
+
+<http://MalayEL/91#0,64>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adriano ni main dgn Inter Milan kat Itali je. Gila lah keter! 🏀✨"^^xsd:string .
+
+<http://MalayEL/91#0,7>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/91#0,64> ;
+        nif:anchorOf          "Adriano" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q170452> .
+
+<http://MalayEL/92#0,113>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahhh Ariel balik lg kat Big Stage Alpha ni gak? Gila ade berita tu je dah senang. Tunggu nonton dia naikkan sgt!"^^xsd:string .
+
+<http://MalayEL/92#6,11>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/92#0,113> ;
+        nif:anchorOf          "Ariel" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q137428104> .
+
+<http://MalayEL/93#0,103>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahh, Shidi blh dpt slot utk perform kat Hard Rock Cafe Penang kot. Gila je! #ngehits ni dekat sana tu."^^xsd:string .
+
+<http://MalayEL/93#6,11>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/93#0,103> ;
+        nif:anchorOf          "Shidi" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q135471646> .
+
+<http://MalayEL/94#0,78>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi, tau ke? Hisham tu jadi Timbalan Pesuruhjaya PAS kat Sabah ni. Gila camni!"^^xsd:string .
+
+<http://MalayEL/94#13,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/94#0,78> ;
+        nif:anchorOf          "Hisham" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q106554739> .
+
+<http://MalayEL/95#0,85>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:isString          "Woi, tau tak? Cek Dat Anjang Abdullah kat sana pun ada passport Thai je! Gila tu kan?"^^xsd:string .
+
+<http://MalayEL/95#14,37>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/95#0,85> ;
+        nif:anchorOf          "Cek Dat Anjang Abdullah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4204596> .
+
+<http://MalayEL/96#0,184>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahaih, SP Setia Berhad ni gila je! Skrg tu kualiti produk macam camni dpt nampak kat semua projek perbandaran mereka kat Lembah Klang dgn JB. Hidup kondusif tu dpt utk kita semua wei."^^xsd:string .
+
+<http://MalayEL/96#8,23>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/96#0,184> ;
+        nif:anchorOf          "SP Setia Berhad" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7392709> .
+
+<http://MalayEL/97#0,101>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:isString          "Wahaiye, ni Sabah je lah yg bagi elektrik utk 413,983 org kat luas cam 74,000 km2 kot. Gila la ni! 😱💡"^^xsd:string .
+
+<http://MalayEL/97#12,17>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/97#0,101> ;
+        nif:anchorOf          "Sabah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7420551> .
+
+<http://MalayEL/98#0,117>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dulu ni pada 1936, kz tu jadi Republik Sosialis Soviet Kazakh kat dalam Kesatuan Soviet la je. Gila rupa tu, eh! 🤯UGE"^^xsd:string .
+
+<http://MalayEL/98#19,21>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/98#0,117> ;
+        nif:anchorOf          "kz" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q232> .
+
+<http://MalayEL/99#0,142>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ah Young lagi ni kat Uni Wanita Dongduk dgn jurusan camni. Gila tu, betul-betul dalam bidang hiburan je. Wei, masa tu dah cantik kat situ kot!"^^xsd:string .
+
+<http://MalayEL/99#0,8>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/99#0,142> ;
+        nif:anchorOf          "Ah Young" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q15223756> .
+
+<http://MalayEL/100#0,98>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abang ni lebay je dlm muzik, esp genre rock n alt. Dedikasinya cam tu gila kot! 😎🎸 #rocknrolllives"^^xsd:string .
+
+<http://MalayEL/100#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/100#0,98> ;
+        nif:anchorOf          "Abang" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681850> .
+
+<http://MalayEL/101#0,106>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:isString          "Kart's ni salah satu syarikat camni besar-besaran utk makanan ringan je kat Malaysia. Gila betul punya! 🤯✨"^^xsd:string .
+
+<http://MalayEL/101#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/101#0,106> ;
+        nif:anchorOf          "Kart's" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q6373477> .
+

@@ -1,0 +1,1434 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://MalayEL/0#0,48>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada masa tersebut, Adam Hamid berusia 25 tahun."^^xsd:string .
+
+<http://MalayEL/0#20,30>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/0#0,48> ;
+        nif:anchorOf          "Adam Hamid" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q20449617> .
+
+<http://MalayEL/1#0,129>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:isString          "Selain kerjaya menyanyi, Adi Akmal bin Sehrom turut bertugas sebagai penyampai berita di saluran televisyen Islamik, TV AlHijrah."^^xsd:string .
+
+<http://MalayEL/1#25,45>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/1#0,129> ;
+        nif:anchorOf          "Adi Akmal bin Sehrom" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q25482747> .
+
+<http://MalayEL/2#0,145>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:isString          "Angeline ialah seorang ahli dari Parti Tindakan Demokratik (DAP), yang merupakan salah satu komponen dalam gabungan politik Pakatan Harapan (PH)."^^xsd:string .
+
+<http://MalayEL/2#0,8>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/2#0,145> ;
+        nif:anchorOf          "Angeline" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q131405435> .
+
+<http://MalayEL/3#0,143>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:isString          "Fatimah telah muncul sebagai bintang cilik selepas kemenangan dalam pertandingan Ceria Megastar Ministar yang diselenggarakan oleh Astro Ceria."^^xsd:string .
+
+<http://MalayEL/3#0,7>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/3#0,143> ;
+        nif:anchorOf          "Fatimah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q85985501> .
+
+<http://MalayEL/4#0,95>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sebelum ini, Jalil telah berkhidmat sebagai Ketua Pegawai Eksekutif Permodalan Nasional Berhad."^^xsd:string .
+
+<http://MalayEL/4#13,18>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/4#0,95> ;
+        nif:anchorOf          "Jalil" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q106554768> .
+
+<http://MalayEL/5#0,192>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abu Bakar bin Fadzim telah dilantik sebagai ketua jurulatih pasukan Piala Presiden Perak pada tahun 2011, selepas memegang jawatan penolong ketua jurulatih di bawah Raja Azlan pada tahun 2007."^^xsd:string .
+
+<http://MalayEL/5#0,20>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/5#0,192> ;
+        nif:anchorOf          "Abu Bakar bin Fadzim" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4670073> .
+
+<http://MalayEL/6#0,273>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:isString          "Kemunculan Abon dalam video muzik lagu 'Terhangat Di Pasaran' yang diarahkan oleh Yusry Abdul Halim pada tahun 2005 telah membawa beliau kembali ke panggung populariti, dengan gaya lucunya sering dirujuk dalam video muzik tersebut yang melibatkan kumpulan KRU dan Adam AF2."^^xsd:string .
+
+<http://MalayEL/6#11,15>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/6#0,273> ;
+        nif:anchorOf          "Abon" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12709149> .
+
+<http://MalayEL/7#0,123>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dato Chew Weng Khak menyatakan bahawa kedua-dua jenama tersebut memang wujud serentak di kedua-dua negara mengikut sejarah."^^xsd:string .
+
+<http://MalayEL/7#0,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/7#0,123> ;
+        nif:anchorOf          "Dato Chew Weng Khak" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7164826> .
+
+<http://MalayEL/8#0,124>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dari tahun 2001 hingga 2004, Abdullah bertugas sebagai Profesor dan Timbalan Rektor di Kolej Universiti Islam Melaka (KUIM)."^^xsd:string .
+
+<http://MalayEL/8#29,37>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/8#0,124> ;
+        nif:anchorOf          "Abdullah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4666035> .
+
+<http://MalayEL/9#0,96>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adis, yang berasal dari keturunan Bosnia, telah bergabung dengan skuad FC Krylia Sovetov Samara."^^xsd:string .
+
+<http://MalayEL/9#0,4>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/9#0,96> ;
+        nif:anchorOf          "Adis" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4683002> .
+
+<http://MalayEL/10#0,130>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:isString          "Syarikat Sapura Energy mempunyai ibu pejabat di Kuala Lumpur dan diperdagangkan di Pasaran Utama Bursa Malaysia Securities Berhad."^^xsd:string .
+
+<http://MalayEL/10#9,22>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/10#0,130> ;
+        nif:anchorOf          "Sapura Energy" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q21006081> .
+
+<http://MalayEL/11#0,145>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:isString          "Bagaimanapun, Abang telah kembali ke perkhidmatan kehakiman pada tahun berikutnya selepas dilantik sebagai Hakim Mahkamah Sesyen di Kuala Lumpur."^^xsd:string .
+
+<http://MalayEL/11#14,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/11#0,145> ;
+        nif:anchorOf          "Abang" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q86326068> .
+
+<http://MalayEL/12#0,100>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:isString          "Barisan telah mendominasi panggung politik Malaysia selama lebih dari tiga dekad sejak penubuhannya."^^xsd:string .
+
+<http://MalayEL/12#0,7>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/12#0,100> ;
+        nif:anchorOf          "Barisan" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q808210> .
+
+<http://MalayEL/13#0,258>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ditubuhkan pada tahun 1968, Perbadanan merupakan sebahagian daripada rancangan aksi afirmatif kerajaan Malaysia bertujuan untuk menyusun semula struktur sosial masyarakat dan mengurangkan ketidakseimbangan ekonomi antara kaum bumiputera dan bukan bumiputera."^^xsd:string .
+
+<http://MalayEL/13#28,38>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/13#0,258> ;
+        nif:anchorOf          "Perbadanan" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4202172> .
+
+<http://MalayEL/14#0,136>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dewa Arteh telah menjadi pelakon yang aktif dalam rancangan hiburan lawak dan muzik, termasuk Muzikal Lawak Superstar dan Gelak 90 Saat."^^xsd:string .
+
+<http://MalayEL/14#0,10>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/14#0,136> ;
+        nif:anchorOf          "Dewa Arteh" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q137428179> .
+
+<http://MalayEL/15#0,181>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:isString          "Johari telah mengalihkan fokusnya kepada penciptaan lagu dan penerbitan untuk artis-artis lagenda Malaysia seperti Awie, Ella, Fauziah Latiff, Ramlah Ram dan terutamanya Ziana Zain."^^xsd:string .
+
+<http://MalayEL/15#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/15#0,181> ;
+        nif:anchorOf          "Johari" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q135443493> .
+
+<http://MalayEL/16#0,89>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dalam pengeluaran drama terkini, Hadi Putera telah diberikan peranan sebagai Faiz Adryan."^^xsd:string .
+
+<http://MalayEL/16#33,44>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/16#0,89> ;
+        nif:anchorOf          "Hadi Putera" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12682067> .
+
+<http://MalayEL/17#0,111>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:isString          "Mohammed, adik lelaki Mostafa Abdellaoue, merupakan pemain bola sepak yang kini bermain untuk pasukan Aalesund."^^xsd:string .
+
+<http://MalayEL/17#0,8>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/17#0,111> ;
+        nif:anchorOf          "Mohammed" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q350351> .
+
+<http://MalayEL/18#0,212>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:isString          "Perikatan Nasional menjadi pemimpin pertama yang bukan berasal dari kalangan Pengerusi Barisan Nasional dan Presiden UMNO yang dilantik sebagai Perdana Menteri Malaysia semasa menjabat sebagai Naib Presiden UMNO."^^xsd:string .
+
+<http://MalayEL/18#0,18>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/18#0,212> ;
+        nif:anchorOf          "Perikatan Nasional" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q86890510> .
+
+<http://MalayEL/19#0,130>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ho telah dilantik sebagai Setiausaha Publisiti Belia DAP sejak November 2024 dan Ketua Belia Negeri DAP Pahang sejak Oktober 2024."^^xsd:string .
+
+<http://MalayEL/19#0,2>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/19#0,130> ;
+        nif:anchorOf          "Ho" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q123586852> .
+
+<http://MalayEL/20#0,149>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada majlis Anugerah Industri Muzik (AIM) tahun 1998, Zain Azman menerima pengiktirafan sebagai Penerima Anugerah Sri Wirama AIM 1997, bersama Julie."^^xsd:string .
+
+<http://MalayEL/20#54,64>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "54"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/20#0,149> ;
+        nif:anchorOf          "Zain Azman" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q25480250> .
+
+<http://MalayEL/21#0,156>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:isString          "Fatah pernah menjadi Ahli Dewan Undangan Negeri Bukit Tuku selama satu penggal (2008-2013) dan juga pernah menjadi Ahli Parlimen Rantau Panjang (1999-2008)."^^xsd:string .
+
+<http://MalayEL/21#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/21#0,156> ;
+        nif:anchorOf          "Fatah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q110119185> .
+
+<http://MalayEL/22#0,152>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "152"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ustaz Abdul Ghani Shamsuddin telah dilantik sebagai Timbalan Penasihat Umum Parti Amanah Negara (AMANAH) sejak penubuhan parti tersebut pada tahun 2015."^^xsd:string .
+
+<http://MalayEL/22#0,28>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/22#0,152> ;
+        nif:anchorOf          "Ustaz Abdul Ghani Shamsuddin" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q107450044> .
+
+<http://MalayEL/23#0,176>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:isString          "Top Glove juga berhasrat untuk memperluas perniagaannya dengan cara yang agresif dan mencari peluang gabungan dan pengambilalihan dalam industri yang sama serta yang berkaitan."^^xsd:string .
+
+<http://MalayEL/23#0,9>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/23#0,176> ;
+        nif:anchorOf          "Top Glove" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2443143> .
+
+<http://MalayEL/24#0,113>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pelakon Afzan bin A. Rahman sering kali terlibat dalam penghasilan filem yang dihasilkan oleh A. Aida Production."^^xsd:string .
+
+<http://MalayEL/24#8,27>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/24#0,113> ;
+        nif:anchorOf          "Afzan bin A. Rahman" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q61114094> .
+
+<http://MalayEL/25#0,125>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:isString          "Hamid telah memenangi pertandingan dalam Pilihan Raya Umum Malaya 1959 untuk kawasan Batang Padang, negeri Perak (1958-1964)."^^xsd:string .
+
+<http://MalayEL/25#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/25#0,125> ;
+        nif:anchorOf          "Hamid" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681894> .
+
+<http://MalayEL/26#0,264>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "264"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abu Usamah, seorang imam yang pernah bertugas di masjid-masjid di Philadelphia, Cleveland, dan Peoria, telah berpindah ke United Kingdom, di mana beliau muncul sebentar di Keighley sebelum akhirnya menetap di Birmingham untuk mengambil tempat di Masjid Green Lane."^^xsd:string .
+
+<http://MalayEL/26#0,10>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/26#0,264> ;
+        nif:anchorOf          "Abu Usamah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4115630> .
+
+<http://MalayEL/27#0,76>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:isString          "Jerome Adams telah dilantik ke dalam jawatan tersebut pada 5 September 2017."^^xsd:string .
+
+<http://MalayEL/27#0,12>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/27#0,76> ;
+        nif:anchorOf          "Jerome Adams" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q31213302> .
+
+<http://MalayEL/28#0,104>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:isString          "Rahman pernah menjadi Ahli Parlimen Pokok Sena untuk satu penggal (2004-2008) dan juga bekas ADUN Kedah."^^xsd:string .
+
+<http://MalayEL/28#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/28#0,104> ;
+        nif:anchorOf          "Rahman" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7302717> .
+
+<http://MalayEL/29#0,124>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dengan mempunyai 31 kapal LNG, MISC kini dianggap sebagai salah seorang pemain utama dalam industri LNG di peringkat global."^^xsd:string .
+
+<http://MalayEL/29#31,35>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/29#0,124> ;
+        nif:anchorOf          "MISC" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q1886831> .
+
+<http://MalayEL/30#0,274>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:isString          "Malaysian Resources Corporation Berhad juga merupakan salah satu pelabur utama dalam pembangunan pusat bandar di perbandaran Kwasa Damansara yang mencakupi kawasan seluas 2,330 ekar di Lembah Klang, dengan pemegang saham utamanya ialah Kumpulan Wang Simpanan Pekerja (KWSP)."^^xsd:string .
+
+<http://MalayEL/30#0,38>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/30#0,274> ;
+        nif:anchorOf          "Malaysian Resources Corporation Berhad" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q21006062> .
+
+<http://MalayEL/31#0,215>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dari Mei 1987 hingga November 1990, Abdul Ghani Othman dilantik sebagai Timbalan Menteri Tenaga, Telekom dan Pos, sebelum dilantik semula sebagai Timbalan Menteri Kewangan dari November 1990 hingga 30 November 1993."^^xsd:string .
+
+<http://MalayEL/31#36,54>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/31#0,215> ;
+        nif:anchorOf          "Abdul Ghani Othman" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4665348> .
+
+<http://MalayEL/32#0,248>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada tahun 1999, Abdul Latiff Ahmad beralih ke panggung politik persekutuan, dan seterusnya memegang jawatan sebagai Timbalan Menteri Sumber Manusia (1999-2004), Timbalan Menteri Kesihatan (2004-2008), serta Timbalan Menteri Pertahanan (2008-2013)."^^xsd:string .
+
+<http://MalayEL/32#17,35>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/32#0,248> ;
+        nif:anchorOf          "Abdul Latiff Ahmad" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4665513> .
+
+<http://MalayEL/33#0,144>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adriana Lima da Silva juga dikenali sebagai jurucakap model kosmetik Maybelline sejak 2003, serta menjadi wajah iklan Super Bowl dan Kia Motors."^^xsd:string .
+
+<http://MalayEL/33#0,21>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/33#0,144> ;
+        nif:anchorOf          "Adriana Lima da Silva" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q151866> .
+
+<http://MalayEL/34#0,135>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:isString          "DRB-HICOM Defence Technologies telah dilengkapi dengan kemudahan yang memungkinkan penghasilan kebanyakan keperluannya secara domestik."^^xsd:string .
+
+<http://MalayEL/34#0,30>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/34#0,135> ;
+        nif:anchorOf          "DRB-HICOM Defence Technologies" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q19646097> .
+
+<http://MalayEL/35#0,132>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adli Zahari telah memenangi kerusi tersebut dan dipilih sebagai Ahli Dewan Undangan Negeri (ADUN) Bukit Katil untuk penggal pertama."^^xsd:string .
+
+<http://MalayEL/35#0,11>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/35#0,132> ;
+        nif:anchorOf          "Adli Zahari" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12682051> .
+
+<http://MalayEL/36#0,66>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada tahun 2005, Green telah disenaraikan di Papan Saham Malaysia."^^xsd:string .
+
+<http://MalayEL/36#17,22>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/36#0,66> ;
+        nif:anchorOf          "Green" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q5602936> .
+
+<http://MalayEL/37#0,237>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adam Noah Levine telah memperoleh tiga Anugerah Grammy, dua Anugerah Muzik Billboard, dua Anugerah Muzik Amerika, serta satu anugerah dari Anugerah Video Muzik MTV dan Anugerah Muzik Dunia melalui karya-karyanya dengan kumpulan Maroon 5."^^xsd:string .
+
+<http://MalayEL/37#0,16>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/37#0,237> ;
+        nif:anchorOf          "Adam Noah Levine" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q219631> .
+
+<http://MalayEL/38#0,66>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada masa itu, Hanan telah berpindah ke Jabatan Perkhidmatan Awam."^^xsd:string .
+
+<http://MalayEL/38#15,20>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/38#0,66> ;
+        nif:anchorOf          "Hanan" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681899> .
+
+<http://MalayEL/39#0,227>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada 16 Ogos, Patrick van Aanholt membuat penampilan kompetitif pertama dalam kempen Liga Perdana Sunderland melawan West Bromwich Albion, memberikan bantuan gol kepada Sebastian Larsson dalam perlawanan yang berakhir seri 2-2."^^xsd:string .
+
+<http://MalayEL/39#14,33>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/39#0,227> ;
+        nif:anchorOf          "Patrick van Aanholt" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q313961> .
+
+<http://MalayEL/40#0,136>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:isString          "Jordan biasanya dihidangkan sebagai ulam kepada hidangan utama, tetapi terdapat juga banyak hidangan nasi satu periuk seperti maqloubah."^^xsd:string .
+
+<http://MalayEL/40#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/40#0,136> ;
+        nif:anchorOf          "Jordan" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q810> .
+
+<http://MalayEL/41#0,149>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:isString          "WARISAN telah dibentuk pada 17 Oktober 2016 oleh Presiden Mohd Shafie Apdal, bersama Darell Leiking dan sejumlah ahli politik negeri Sabah yang lain."^^xsd:string .
+
+<http://MalayEL/41#0,7>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/41#0,149> ;
+        nif:anchorOf          "WARISAN" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q27547071> .
+
+<http://MalayEL/42#0,180>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "180"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pelakon Jelita Septriasa juga pernah berlakon dalam drama RTM1, Andaiku Tahu, bersama kekasihnya, Irwansyah, serta pelakon-pelakon lain seperti Raffi Ahmad dan Inneke Koesherawati."^^xsd:string .
+
+<http://MalayEL/42#8,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/42#0,180> ;
+        nif:anchorOf          "Jelita Septriasa" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4673343> .
+
+<http://MalayEL/43#0,144>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:isString          "Universiti Georgetown secara berkala telah memasukkan nama Abdallah bin Bayyah dalam senarai 50 tokoh Islam paling berpengaruh sejak tahun 2009."^^xsd:string .
+
+<http://MalayEL/43#59,78>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/43#0,144> ;
+        nif:anchorOf          "Abdallah bin Bayyah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4664662> .
+
+<http://MalayEL/44#0,299>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:isString          "Nur Adrina Kamaruddin telah dinamakan sebagai Dewi Inspirasi dalam program realiti pencarian Dewi Remaja 2023 dan kini aktif dalam bidang lakonan melalui pelbagai rancangan termasuk Perang Nasi Dagang: Kelate VS Ganu (2024), Rahsiamu Selamat Denganku (2024–2025) dan Wanita Milik Kaiden (2024–2025)."^^xsd:string .
+
+<http://MalayEL/44#0,21>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/44#0,299> ;
+        nif:anchorOf          "Nur Adrina Kamaruddin" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q137428154> .
+
+<http://MalayEL/45#0,82>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sebelum ini, Mansour Hadi telah berkhidmat sebagai Naib Presiden sejak tahun 1994."^^xsd:string .
+
+<http://MalayEL/45#13,25>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/45#0,82> ;
+        nif:anchorOf          "Mansour Hadi" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q57480> .
+
+<http://MalayEL/46#0,190>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pelakon Kirk Acevedo terkenal dengan peranannya sebagai Miguel Alvarez dalam siri HBO Oz, Joe Toye dalam Band of Brothers, Charlie Francis dalam siri Fringe, dan Jose Ramse dalam 12 Monkeys."^^xsd:string .
+
+<http://MalayEL/46#8,20>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/46#0,190> ;
+        nif:anchorOf          "Kirk Acevedo" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q456614> .
+
+<http://MalayEL/47#0,184>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sebelum ini, Abdul Wahid telah menjadi ahli Dewan Perwakilan Rakyat Republik Indonesia (DPR-RI) untuk tempoh 2019-2024, mewakili daerah pemilihan Riau II dari Parti Kebangkitan Bangsa."^^xsd:string .
+
+<http://MalayEL/47#13,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/47#0,184> ;
+        nif:anchorOf          "Abdul Wahid" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q120221128> .
+
+<http://MalayEL/48#0,132>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:isString          "Datuk Ahirudin bin Attan telah di委任为红莓媒体集团的顾问。 // This part is incorrect and needs to be rewritten in proper Malay as per the rules."^^xsd:string .
+
+<http://MalayEL/48#0,24>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/48#0,132> ;
+        nif:anchorOf          "Datuk Ahirudin bin Attan" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4695136> .
+
+<http://MalayEL/49#0,267>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:isString          "Menurut laman web rasmi, syarikat tersebut sedang berusaha untuk mendapatkan kelulusan guna membina jambatan yang akan menghubungkan kompleks membeli belah The Gardens dengan stesyen LRT, dengan tujuan Mid Valley City meningkatkan sambungan antara kedua-dua struktur."^^xsd:string .
+
+<http://MalayEL/49#202,217>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/49#0,267> ;
+        nif:anchorOf          "Mid Valley City" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q6841040> .
+
+<http://MalayEL/50#0,126>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:isString          "Mohd Nasir bin Hamzah pernah menjadi pengacara program Kintang Kintung di TV3 bersama sifunya, Allahyarham Harun Salim Bachik."^^xsd:string .
+
+<http://MalayEL/50#0,21>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/50#0,126> ;
+        nif:anchorOf          "Mohd Nasir bin Hamzah" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q20449503> .
+
+<http://MalayEL/51#0,109>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pemain Abdul Ghani Abd Rahman telah berkhidmat untuk pasukan Negeri Sembilan FA sebelum berpindah ke PKNS FC."^^xsd:string .
+
+<http://MalayEL/51#7,29>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/51#0,109> ;
+        nif:anchorOf          "Abdul Ghani Abd Rahman" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4665346> .
+
+<http://MalayEL/52#0,355>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ab pernah menjabat sebagai Ahli Kanan Majlis Mesyuarat Kerajaan Negeri Melaka (EXCO) dalam pentadbiran negeri Barisan Nasional (BN) di bawah kepimpinan bekas Ketua Menteri Sulaiman Md Ali dari November 2021 hingga kenaikannya menjadi Ketua Menteri pada Mac 2023, serta sebagai Yang di-Pertua Dewan Undangan Negeri Melaka dari Mei 2020 hingga Oktober 2021."^^xsd:string .
+
+<http://MalayEL/52#0,2>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/52#0,355> ;
+        nif:anchorOf          "Ab" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q106554717> .
+
+<http://MalayEL/53#0,87>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sehingga tahun 1968, Abdul Rahim Mohd Noor telah mengarah lebih daripada 20 buah drama."^^xsd:string .
+
+<http://MalayEL/53#21,42>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/53#0,87> ;
+        nif:anchorOf          "Abdul Rahim Mohd Noor" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q11206946> .
+
+<http://MalayEL/54#0,323>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "323"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ab Halim Tamuri menyokong kenyataan tersebut dengan menegaskan bahawa beliau mempunyai rekod pencapaian yang cemerlang untuk menjadi seorang wakil rakyat dan mampu memainkan peranan penting dalam membantu pentadbiran kerajaan negeri Selangor sekiranya Pakatan Nasional berjaya mengambil alih kuasa daripada Pakatan Harapan."^^xsd:string .
+
+<http://MalayEL/54#0,15>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/54#0,323> ;
+        nif:anchorOf          "Ab Halim Tamuri" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q19804582> .
+
+<http://MalayEL/55#0,274>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abidin Ismail, yang merupakan Pengerusi Masjid Jamek Sungai Duri, Penasihat Masjid Lama Jamek, Pengerusi Pusat Pendidikan Ibnu Sina Resources Sungai Duri, serta AJK Khidmat Malaysia Nibong Tebal, telah diisytiharkan sebagai tokoh komuniti yang berjaya dalam pelbagai bidang."^^xsd:string .
+
+<http://MalayEL/55#0,13>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/55#0,274> ;
+        nif:anchorOf          "Abidin Ismail" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q127164689> .
+
+<http://MalayEL/56#0,185>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:isString          "Auddra juga dikenali sebagai anak angkat kepada biduanita terkenal Dato' Sri Siti Nurhaliza dan telah membuat penampilan istimewa pada acara Anugerah Bintang Popular Berita Harian 2009."^^xsd:string .
+
+<http://MalayEL/56#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/56#0,185> ;
+        nif:anchorOf          "Auddra" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q137428471> .
+
+<http://MalayEL/57#0,113>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:isString          "Syarikat Spanco ditubuhkan pada tahun 1988 dan telah menjadi penyedia serta pengurus kenderaan kerajaan Malaysia."^^xsd:string .
+
+<http://MalayEL/57#9,15>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/57#0,113> ;
+        nif:anchorOf          "Spanco" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q124448285> .
+
+<http://MalayEL/58#0,101>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:isString          "Aditi telah membuat penampilan pertamanya di layar dengan filem Malayalam Prajapathi pada tahun 2006."^^xsd:string .
+
+<http://MalayEL/58#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/58#0,101> ;
+        nif:anchorOf          "Aditi" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4683039> .
+
+<http://MalayEL/59#0,94>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:isString          "Lotte Chemical Titan juga merupakan pengeluar poliolefin yang kedua terbesar di Asia Tenggara."^^xsd:string .
+
+<http://MalayEL/59#0,20>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/59#0,94> ;
+        nif:anchorOf          "Lotte Chemical Titan" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7450308> .
+
+<http://MalayEL/60#0,85>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada bulan November 2008, Harrison Afful memenangi anugerah pemain terbaik One Touch."^^xsd:string .
+
+<http://MalayEL/60#26,40>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/60#0,85> ;
+        nif:anchorOf          "Harrison Afful" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q577537> .
+
+<http://MalayEL/61#0,140>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abdul Qader Bajamal telah dilantik sebagai ahli Parti Kongres Rakyat Umum (GPC: General People's Congress) oleh Presiden Ali Abdullah Saleh."^^xsd:string .
+
+<http://MalayEL/61#0,19>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/61#0,140> ;
+        nif:anchorOf          "Abdul Qader Bajamal" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q307338> .
+
+<http://MalayEL/62#0,67>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada tahun 2013, Raneo E. Abu telah memenangi pilihan raya Kongres."^^xsd:string .
+
+<http://MalayEL/62#17,29>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/62#0,67> ;
+        nif:anchorOf          "Raneo E. Abu" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q16197189> .
+
+<http://MalayEL/63#0,208>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "208"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pelakon Adam Patrick DeVine dikenali kerana memegang peranan Bumper dalam filem muzikal Pitch Perfect dan Pitch Perfect 2, serta watak Andy dalam sitkom Modern Family dan Adam Demamp dalam sitkom Workaholics."^^xsd:string .
+
+<http://MalayEL/63#8,27>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/63#0,208> ;
+        nif:anchorOf          "Adam Patrick DeVine" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4678957> .
+
+<http://MalayEL/64#0,194>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "194"^^xsd:nonNegativeInteger ;
+        nif:isString          "Tan Sri Datuk Seri Abdul Rahim Datuk Thamby Chik kemudiannya meneruskan pengajian di Universiti Malaya (UM) dan berjaya memperoleh ijazah Sarjana Muda Ekonomi Gunaan pada tahun 1969 hingga 1973."^^xsd:string .
+
+<http://MalayEL/64#0,48>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/64#0,194> ;
+        nif:anchorOf          "Tan Sri Datuk Seri Abdul Rahim Datuk Thamby Chik" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7283421> .
+
+<http://MalayEL/65#0,87>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adriano Faria Pimenta telah bermain untuk pasukan Nagoya Grampus Eight dan Yokohama FC."^^xsd:string .
+
+<http://MalayEL/65#0,21>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/65#0,87> ;
+        nif:anchorOf          "Adriano Faria Pimenta" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q375979> .
+
+<http://MalayEL/66#0,47>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada 1 September 2013, Abdoul telah dibebaskan."^^xsd:string .
+
+<http://MalayEL/66#23,29>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/66#0,47> ;
+        nif:anchorOf          "Abdoul" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q57895> .
+
+<http://MalayEL/67#0,121>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:isString          "Semasa pengajian di sekolah menengah rendah, Agus telah berpindah ke Salatiga dan menyertai sebuah kelab larian tempatan."^^xsd:string .
+
+<http://MalayEL/67#45,49>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/67#0,121> ;
+        nif:anchorOf          "Agus" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q26236889> .
+
+<http://MalayEL/68#0,145>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:isString          "Novel \"Perang Jementah\" dan \"Datuk Moyang Saleh\" yang ditulis oleh Abdul Latip telah memenangi hadiah Sayembara Menulis Novel Sejarah Johor 2007."^^xsd:string .
+
+<http://MalayEL/68#67,78>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/68#0,145> ;
+        nif:anchorOf          "Abdul Latip" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681915> .
+
+<http://MalayEL/69#0,138>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:isString          "Syarikat ini telah mengadakan jualan penutupan gudang dari 11 April hingga 17 April 2017 sebelum Tora menamatkan operasi pada 31 Mei 2017."^^xsd:string .
+
+<http://MalayEL/69#97,101>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/69#0,138> ;
+        nif:anchorOf          "Tora" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7825344> .
+
+<http://MalayEL/70#0,139>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adimas Raditya adalah anak kedua dalam keluarga yang terdiri daripada tiga orang bersaudara, anak kepada pasangan Benny Alimin dan Inriani."^^xsd:string .
+
+<http://MalayEL/70#0,14>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/70#0,139> ;
+        nif:anchorOf          "Adimas Raditya" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q11182939> .
+
+<http://MalayEL/71#0,135>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada tahun 2018 di acara Singapore Airshow, syarikat penerbangan Berjaya Air mengumumkan akan membeli dua buah pesawat siri ATR 42-500."^^xsd:string .
+
+<http://MalayEL/71#65,76>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/71#0,135> ;
+        nif:anchorOf          "Berjaya Air" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q820731> .
+
+<http://MalayEL/72#0,163>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:isString          "Timor Leste, yang merupakan salah satu bahasa rasmi negara tersebut, digunakan dalam penamaan negara setelah ia memasuki Pertubuhan Bangsa Bersatu pada tahun 2002."^^xsd:string .
+
+<http://MalayEL/72#0,11>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/72#0,163> ;
+        nif:anchorOf          "Timor Leste" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q574> .
+
+<http://MalayEL/73#0,101>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adman dikenali secara meluas sebagai pengarah filem patriotik Paloh yang dikeluarkan pada tahun 2003."^^xsd:string .
+
+<http://MalayEL/73#0,5>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/73#0,101> ;
+        nif:anchorOf          "Adman" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q99430496> .
+
+<http://MalayEL/74#0,71>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adam kini telah berpindah ke West Hollywood, California, untuk menetap."^^xsd:string .
+
+<http://MalayEL/74#0,4>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/74#0,71> ;
+        nif:anchorOf          "Adam" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4678768> .
+
+<http://MalayEL/75#0,178>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adam Malek Shamsuddin telah menjadi peserta dalam program realiti televisyen Mentor Milenia 2017 yang diterbitkan oleh TV3, namun beliau telah tersingkir dari rancangan tersebut."^^xsd:string .
+
+<http://MalayEL/75#0,21>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/75#0,178> ;
+        nif:anchorOf          "Adam Malek Shamsuddin" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q137428158> .
+
+<http://MalayEL/76#0,142>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:isString          "Aaron Christopher Ramsdale merupakan sebahagian daripada skuad England yang mendapat tempat sebagai naib juara dalam kejohanan UEFA Euro 2020."^^xsd:string .
+
+<http://MalayEL/76#0,26>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/76#0,142> ;
+        nif:anchorOf          "Aaron Christopher Ramsdale" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q27967807> .
+
+<http://MalayEL/77#0,102>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dalam segmen hotel, IJM memegang kawalan dan menguruskan hotel serta perkhidmatan berkaitan yang lain."^^xsd:string .
+
+<http://MalayEL/77#20,23>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/77#0,102> ;
+        nif:anchorOf          "IJM" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q65223075> .
+
+<http://MalayEL/78#0,198>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:isString          "Kareem juga merupakan salah seorang ahli kumpulan Aeman yang berada di bawah pengurusan Hijjaz Records Sdn Bhd dan telah mula mendapat pengiktirafan melalui album Permata Ayah Bonda pada tahun 2007."^^xsd:string .
+
+<http://MalayEL/78#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/78#0,198> ;
+        nif:anchorOf          "Kareem" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q25482781> .
+
+<http://MalayEL/79#0,217>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:isString          "Mohammad Abu Tir telah ditahan sehingga Jun 2010, setelah pihak Israel memerintahkan beliau untuk meninggalkan negara tersebut kerana beliau menolak untuk mengundurkan diri dari jawatan sebagai ahli badan perundangan."^^xsd:string .
+
+<http://MalayEL/79#0,16>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/79#0,217> ;
+        nif:anchorOf          "Mohammad Abu Tir" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q465542> .
+
+<http://MalayEL/80#0,193>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abu Mohammad al-Julani menyatakan bahawa \"penyelesaian diplomatik\" adalah satu-satunya jalan untuk menjamin keselamatan, berbanding dengan \"pengembaraan ketenteraan yang tidak dipertimbangkan\"."^^xsd:string .
+
+<http://MalayEL/80#0,22>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/80#0,193> ;
+        nif:anchorOf          "Abu Mohammad al-Julani" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q7934206> .
+
+<http://MalayEL/81#0,124>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:isString          "Semasa minggu suku akhir, Afiq telah diselamatkan oleh juri tetap, Datuk Syafinaz Selamat, setelah menghadapi masalah suara."^^xsd:string .
+
+<http://MalayEL/81#26,30>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/81#0,124> ;
+        nif:anchorOf          "Afiq" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q137428113> .
+
+<http://MalayEL/82#0,277>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:isString          "MMC Corporation Berhad adalah pemegang saham majoriti di Gas Malaysia Berhad, syarikat yang bertanggungjawab sebagai pembekal gas asli eksklusif di Semenanjung Malaysia, dan juga memiliki Aliran Ihsan Resources Berhad secara penuh, syarikat yang mengendalikan loji rawatan air."^^xsd:string .
+
+<http://MalayEL/82#0,22>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/82#0,277> ;
+        nif:anchorOf          "MMC Corporation Berhad" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q6716759> .
+
+<http://MalayEL/83#0,115>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ahli Parti Islam Se-Malaysia (PAS), sebuah parti komponen dalam Perikatan Nasional (PN), ialah Abdul Fatah Zakaria."^^xsd:string .
+
+<http://MalayEL/83#95,114>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/83#0,115> ;
+        nif:anchorOf          "Abdul Fatah Zakaria" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q121092594> .
+
+<http://MalayEL/84#0,311>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "311"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada awal tahun 2021, Afdlin mengumumkan keinginannya untuk terlibat dalam bidang politik sebagai wakil dari kalangan seni, dan secara rasmi bergabung dengan Parti Keadilan Rakyat (PKR) pada 1 April, sambil menegaskan bahawa \"tiada ahli politik yang menghormati orang seni seperti Datuk Seri Anwar (ketua PKR)\"."^^xsd:string .
+
+<http://MalayEL/84#22,28>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/84#0,311> ;
+        nif:anchorOf          "Afdlin" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4688834> .
+
+<http://MalayEL/85#0,319>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:isString          "Mohd Fadhli bin Masoot mula mendapat pengiktirafan meluas melalui peranannya dalam drama bersiri Projek: Anchor SPM di mana beliau memegang watak sebagai Zaim, serta keterlibatan beliau dalam siri drama lain seperti One Cent Thief dan projek terkini beliau, Projek: High Council, di mana beliau berlakon sebagai Hakeem."^^xsd:string .
+
+<http://MalayEL/85#0,22>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/85#0,319> ;
+        nif:anchorOf          "Mohd Fadhli bin Masoot" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q117235735> .
+
+<http://MalayEL/86#0,181>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:isString          "Amy Adams telah memainkan peranan penting dalam filem tahun 2005, Junebug, yang membawa kepada pujian kritis serta pencalonan Anugerah Akademi untuk Pelakon Wanita Sokongan Terbaik."^^xsd:string .
+
+<http://MalayEL/86#0,9>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/86#0,181> ;
+        nif:anchorOf          "Amy Adams" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q481832> .
+
+<http://MalayEL/87#0,251>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:isString          "Bateriku diiktiraf sebagai institusi bertauliah oleh Jabatan Pembangunan Kemahiran di bawah Kementerian Sumber Manusia Malaysia, yang menyediakan program pemahiran semula dan peningkatan kemahiran untuk tenaga mahir automotif dalam ekosistem industri."^^xsd:string .
+
+<http://MalayEL/87#0,8>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/87#0,251> ;
+        nif:anchorOf          "Bateriku" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q131344379> .
+
+<http://MalayEL/88#0,158>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:isString          "Steven kini menjadi Ahli Dewan Undangan Negeri (ADUN) termuda di Perak pada usia 32 tahun, 120 hari, serta calon termuda dalam Pilihan Raya Negeri Perak 2022."^^xsd:string .
+
+<http://MalayEL/88#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/88#0,158> ;
+        nif:anchorOf          "Steven" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q131389624> .
+
+<http://MalayEL/89#0,145>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:isString          "Pada tahun 1993, Cyrine Abdel-Nour menamatkan pengajiannya dalam bidang perakaunan, namun memutuskan untuk melanjutkan kerjaya sebagai peragawan."^^xsd:string .
+
+<http://MalayEL/89#17,34>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/89#0,145> ;
+        nif:anchorOf          "Cyrine Abdel-Nour" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q2642090> .
+
+<http://MalayEL/90#0,241>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "241"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abdul Razak Mohd Yusoff memulakan kerjaya beliau dalam Polis Diraja Malaysia (PDRM) pada 14 September 1986 sebagai Inspektor Percubaan di Pusat Latihan Polis Malaysia (PULAPOL) dan telah mengikuti Kursus Asas Polis Hutan di Ulu Kinta, Perak."^^xsd:string .
+
+<http://MalayEL/90#0,23>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/90#0,241> ;
+        nif:anchorOf          "Abdul Razak Mohd Yusoff" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4262204> .
+
+<http://MalayEL/91#0,181>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:isString          "Adam juga telah memenangi Anugerah Iklan Adsfest di Pattaya, Thailand, bagi hasil kerjanya dalam iklan New Straits Times yang bertajuk ‘Caught In The Fire’ dan ‘Cloud of Confusion’."^^xsd:string .
+
+<http://MalayEL/91#0,4>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/91#0,181> ;
+        nif:anchorOf          "Adam" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q85975161> .
+
+<http://MalayEL/92#0,117>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:isString          "Ab Aziz bin Ab Kadir pernah menjadi Ahli Parlimen Ketereh mewakili Parti Keadilan Rakyat dari tahun 2008 hingga 2013."^^xsd:string .
+
+<http://MalayEL/92#0,20>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/92#0,117> ;
+        nif:anchorOf          "Ab Aziz bin Ab Kadir" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4665280> .
+
+<http://MalayEL/93#0,209>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:isString          "Syarikat Nibong Tebal Paper Mill Holdings Berhad, yang berpangkalan di Nibong Tebal, Pulau Pinang, menghasilkan lebih daripada 100 jenis kertas tisu dengan kapasiti pengeluaran 250 tan kertas tisu setiap hari."^^xsd:string .
+
+<http://MalayEL/93#9,48>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/93#0,209> ;
+        nif:anchorOf          "Nibong Tebal Paper Mill Holdings Berhad" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q61882838> .
+
+<http://MalayEL/94#0,99>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abu juga pernah menjabat sebagai Presiden Persatuan Perubatan Malaysia dari tahun 1986 hingga 1988."^^xsd:string .
+
+<http://MalayEL/94#0,3>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/94#0,99> ;
+        nif:anchorOf          "Abu" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4670080> .
+
+<http://MalayEL/95#0,133>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:isString          "Lan Yusof juga merupakan salah seorang peserta Gegar Vaganza musim ke-4 pada tahun 2017, di mana beliau telah mendapat tempat ketiga."^^xsd:string .
+
+<http://MalayEL/95#0,9>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/95#0,133> ;
+        nif:anchorOf          "Lan Yusof" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q61116990> .
+
+<http://MalayEL/96#0,130>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:isString          "Sebilangan artikel yang ditulis oleh Abdul Razak Abdullah Baginda telah diterbitkan di Utusan Malaysia dan majalah mingguan Massa."^^xsd:string .
+
+<http://MalayEL/96#37,65>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/96#0,130> ;
+        nif:anchorOf          "Abdul Razak Abdullah Baginda" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4665688> .
+
+<http://MalayEL/97#0,364>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "364"^^xsd:nonNegativeInteger ;
+        nif:isString          "Selepas kemenangan dalam pilihan raya 1978, Abdul Kadir Bin Haji Sheikh Fadzir dilantik ke dalam pelbagai jawatan termasuk Setiausaha Parlimen Kementerian Luar Negeri pada tahun 1982, Timbalan Menteri Luar Negeri pada 1983, Timbalan Menteri Perdagangan Dalam Negeri pada 1990, Timbalan Menteri Sumber Manusia pada 1995, dan Timbalan Menteri Dalam Negeri pada 1999."^^xsd:string .
+
+<http://MalayEL/97#44,78>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/97#0,364> ;
+        nif:anchorOf          "Abdul Kadir Bin Haji Sheikh Fadzir" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12681903> .
+
+<http://MalayEL/98#0,122>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:isString          "Dalam pertandingan pemilihan UMNO Bahagian yang diadakan pada Oktober 2008, Ahamad Pakeh Adam tewas kepada calon lawannya."^^xsd:string .
+
+<http://MalayEL/98#76,93>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/98#0,122> ;
+        nif:anchorOf          "Ahamad Pakeh Adam" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12682108> .
+
+<http://MalayEL/99#0,170>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:isString          "Aditya dikenali kerana peranannya sebagai Aldebaran Prasetya (Aldebaran) dalam siri televisyen Kepompong, sebuah terbitan Indika Entertainment yang disiarkan di Trans TV."^^xsd:string .
+
+<http://MalayEL/99#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/99#0,170> ;
+        nif:anchorOf          "Aditya" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q12470743> .
+
+<http://MalayEL/100#0,304>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:isString          "Farouk telah sering memandu pelbagai rancangan sebagai hos utama untuk program-program di TV3, Astro dan RTM, termasuk WARUNG KITA di Astro, D'Hati - RTM, serta program kuiz Teka Tekan di saluran Hypp Sensasi di Unifi TV bersama tiga pengacara lain iaitu Acong Sweetchild, Anas Ridzuan dan Shuib Sepahtu."^^xsd:string .
+
+<http://MalayEL/100#0,6>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/100#0,304> ;
+        nif:anchorOf          "Farouk" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q61117030> .
+
+<http://MalayEL/101#0,68>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:isString          "Abhishek memulakan kerjaya sebagai pelakon dalam industri filem Uff!"^^xsd:string .
+
+<http://MalayEL/101#0,8>
+        a                     nif:RFC5147String , nif:String, nif:Context ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://MalayEL/101#0,68> ;
+        nif:anchorOf          "Abhishek" ;
+        itsrdf:taIdentRef     <http://www.wikidata.org/entity/Q4667468> .
+
